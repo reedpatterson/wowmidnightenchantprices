@@ -420,6 +420,64 @@ tbody tr:hover {
   color: var(--text-muted);
 }
 
+/* ── Sortable column headers ───────────────────────────────────────────────── */
+
+th[data-col] {
+  cursor: pointer;
+  user-select: none;
+}
+
+th[data-col]:hover {
+  color: var(--text);
+}
+
+th[data-col]::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  margin-left: 4px;
+  font-size: 9px;
+  vertical-align: middle;
+}
+
+th[data-col][data-sort-dir="asc"]::after  { content: "▲"; }
+th[data-col][data-sort-dir="desc"]::after { content: "▼"; }
+
+/* ── Row profit highlighting ────────────────────────────────────────────────── */
+
+tbody tr.profit-pos { background: rgba(76, 175, 110, 0.06); }
+tbody tr.profit-neg { background: rgba(207, 79, 79, 0.06); }
+
+tbody tr.profit-pos:hover,
+tbody tr.profit-neg:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* ── Toggle button ──────────────────────────────────────────────────────────── */
+
+.toggle-btn {
+  padding: 5px 12px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text-muted);
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+
+.toggle-btn:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+.toggle-btn[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
 /* ── States ────────────────────────────────────────────────────────────────── */
 
 .no-price {

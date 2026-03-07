@@ -482,10 +482,10 @@ async function main() {
         ? copperToGold(materials.reduce((sum, m) => sum + m.totalCost.total, 0))
         : null;
 
-      // Profit per craft = craft sell price - material cost
+      // Profit per craft = craft sell price (after 5% AH cut) - material cost
       const profitPerCraft =
         craftPrice && materialCostTotal
-          ? copperToGold(craftPrice.total - materialCostTotal.total)
+          ? copperToGold(Math.round(craftPrice.total * 0.95) - materialCostTotal.total)
           : null;
 
       // Break-even = how many crafts to recoup the recipe cost

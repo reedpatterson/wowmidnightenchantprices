@@ -12,6 +12,7 @@
       <div class="controls">
         <label for="realm-select">Realm</label>
         <select id="realm-select"></select>
+        <button id="toggle-no-data" class="toggle-btn" aria-pressed="false">Hide no-data</button>
       </div>
       <div class="theme-picker">
         <label>Theme</label>
@@ -34,6 +35,7 @@
     <script>
       let appConfig = { region: "us", defaultRealm: "stormrage", realms: ["stormrage"] };
       let activeProfession = localStorage.getItem("profession") || "All";
+      let hideNoData = localStorage.getItem("hideNoData") === "true";
 
       // ── Helpers ─────────────────────────────────────────────────────────────
 
@@ -96,20 +98,71 @@
         });
       }
 
+      // ── Table sort ───────────────────────────────────────────────────────────
+
+      function initTableSort(table) {
+        let activeCol = null;
+        let sortDir = 1;
+        table.querySelectorAll("th[data-col]").forEach((th) => {
+          th.addEventListener("click", () => {
+            const col = parseInt(th.dataset.col);
+            if (activeCol === col) {
+              sortDir = -sortDir;
+            } else {
+              activeCol = col;
+              sortDir = th.dataset.sortType === "string" ? 1 : -1;
+            }
+            table.querySelectorAll("th[data-col]").forEach((h) => {
+              h.dataset.sortDir = h === th ? (sortDir === 1 ? "asc" : "desc") : "";
+            });
+            const tbody = table.querySelector("tbody");
+            const rows = [...tbody.querySelectorAll("tr")];
+            rows.sort((a, b) => {
+              const aVal = a.cells[col]?.dataset.sort ?? "";
+              const bVal = b.cells[col]?.dataset.sort ?? "";
+              if (th.dataset.sortType === "string") return sortDir * aVal.localeCompare(bVal);
+              return sortDir * (parseFloat(aVal) - parseFloat(bVal));
+            });
+            rows.forEach((r) => tbody.appendChild(r));
+          });
+        });
+      }
+
+      // ── Hide no-data ─────────────────────────────────────────────────────────
+
+      function applyHideNoData() {
+        document.querySelectorAll('tr[data-no-data="true"]').forEach((row) => {
+          row.hidden = hideNoData;
+        });
+        const btn = document.getElementById("toggle-no-data");
+        if (btn) btn.setAttribute("aria-pressed", hideNoData ? "true" : "false");
+      }
+
       // ── Render ───────────────────────────────────────────────────────────────
 
       function renderItemRow(item) {
+        const profitPct = item.materialCostTotal && item.profitPerCraft && item.materialCostTotal.total !== 0
+          ? Math.round(item.profitPerCraft.total / item.materialCostTotal.total * 100)
+          : null;
+        const profitClass = item.profitPerCraft
+          ? (item.profitPerCraft.total > 0 ? "profit-pos" : item.profitPerCraft.total < 0 ? "profit-neg" : "")
+          : "";
+        const noData = !item.craft.price ? 'data-no-data="true"' : "";
+        const pctHtml = profitPct !== null
+          ? `<span class="${profitPct > 0 ? 'positive' : profitPct < 0 ? 'negative' : 'neutral'}">${profitPct > 0 ? '+' : ''}${profitPct}%</span>`
+          : '<span class="no-price">—</span>';
         return `
-          <tr>
-            <td class="item-name">${item.name}</td>
-            <td class="price">${formatPrice(item.recipe.price)}${item.recipe.available ? `<span class="available"> ×${item.recipe.available}</span>` : ""}</td>
-            <td class="price mat-cost">${formatPrice(item.materialCostTotal)}${materialsPopover(item.materials)}</td>
-            <td class="price">
+          <tr class="${profitClass}" ${noData}>
+            <td class="item-name" data-sort="${item.name}">${item.name}</td>
+            <td class="price" data-sort="${item.recipe.price?.total ?? -1}">${formatPrice(item.recipe.price)}${item.recipe.available ? `<span class="available"> ×${item.recipe.available}</span>` : ""}</td>
+            <td class="price mat-cost" data-sort="${item.materialCostTotal?.total ?? -1}">${formatPrice(item.materialCostTotal)}${materialsPopover(item.materials)}</td>
+            <td class="price" data-sort="${item.craft.price?.total ?? -1}">
               ${formatPrice(item.craft.price)}${item.craft.available ? `<span class="available"> ×${item.craft.available}</span>` : ""}
               ${item.craft.priceR2 ? `<div class="price-r2">✦ ${formatPrice(item.craft.priceR2)}${item.craft.availableR2 ? `<span class="available"> ×${item.craft.availableR2}</span>` : ""}</div>` : ""}
             </td>
-            <td class="price">${formatProfit(item.profitPerCraft)}</td>
-            <td class="price break-even">${item.breakEven !== null ? item.breakEven : '<span class="no-price">—</span>'}</td>
+            <td class="price" data-sort="${item.profitPerCraft?.total ?? -2147483648}">${formatProfit(item.profitPerCraft)}</td>
+            <td class="price" data-sort="${profitPct ?? -2147483648}">${pctHtml}</td>
+            <td class="price break-even" data-sort="${item.breakEven ?? 2147483647}">${item.breakEven !== null ? item.breakEven : '<span class="no-price">—</span>'}</td>
           </tr>`;
       }
 
@@ -134,12 +187,13 @@
         const TABLE_HEAD = `
           <thead>
             <tr>
-              <th>Item</th>
-              <th title="One-time cost to learn the recipe">Recipe Price</th>
-              <th title="AH cost of materials per craft (hover for breakdown)">Mat Cost/Craft</th>
-              <th title="Lowest AH price — ×N = listings available">Sell Price</th>
-              <th title="Sell price minus material cost">Profit/Craft</th>
-              <th title="Number of crafts to sell before the recipe pays for itself">Break-even</th>
+              <th data-col="0" data-sort-type="string">Item</th>
+              <th data-col="1" data-sort-type="number" title="One-time cost to learn the recipe">Recipe Price</th>
+              <th data-col="2" data-sort-type="number" title="AH cost of materials per craft (hover for breakdown)">Mat Cost/Craft</th>
+              <th data-col="3" data-sort-type="number" title="Lowest AH price — ×N = listings available">Sell Price</th>
+              <th data-col="4" data-sort-type="number" title="Sell price (after 5% AH cut) minus material cost">Profit/Craft</th>
+              <th data-col="5" data-sort-type="number" title="Profit as a percentage of material cost">Profit %</th>
+              <th data-col="6" data-sort-type="number" title="Number of crafts to sell before the recipe pays for itself">Break-even</th>
             </tr>
           </thead>`;
 
@@ -161,8 +215,11 @@
         document.getElementById("content").innerHTML =
           html || '<p class="no-data">No price data available for this realm yet.</p>';
 
-        // Re-apply the active profession filter after re-render
+        document.querySelectorAll("table").forEach(initTableSort);
+
+        // Re-apply active filters after re-render
         applyProfession(activeProfession);
+        applyHideNoData();
       }
 
       // ── Load ─────────────────────────────────────────────────────────────────
@@ -199,6 +256,12 @@
 
         document.querySelectorAll(".swatch").forEach((btn) => {
           btn.addEventListener("click", () => applyTheme(btn.dataset.theme));
+        });
+
+        document.getElementById("toggle-no-data").addEventListener("click", () => {
+          hideNoData = !hideNoData;
+          localStorage.setItem("hideNoData", hideNoData);
+          applyHideNoData();
         });
 
         try {
