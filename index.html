@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WoW Midnight — Enchanting Prices</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Midnight Enchanting Prices</h1>
+      <div class="controls">
+        <label for="realm-select">Realm</label>
+        <select id="realm-select"></select>
+        <span id="last-updated"></span>
+      </div>
+    </header>
+
+    <main id="content">
+      <p class="loading">Loading prices...</p>
+    </main>
+
+    <script>
+      // ── Config ──────────────────────────────────────────────────────────────
+      // Populated from config.json at load time
+      let appConfig = { region: "us", defaultRealm: "stormrage", realms: ["stormrage"] };
+
+      // ── Helpers ─────────────────────────────────────────────────────────────
+
+      function formatPrice(price) {
+        if (!price) return '<span class="no-price">—</span>';
+        const parts = [];
+        if (price.gold > 0) parts.push(`<span class="gold">${price.gold.toLocaleString()}g</span>`);
+        if (price.silver > 0) parts.push(`<span class="silver">${price.silver}s</span>`);
+        if (price.copper > 0) parts.push(`<span class="copper">${price.copper}c</span>`);
+        return parts.length > 0 ? parts.join(" ") : '<span class="no-price">0c</span>';
+      }
+
+      function marginClass(copper) {
+        if (copper === null) return "";
+        if (copper > 0) return "positive";
+        if (copper < 0) return "negative";
+        return "neutral";
+      }
+
+      function calcMargin(recipePrice, enchantPrice) {
+        if (!recipePrice || !enchantPrice) return null;
+        return enchantPrice.total - recipePrice.total;
+      }
+
+      function formatMargin(copper) {
+        if (copper === null) return '<span class="no-price">—</span>';
+        const abs = Math.abs(copper);
+        const gold = Math.floor(abs / 10000);
+        const silver = Math.floor((abs % 10000) / 100);
+        const c = abs % 100;
+        const parts = [];
+        if (gold > 0) parts.push(`${gold.toLocaleString()}g`);
+        if (silver > 0) parts.push(`${silver}s`);
+        if (c > 0) parts.push(`${c}c`);
+        const str = parts.length > 0 ? parts.join(" ") : "0c";
+        const sign = copper > 0 ? "+" : copper < 0 ? "−" : "";
+        return `${sign}${str}`;
+      }
+
+      // ── Render ───────────────────────────────────────────────────────────────
+
+      function renderPrices(data) {
+        const content = document.getElementById("content");
+
+        // Last updated
+        const updated = document.getElementById("last-updated");
+        if (data.lastUpdated) {
+          const d = new Date(data.lastUpdated);
+          updated.textContent = `Updated ${d.toLocaleString()}`;
+        }
+
+        // Group by category
+        const byCategory = {};
+        for (const item of data.items) {
+          if (!byCategory[item.category]) byCategory[item.category] = [];
+          byCategory[item.category].push(item);
+        }
+
+        let html = "";
+        for (const [category, items] of Object.entries(byCategory)) {
+          html += `
+            <section>
+              <h2>${category}</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Enchant</th>
+                    <th>Formula Price</th>
+                    <th>Enchant Price</th>
+                    <th>Margin</th>
+                  </tr>
+                </thead>
+                <tbody>
+          `;
+          for (const item of items) {
+            const margin = calcMargin(item.recipe.price, item.enchant.price);
+            const cls = marginClass(margin);
+            html += `
+              <tr>
+                <td class="item-name">${item.name}</td>
+                <td class="price">${formatPrice(item.recipe.price)}</td>
+                <td class="price">${formatPrice(item.enchant.price)}</td>
+                <td class="price margin ${cls}">${formatMargin(margin)}</td>
+              </tr>
+            `;
+          }
+          html += `</tbody></table></section>`;
+        }
+
+        content.innerHTML = html || '<p class="no-data">No price data available for this realm yet.</p>';
+      }
+
+      function showError(msg) {
+        document.getElementById("content").innerHTML = `<p class="error">${msg}</p>`;
+      }
+
+      // ── Load data ────────────────────────────────────────────────────────────
+
+      async function loadPrices(realmSlug) {
+        document.getElementById("content").innerHTML = '<p class="loading">Loading prices...</p>';
+        document.getElementById("last-updated").textContent = "";
+        try {
+          const res = await fetch(`data/prices/${realmSlug}.json?_=${Date.now()}`);
+          if (!res.ok) throw new Error(`No price data found for "${realmSlug}".`);
+          const data = await res.json();
+          renderPrices(data);
+        } catch (err) {
+          showError(err.message);
+        }
+      }
+
+      // ── Init ─────────────────────────────────────────────────────────────────
+
+      async function init() {
+        try {
+          const cfgRes = await fetch("config.json");
+          appConfig = await cfgRes.json();
+        } catch {
+          // fall back to defaults if config not accessible
+        }
+
+        const select = document.getElementById("realm-select");
+        for (const realm of appConfig.realms) {
+          const opt = document.createElement("option");
+          opt.value = realm;
+          opt.textContent = realm
+            .split("-")
+            .map((w) => w[0].toUpperCase() + w.slice(1))
+            .join(" ");
+          if (realm === appConfig.defaultRealm) opt.selected = true;
+          select.appendChild(opt);
+        }
+
+        select.addEventListener("change", () => loadPrices(select.value));
+        loadPrices(appConfig.defaultRealm);
+      }
+
+      init();
+    </script>
+  </body>
+</html>

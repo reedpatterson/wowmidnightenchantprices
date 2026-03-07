@@ -1,0 +1,223 @@
+/* ── Reset & base ──────────────────────────────────────────────────────────── */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0e0e12;
+  --surface: #1a1a22;
+  --surface-alt: #14141c;
+  --border: #2e2e3e;
+  --text: #d4c8a8;
+  --text-muted: #7a7268;
+  --gold: #f8c93a;
+  --silver: #c0bfbd;
+  --copper: #c87533;
+  --positive: #4caf6e;
+  --negative: #cf4f4f;
+  --neutral: #7a7268;
+  --accent: #8b5cf6;
+  --header-border: #3a2f18;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* ── Header ────────────────────────────────────────────────────────────────── */
+
+header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--header-border);
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.03em;
+  text-shadow: 0 0 12px rgba(248, 201, 58, 0.25);
+  white-space: nowrap;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.controls label {
+  color: var(--text-muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+select {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+select:hover,
+select:focus {
+  border-color: var(--accent);
+}
+
+#last-updated {
+  color: var(--text-muted);
+  font-size: 12px;
+  margin-left: auto;
+}
+
+/* ── Main content ──────────────────────────────────────────────────────────── */
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* ── Category sections ─────────────────────────────────────────────────────── */
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h2 {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--header-border);
+}
+
+/* ── Table ─────────────────────────────────────────────────────────────────── */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead tr {
+  background: var(--surface-alt);
+}
+
+th {
+  text-align: left;
+  padding: 8px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+}
+
+th:not(:first-child) {
+  text-align: right;
+}
+
+td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.item-name {
+  color: var(--text);
+}
+
+.price {
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Currency colors ───────────────────────────────────────────────────────── */
+
+.gold   { color: var(--gold); }
+.silver { color: var(--silver); }
+.copper { color: var(--copper); }
+
+/* ── Margin ────────────────────────────────────────────────────────────────── */
+
+.margin.positive { color: var(--positive); }
+.margin.negative { color: var(--negative); }
+.margin.neutral  { color: var(--neutral); }
+
+/* ── States ────────────────────────────────────────────────────────────────── */
+
+.no-price {
+  color: var(--text-muted);
+}
+
+.loading,
+.error,
+.no-data {
+  text-align: center;
+  padding: 48px 0;
+  color: var(--text-muted);
+  font-size: 15px;
+}
+
+.error {
+  color: var(--negative);
+}
+
+/* ── Responsive ────────────────────────────────────────────────────────────── */
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  #last-updated {
+    margin-left: 0;
+  }
+
+  th, td {
+    padding: 6px 8px;
+    font-size: 13px;
+  }
+}
