@@ -1,7 +1,7 @@
 {
   "realm": "stormrage",
   "region": "us",
-  "lastUpdated": "2026-03-07T04:13:27.059Z",
+  "lastUpdated": "2026-03-07T05:20:16.291Z",
   "items": [
     {
       "category": "Rods",
@@ -20,7 +20,21 @@
           "copper": 0,
           "total": 300000
         }
-      }
+      },
+      "materials": [],
+      "materialCostTotal": {
+        "gold": 0,
+        "silver": 0,
+        "copper": 0,
+        "total": 0
+      },
+      "profitPerCraft": {
+        "gold": 30,
+        "silver": 0,
+        "copper": 0,
+        "total": 300000
+      },
+      "breakEven": null
     },
     {
       "category": "Rods",
@@ -39,7 +53,39 @@
           "copper": 0,
           "total": 435100
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Refulgent Copper Rod",
+          "itemId": 244174,
+          "qty": 1,
+          "unitPrice": {
+            "gold": 30,
+            "silver": 0,
+            "copper": 0,
+            "total": 300000
+          },
+          "totalCost": {
+            "gold": 30,
+            "silver": 0,
+            "copper": 0,
+            "total": 300000
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 30,
+        "silver": 0,
+        "copper": 0,
+        "total": 300000
+      },
+      "profitPerCraft": {
+        "gold": 13,
+        "silver": 51,
+        "copper": 0,
+        "total": 135100
+      },
+      "breakEven": null
     },
     {
       "category": "Rods",
@@ -58,7 +104,21 @@
           "copper": 0,
           "total": 140006400
         }
-      }
+      },
+      "materials": [],
+      "materialCostTotal": {
+        "gold": 0,
+        "silver": 0,
+        "copper": 0,
+        "total": 0
+      },
+      "profitPerCraft": {
+        "gold": 14000,
+        "silver": 64,
+        "copper": 0,
+        "total": 140006400
+      },
+      "breakEven": null
     },
     {
       "category": "Rods",
@@ -72,7 +132,36 @@
         "name": "Runed Dazzling Thorium Rod",
         "itemId": 244177,
         "price": null
-      }
+      },
+      "materials": [
+        {
+          "name": "Fused Vitality",
+          "itemId": 245345,
+          "qty": 20,
+          "unitPrice": null,
+          "totalCost": null
+        },
+        {
+          "name": "Dazzling Thorium",
+          "itemId": 237366,
+          "qty": 3,
+          "unitPrice": {
+            "gold": 147,
+            "silver": 0,
+            "copper": 0,
+            "total": 1470000
+          },
+          "totalCost": {
+            "gold": 441,
+            "silver": 0,
+            "copper": 0,
+            "total": 4410000
+          }
+        }
+      ],
+      "materialCostTotal": null,
+      "profitPerCraft": null,
+      "breakEven": null
     },
     {
       "category": "Wands",
@@ -86,7 +175,51 @@
         "name": "Magister's Grand Focus",
         "itemId": 244179,
         "price": null
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Light",
+          "itemId": 236949,
+          "qty": 10,
+          "unitPrice": {
+            "gold": 4,
+            "silver": 36,
+            "copper": 0,
+            "total": 43600
+          },
+          "totalCost": {
+            "gold": 43,
+            "silver": 60,
+            "copper": 0,
+            "total": 436000
+          }
+        },
+        {
+          "name": "Tormented Tantalum",
+          "itemId": 251283,
+          "qty": 1,
+          "unitPrice": {
+            "gold": 61,
+            "silver": 98,
+            "copper": 0,
+            "total": 619800
+          },
+          "totalCost": {
+            "gold": 61,
+            "silver": 98,
+            "copper": 0,
+            "total": 619800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 105,
+        "silver": 58,
+        "copper": 0,
+        "total": 1055800
+      },
+      "profitPerCraft": null,
+      "breakEven": null
     },
     {
       "category": "Wands",
@@ -105,7 +238,21 @@
           "copper": 0,
           "total": 484900
         }
-      }
+      },
+      "materials": [],
+      "materialCostTotal": {
+        "gold": 0,
+        "silver": 0,
+        "copper": 0,
+        "total": 0
+      },
+      "profitPerCraft": {
+        "gold": 48,
+        "silver": 49,
+        "copper": 0,
+        "total": 484900
+      },
+      "breakEven": null
     },
     {
       "category": "Consumables",
@@ -119,12 +266,61 @@
         "name": "Oil of Dawn",
         "itemId": 243735,
         "price": {
-          "gold": 180,
+          "gold": 184,
           "silver": 0,
           "copper": 0,
-          "total": 1800000
+          "total": 1840000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Light",
+          "itemId": 236949,
+          "qty": 5,
+          "unitPrice": {
+            "gold": 4,
+            "silver": 36,
+            "copper": 0,
+            "total": 43600
+          },
+          "totalCost": {
+            "gold": 21,
+            "silver": 80,
+            "copper": 0,
+            "total": 218000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 7023,
+        "silver": 78,
+        "copper": 0,
+        "total": 70237800
+      },
+      "profitPerCraft": {
+        "gold": -6840,
+        "silver": -78,
+        "copper": 0,
+        "total": -68397800
+      },
+      "breakEven": null
     },
     {
       "category": "Consumables",
@@ -138,12 +334,44 @@
         "name": "Thalassian Phoenix Oil",
         "itemId": 243734,
         "price": {
-          "gold": 165,
-          "silver": 80,
+          "gold": 135,
+          "silver": 99,
           "copper": 0,
-          "total": 1658000
+          "total": 1359900
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Light",
+          "itemId": 236949,
+          "qty": 5,
+          "unitPrice": {
+            "gold": 4,
+            "silver": 36,
+            "copper": 0,
+            "total": 43600
+          },
+          "totalCost": {
+            "gold": 21,
+            "silver": 80,
+            "copper": 0,
+            "total": 218000
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 21,
+        "silver": 80,
+        "copper": 0,
+        "total": 218000
+      },
+      "profitPerCraft": {
+        "gold": 114,
+        "silver": 19,
+        "copper": 0,
+        "total": 1141900
+      },
+      "breakEven": null
     },
     {
       "category": "Boots",
@@ -157,12 +385,78 @@
         "name": "Enchant Boots - Farstrider's Hunt",
         "itemId": 244009,
         "price": {
-          "gold": 24900,
-          "silver": 0,
+          "gold": 24825,
+          "silver": 9,
           "copper": 0,
-          "total": 249000000
+          "total": 248250900
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Light",
+          "itemId": 236949,
+          "qty": 10,
+          "unitPrice": {
+            "gold": 4,
+            "silver": 36,
+            "copper": 0,
+            "total": 43600
+          },
+          "totalCost": {
+            "gold": 43,
+            "silver": 60,
+            "copper": 0,
+            "total": 436000
+          }
+        },
+        {
+          "name": "Fantastic Fur",
+          "itemId": 238525,
+          "qty": 1,
+          "unitPrice": {
+            "gold": 909,
+            "silver": 0,
+            "copper": 0,
+            "total": 9090000
+          },
+          "totalCost": {
+            "gold": 909,
+            "silver": 0,
+            "copper": 0,
+            "total": 9090000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 7954,
+        "silver": 58,
+        "copper": 0,
+        "total": 79545800
+      },
+      "profitPerCraft": {
+        "gold": 16870,
+        "silver": 51,
+        "copper": 0,
+        "total": 168705100
+      },
+      "breakEven": null
     },
     {
       "category": "Boots",
@@ -181,7 +475,73 @@
           "copper": 0,
           "total": 158001500
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Wild Magic",
+          "itemId": 236951,
+          "qty": 10,
+          "unitPrice": {
+            "gold": 2,
+            "silver": 42,
+            "copper": 0,
+            "total": 24200
+          },
+          "totalCost": {
+            "gold": 24,
+            "silver": 20,
+            "copper": 0,
+            "total": 242000
+          }
+        },
+        {
+          "name": "Carving Canine",
+          "itemId": 238523,
+          "qty": 1,
+          "unitPrice": {
+            "gold": 30,
+            "silver": 58,
+            "copper": 0,
+            "total": 305800
+          },
+          "totalCost": {
+            "gold": 30,
+            "silver": 58,
+            "copper": 0,
+            "total": 305800
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 7056,
+        "silver": 76,
+        "copper": 0,
+        "total": 70567600
+      },
+      "profitPerCraft": {
+        "gold": 8743,
+        "silver": 39,
+        "copper": 0,
+        "total": 87433900
+      },
+      "breakEven": null
     },
     {
       "category": "Boots",
@@ -190,10 +550,10 @@
         "name": "Formula: Enchant Boots - Shaladrassil's Roots",
         "itemId": 256747,
         "price": {
-          "gold": 130000,
+          "gold": 149701,
           "silver": 7,
           "copper": 0,
-          "total": 1300000700
+          "total": 1497010700
         }
       },
       "enchant": {
@@ -205,7 +565,56 @@
           "copper": 0,
           "total": 315026200
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Primal Energy",
+          "itemId": 236950,
+          "qty": 10,
+          "unitPrice": {
+            "gold": 3,
+            "silver": 42,
+            "copper": 0,
+            "total": 34200
+          },
+          "totalCost": {
+            "gold": 34,
+            "silver": 20,
+            "copper": 0,
+            "total": 342000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 7036,
+        "silver": 18,
+        "copper": 0,
+        "total": 70361800
+      },
+      "profitPerCraft": {
+        "gold": 24466,
+        "silver": 44,
+        "copper": 0,
+        "total": 244664400
+      },
+      "breakEven": 7
     },
     {
       "category": "Chest",
@@ -214,22 +623,88 @@
         "name": "Formula: Enchant Chest - Mark of Nalorakk",
         "itemId": 256737,
         "price": {
-          "gold": 19998,
+          "gold": 19900,
           "silver": 0,
           "copper": 0,
-          "total": 199980000
+          "total": 199000000
         }
       },
       "enchant": {
         "name": "Enchant Chest - Mark of Nalorakk",
         "itemId": 243946,
         "price": {
-          "gold": 30500,
+          "gold": 31000,
           "silver": 0,
           "copper": 0,
-          "total": 305000000
+          "total": 310000000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Wild Magic",
+          "itemId": 236951,
+          "qty": 5,
+          "unitPrice": {
+            "gold": 2,
+            "silver": 42,
+            "copper": 0,
+            "total": 24200
+          },
+          "totalCost": {
+            "gold": 12,
+            "silver": 10,
+            "copper": 0,
+            "total": 121000
+          }
+        },
+        {
+          "name": "Majestic Claw",
+          "itemId": 238528,
+          "qty": 1,
+          "unitPrice": {
+            "gold": 16520,
+            "silver": 0,
+            "copper": 0,
+            "total": 165200000
+          },
+          "totalCost": {
+            "gold": 16520,
+            "silver": 0,
+            "copper": 0,
+            "total": 165200000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 23534,
+        "silver": 8,
+        "copper": 0,
+        "total": 235340800
+      },
+      "profitPerCraft": {
+        "gold": 7465,
+        "silver": 92,
+        "copper": 0,
+        "total": 74659200
+      },
+      "breakEven": 3
     },
     {
       "category": "Chest",
@@ -238,22 +713,71 @@
         "name": "Formula: Enchant Chest - Mark of the Magister",
         "itemId": 256755,
         "price": {
-          "gold": 24000,
+          "gold": 23998,
           "silver": 0,
           "copper": 0,
-          "total": 240000000
+          "total": 239980000
         }
       },
       "enchant": {
         "name": "Enchant Chest - Mark of the Magister",
         "itemId": 244002,
         "price": {
-          "gold": 18818,
-          "silver": 67,
+          "gold": 18999,
+          "silver": 0,
           "copper": 0,
-          "total": 188186700
+          "total": 189990000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Light",
+          "itemId": 236949,
+          "qty": 5,
+          "unitPrice": {
+            "gold": 4,
+            "silver": 36,
+            "copper": 0,
+            "total": 43600
+          },
+          "totalCost": {
+            "gold": 21,
+            "silver": 80,
+            "copper": 0,
+            "total": 218000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 7023,
+        "silver": 78,
+        "copper": 0,
+        "total": 70237800
+      },
+      "profitPerCraft": {
+        "gold": 11975,
+        "silver": 22,
+        "copper": 0,
+        "total": 119752200
+      },
+      "breakEven": 3
     },
     {
       "category": "Chest",
@@ -267,12 +791,78 @@
         "name": "Enchant Chest - Mark of the Rootwarden",
         "itemId": 243974,
         "price": {
-          "gold": 48000,
+          "gold": 33000,
           "silver": 0,
           "copper": 0,
-          "total": 480000000
+          "total": 330000000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Primal Energy",
+          "itemId": 236950,
+          "qty": 5,
+          "unitPrice": {
+            "gold": 3,
+            "silver": 42,
+            "copper": 0,
+            "total": 34200
+          },
+          "totalCost": {
+            "gold": 17,
+            "silver": 10,
+            "copper": 0,
+            "total": 171000
+          }
+        },
+        {
+          "name": "Majestic Fin",
+          "itemId": 238530,
+          "qty": 1,
+          "unitPrice": {
+            "gold": 15896,
+            "silver": 0,
+            "copper": 0,
+            "total": 158960000
+          },
+          "totalCost": {
+            "gold": 15896,
+            "silver": 0,
+            "copper": 0,
+            "total": 158960000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 22915,
+        "silver": 8,
+        "copper": 0,
+        "total": 229150800
+      },
+      "profitPerCraft": {
+        "gold": 10084,
+        "silver": 92,
+        "copper": 0,
+        "total": 100849200
+      },
+      "breakEven": null
     },
     {
       "category": "Chest",
@@ -291,7 +881,73 @@
           "copper": 0,
           "total": 249979900
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Primal Energy",
+          "itemId": 236950,
+          "qty": 5,
+          "unitPrice": {
+            "gold": 3,
+            "silver": 42,
+            "copper": 0,
+            "total": 34200
+          },
+          "totalCost": {
+            "gold": 17,
+            "silver": 10,
+            "copper": 0,
+            "total": 171000
+          }
+        },
+        {
+          "name": "Majestic Hide",
+          "itemId": 238529,
+          "qty": 1,
+          "unitPrice": {
+            "gold": 7774,
+            "silver": 10,
+            "copper": 0,
+            "total": 77741000
+          },
+          "totalCost": {
+            "gold": 7774,
+            "silver": 10,
+            "copper": 0,
+            "total": 77741000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 14793,
+        "silver": 18,
+        "copper": 0,
+        "total": 147931800
+      },
+      "profitPerCraft": {
+        "gold": 10204,
+        "silver": 81,
+        "copper": 0,
+        "total": 102048100
+      },
+      "breakEven": null
     },
     {
       "category": "Helm",
@@ -305,12 +961,26 @@
         "name": "Enchant Helm - Blessing of Speed",
         "itemId": 243979,
         "price": {
-          "gold": 412,
-          "silver": 23,
+          "gold": 411,
+          "silver": 0,
           "copper": 0,
-          "total": 4122300
+          "total": 4110000
         }
-      }
+      },
+      "materials": [],
+      "materialCostTotal": {
+        "gold": 0,
+        "silver": 0,
+        "copper": 0,
+        "total": 0
+      },
+      "profitPerCraft": {
+        "gold": 411,
+        "silver": 0,
+        "copper": 0,
+        "total": 4110000
+      },
+      "breakEven": null
     },
     {
       "category": "Helm",
@@ -324,12 +994,61 @@
         "name": "Enchant Helm - Empowered Blessing of Speed",
         "itemId": 243981,
         "price": {
-          "gold": 29932,
-          "silver": 98,
+          "gold": 28999,
+          "silver": 96,
           "copper": 0,
-          "total": 299329800
+          "total": 289999600
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Primal Energy",
+          "itemId": 236950,
+          "qty": 20,
+          "unitPrice": {
+            "gold": 3,
+            "silver": 42,
+            "copper": 0,
+            "total": 34200
+          },
+          "totalCost": {
+            "gold": 68,
+            "silver": 40,
+            "copper": 0,
+            "total": 684000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 7070,
+        "silver": 38,
+        "copper": 0,
+        "total": 70703800
+      },
+      "profitPerCraft": {
+        "gold": 21929,
+        "silver": 58,
+        "copper": 0,
+        "total": 219295800
+      },
+      "breakEven": null
     },
     {
       "category": "Helm",
@@ -343,12 +1062,26 @@
         "name": "Enchant Helm - Hex of Leeching",
         "itemId": 243949,
         "price": {
-          "gold": 468,
-          "silver": 98,
+          "gold": 450,
+          "silver": 90,
           "copper": 0,
-          "total": 4689800
+          "total": 4509000
         }
-      }
+      },
+      "materials": [],
+      "materialCostTotal": {
+        "gold": 0,
+        "silver": 0,
+        "copper": 0,
+        "total": 0
+      },
+      "profitPerCraft": {
+        "gold": 450,
+        "silver": 90,
+        "copper": 0,
+        "total": 4509000
+      },
+      "breakEven": null
     },
     {
       "category": "Helm",
@@ -367,12 +1100,61 @@
         "name": "Enchant Helm - Empowered Hex of Leeching",
         "itemId": 243951,
         "price": {
-          "gold": 35974,
-          "silver": 99,
+          "gold": 35850,
+          "silver": 69,
           "copper": 0,
-          "total": 359749900
+          "total": 358506900
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Wild Magic",
+          "itemId": 236951,
+          "qty": 20,
+          "unitPrice": {
+            "gold": 2,
+            "silver": 42,
+            "copper": 0,
+            "total": 24200
+          },
+          "totalCost": {
+            "gold": 48,
+            "silver": 40,
+            "copper": 0,
+            "total": 484000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 7050,
+        "silver": 38,
+        "copper": 0,
+        "total": 70503800
+      },
+      "profitPerCraft": {
+        "gold": 28800,
+        "silver": 31,
+        "copper": 0,
+        "total": 288003100
+      },
+      "breakEven": 5
     },
     {
       "category": "Helm",
@@ -387,11 +1169,25 @@
         "itemId": 244004,
         "price": {
           "gold": 5,
-          "silver": 0,
+          "silver": 15,
           "copper": 0,
-          "total": 50000
+          "total": 51500
         }
-      }
+      },
+      "materials": [],
+      "materialCostTotal": {
+        "gold": 0,
+        "silver": 0,
+        "copper": 0,
+        "total": 0
+      },
+      "profitPerCraft": {
+        "gold": 5,
+        "silver": 15,
+        "copper": 0,
+        "total": 51500
+      },
+      "breakEven": null
     },
     {
       "category": "Helm",
@@ -400,10 +1196,10 @@
         "name": "Formula: Enchant Helm - Empowered Rune of Avoidance",
         "itemId": 256753,
         "price": {
-          "gold": 284995,
+          "gold": 250000,
           "silver": 97,
           "copper": 0,
-          "total": 2849959700
+          "total": 2500009700
         }
       },
       "enchant": {
@@ -415,7 +1211,56 @@
           "copper": 0,
           "total": 209000000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Light",
+          "itemId": 236949,
+          "qty": 20,
+          "unitPrice": {
+            "gold": 4,
+            "silver": 36,
+            "copper": 0,
+            "total": 43600
+          },
+          "totalCost": {
+            "gold": 87,
+            "silver": 20,
+            "copper": 0,
+            "total": 872000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 7089,
+        "silver": 18,
+        "copper": 0,
+        "total": 70891800
+      },
+      "profitPerCraft": {
+        "gold": 13810,
+        "silver": 82,
+        "copper": 0,
+        "total": 138108200
+      },
+      "breakEven": 19
     },
     {
       "category": "Ring",
@@ -429,12 +1274,26 @@
         "name": "Enchant Ring - Amani Mastery",
         "itemId": 243955,
         "price": {
-          "gold": 99,
-          "silver": 62,
+          "gold": 98,
+          "silver": 63,
           "copper": 0,
-          "total": 996200
+          "total": 986300
         }
-      }
+      },
+      "materials": [],
+      "materialCostTotal": {
+        "gold": 0,
+        "silver": 0,
+        "copper": 0,
+        "total": 0
+      },
+      "profitPerCraft": {
+        "gold": 98,
+        "silver": 63,
+        "copper": 0,
+        "total": 986300
+      },
+      "breakEven": null
     },
     {
       "category": "Ring",
@@ -443,10 +1302,10 @@
         "name": "Formula: Enchant Ring - Eyes of the Eagle",
         "itemId": 256739,
         "price": {
-          "gold": 750,
+          "gold": 1000,
           "silver": 0,
           "copper": 0,
-          "total": 7500000
+          "total": 10000000
         }
       },
       "enchant": {
@@ -458,7 +1317,73 @@
           "copper": 0,
           "total": 68990000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Wild Magic",
+          "itemId": 236951,
+          "qty": 15,
+          "unitPrice": {
+            "gold": 2,
+            "silver": 42,
+            "copper": 0,
+            "total": 24200
+          },
+          "totalCost": {
+            "gold": 36,
+            "silver": 30,
+            "copper": 0,
+            "total": 363000
+          }
+        },
+        {
+          "name": "Peerless Plumage",
+          "itemId": 238522,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 479,
+            "silver": 99,
+            "copper": 0,
+            "total": 4799900
+          },
+          "totalCost": {
+            "gold": 959,
+            "silver": 98,
+            "copper": 0,
+            "total": 9599800
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 7998,
+        "silver": 26,
+        "copper": 0,
+        "total": 79982600
+      },
+      "profitPerCraft": {
+        "gold": -1100,
+        "silver": -26,
+        "copper": 0,
+        "total": -10992600
+      },
+      "breakEven": null
     },
     {
       "category": "Ring",
@@ -467,22 +1392,71 @@
         "name": "Formula: Enchant Ring - Nature's Fury",
         "itemId": 256752,
         "price": {
-          "gold": 115000,
+          "gold": 149997,
           "silver": 0,
           "copper": 0,
-          "total": 1150000000
+          "total": 1499970000
         }
       },
       "enchant": {
         "name": "Enchant Ring - Nature's Fury",
         "itemId": 243986,
         "price": {
-          "gold": 21900,
+          "gold": 20000,
           "silver": 0,
           "copper": 0,
-          "total": 219000000
+          "total": 200000000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Primal Energy",
+          "itemId": 236950,
+          "qty": 15,
+          "unitPrice": {
+            "gold": 3,
+            "silver": 42,
+            "copper": 0,
+            "total": 34200
+          },
+          "totalCost": {
+            "gold": 51,
+            "silver": 30,
+            "copper": 0,
+            "total": 513000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 7053,
+        "silver": 28,
+        "copper": 0,
+        "total": 70532800
+      },
+      "profitPerCraft": {
+        "gold": 12946,
+        "silver": 72,
+        "copper": 0,
+        "total": 129467200
+      },
+      "breakEven": 12
     },
     {
       "category": "Ring",
@@ -496,12 +1470,26 @@
         "name": "Enchant Ring - Nature's Wrath",
         "itemId": 243984,
         "price": {
-          "gold": 5,
-          "silver": 5,
+          "gold": 2,
+          "silver": 6,
           "copper": 0,
-          "total": 50500
+          "total": 20600
         }
-      }
+      },
+      "materials": [],
+      "materialCostTotal": {
+        "gold": 0,
+        "silver": 0,
+        "copper": 0,
+        "total": 0
+      },
+      "profitPerCraft": {
+        "gold": 2,
+        "silver": 6,
+        "copper": 0,
+        "total": 20600
+      },
+      "breakEven": null
     },
     {
       "category": "Ring",
@@ -516,11 +1504,60 @@
         "itemId": 244015,
         "price": {
           "gold": 15897,
-          "silver": 50,
+          "silver": 40,
           "copper": 0,
-          "total": 158975000
+          "total": 158974000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Light",
+          "itemId": 236949,
+          "qty": 15,
+          "unitPrice": {
+            "gold": 4,
+            "silver": 36,
+            "copper": 0,
+            "total": 43600
+          },
+          "totalCost": {
+            "gold": 65,
+            "silver": 40,
+            "copper": 0,
+            "total": 654000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 7067,
+        "silver": 38,
+        "copper": 0,
+        "total": 70673800
+      },
+      "profitPerCraft": {
+        "gold": 8830,
+        "silver": 2,
+        "copper": 0,
+        "total": 88300200
+      },
+      "breakEven": null
     },
     {
       "category": "Ring",
@@ -534,7 +1571,51 @@
         "name": "Enchant Ring - Silvermoon's Tenacity",
         "itemId": 244016,
         "price": null
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Light",
+          "itemId": 236949,
+          "qty": 15,
+          "unitPrice": {
+            "gold": 4,
+            "silver": 36,
+            "copper": 0,
+            "total": 43600
+          },
+          "totalCost": {
+            "gold": 65,
+            "silver": 40,
+            "copper": 0,
+            "total": 654000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 7067,
+        "silver": 38,
+        "copper": 0,
+        "total": 70673800
+      },
+      "profitPerCraft": null,
+      "breakEven": null
     },
     {
       "category": "Ring",
@@ -549,11 +1630,25 @@
         "itemId": 244012,
         "price": {
           "gold": 5,
-          "silver": 0,
+          "silver": 8,
           "copper": 0,
-          "total": 50000
+          "total": 50800
         }
-      }
+      },
+      "materials": [],
+      "materialCostTotal": {
+        "gold": 0,
+        "silver": 0,
+        "copper": 0,
+        "total": 0
+      },
+      "profitPerCraft": {
+        "gold": 5,
+        "silver": 8,
+        "copper": 0,
+        "total": 50800
+      },
+      "breakEven": null
     },
     {
       "category": "Ring",
@@ -567,12 +1662,61 @@
         "name": "Enchant Ring - Zul'jin's Mastery",
         "itemId": 243959,
         "price": {
-          "gold": 15500,
-          "silver": 20,
+          "gold": 15499,
+          "silver": 0,
           "copper": 0,
-          "total": 155002000
+          "total": 154990000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Wild Magic",
+          "itemId": 236951,
+          "qty": 15,
+          "unitPrice": {
+            "gold": 2,
+            "silver": 42,
+            "copper": 0,
+            "total": 24200
+          },
+          "totalCost": {
+            "gold": 36,
+            "silver": 30,
+            "copper": 0,
+            "total": 363000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 7038,
+        "silver": 28,
+        "copper": 0,
+        "total": 70382800
+      },
+      "profitPerCraft": {
+        "gold": 8460,
+        "silver": 72,
+        "copper": 0,
+        "total": 84607200
+      },
+      "breakEven": null
     },
     {
       "category": "Shoulders",
@@ -581,10 +1725,10 @@
         "name": "Formula: Enchant Shoulders - Akil'zon's Swiftness",
         "itemId": 256740,
         "price": {
-          "gold": 244000,
+          "gold": 242500,
           "silver": 0,
           "copper": 0,
-          "total": 2440000000
+          "total": 2425000000
         }
       },
       "enchant": {
@@ -596,7 +1740,39 @@
           "copper": 0,
           "total": 190720000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Wild Magic",
+          "itemId": 236951,
+          "qty": 20,
+          "unitPrice": {
+            "gold": 2,
+            "silver": 42,
+            "copper": 0,
+            "total": 24200
+          },
+          "totalCost": {
+            "gold": 48,
+            "silver": 40,
+            "copper": 0,
+            "total": 484000
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 48,
+        "silver": 40,
+        "copper": 0,
+        "total": 484000
+      },
+      "profitPerCraft": {
+        "gold": 19023,
+        "silver": 60,
+        "copper": 0,
+        "total": 190236000
+      },
+      "breakEven": 13
     },
     {
       "category": "Shoulders",
@@ -615,12 +1791,61 @@
         "name": "Enchant Shoulders - Amirdrassil's Grace",
         "itemId": 243990,
         "price": {
-          "gold": 19999,
-          "silver": 99,
+          "gold": 30000,
+          "silver": 51,
           "copper": 0,
-          "total": 199999900
+          "total": 300005100
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Primal Energy",
+          "itemId": 236950,
+          "qty": 20,
+          "unitPrice": {
+            "gold": 3,
+            "silver": 42,
+            "copper": 0,
+            "total": 34200
+          },
+          "totalCost": {
+            "gold": 68,
+            "silver": 40,
+            "copper": 0,
+            "total": 684000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 2,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 7001,
+            "silver": 98,
+            "copper": 0,
+            "total": 70019800
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 7070,
+        "silver": 38,
+        "copper": 0,
+        "total": 70703800
+      },
+      "profitPerCraft": {
+        "gold": 22930,
+        "silver": 13,
+        "copper": 0,
+        "total": 229301300
+      },
+      "breakEven": 6
     },
     {
       "category": "Shoulders",
@@ -635,11 +1860,25 @@
         "itemId": 243960,
         "price": {
           "gold": 5,
-          "silver": 0,
+          "silver": 9,
           "copper": 0,
-          "total": 50000
+          "total": 50900
         }
-      }
+      },
+      "materials": [],
+      "materialCostTotal": {
+        "gold": 0,
+        "silver": 0,
+        "copper": 0,
+        "total": 0
+      },
+      "profitPerCraft": {
+        "gold": 5,
+        "silver": 9,
+        "copper": 0,
+        "total": 50900
+      },
+      "breakEven": null
     },
     {
       "category": "Shoulders",
@@ -654,11 +1893,25 @@
         "itemId": 243988,
         "price": {
           "gold": 5,
-          "silver": 12,
+          "silver": 6,
           "copper": 0,
-          "total": 51200
+          "total": 50600
         }
-      }
+      },
+      "materials": [],
+      "materialCostTotal": {
+        "gold": 0,
+        "silver": 0,
+        "copper": 0,
+        "total": 0
+      },
+      "profitPerCraft": {
+        "gold": 5,
+        "silver": 6,
+        "copper": 0,
+        "total": 50600
+      },
+      "breakEven": null
     },
     {
       "category": "Shoulders",
@@ -677,7 +1930,39 @@
           "copper": 0,
           "total": 8006900
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Light",
+          "itemId": 236949,
+          "qty": 20,
+          "unitPrice": {
+            "gold": 4,
+            "silver": 36,
+            "copper": 0,
+            "total": 43600
+          },
+          "totalCost": {
+            "gold": 87,
+            "silver": 20,
+            "copper": 0,
+            "total": 872000
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 87,
+        "silver": 20,
+        "copper": 0,
+        "total": 872000
+      },
+      "profitPerCraft": {
+        "gold": 713,
+        "silver": 49,
+        "copper": 0,
+        "total": 7134900
+      },
+      "breakEven": null
     },
     {
       "category": "Shoulders",
@@ -692,11 +1977,25 @@
         "itemId": 244019,
         "price": {
           "gold": 388,
-          "silver": 0,
+          "silver": 18,
           "copper": 0,
-          "total": 3880000
+          "total": 3881800
         }
-      }
+      },
+      "materials": [],
+      "materialCostTotal": {
+        "gold": 0,
+        "silver": 0,
+        "copper": 0,
+        "total": 0
+      },
+      "profitPerCraft": {
+        "gold": 388,
+        "silver": 18,
+        "copper": 0,
+        "total": 3881800
+      },
+      "breakEven": null
     },
     {
       "category": "Weapon",
@@ -710,12 +2009,61 @@
         "name": "Enchant Weapon - Acuity of the Ren'dorei",
         "itemId": 244029,
         "price": {
-          "gold": 45000,
+          "gold": 37600,
           "silver": 0,
           "copper": 0,
-          "total": 450000000
+          "total": 376000000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Pure Void",
+          "itemId": 236952,
+          "qty": 5,
+          "unitPrice": {
+            "gold": 2,
+            "silver": 45,
+            "copper": 0,
+            "total": 24500
+          },
+          "totalCost": {
+            "gold": 12,
+            "silver": 25,
+            "copper": 0,
+            "total": 122500
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 4,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 14003,
+            "silver": 96,
+            "copper": 0,
+            "total": 140039600
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 14016,
+        "silver": 21,
+        "copper": 0,
+        "total": 140162100
+      },
+      "profitPerCraft": {
+        "gold": 23583,
+        "silver": 79,
+        "copper": 0,
+        "total": 235837900
+      },
+      "breakEven": null
     },
     {
       "category": "Weapon",
@@ -729,12 +2077,61 @@
         "name": "Enchant Weapon - Arcane Mastery",
         "itemId": 244031,
         "price": {
-          "gold": 31678,
+          "gold": 34987,
           "silver": 0,
           "copper": 0,
-          "total": 316780000
+          "total": 349870000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Light",
+          "itemId": 236949,
+          "qty": 5,
+          "unitPrice": {
+            "gold": 4,
+            "silver": 36,
+            "copper": 0,
+            "total": 43600
+          },
+          "totalCost": {
+            "gold": 21,
+            "silver": 80,
+            "copper": 0,
+            "total": 218000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 4,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 14003,
+            "silver": 96,
+            "copper": 0,
+            "total": 140039600
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 14025,
+        "silver": 76,
+        "copper": 0,
+        "total": 140257600
+      },
+      "profitPerCraft": {
+        "gold": 20961,
+        "silver": 24,
+        "copper": 0,
+        "total": 209612400
+      },
+      "breakEven": null
     },
     {
       "category": "Weapon",
@@ -748,12 +2145,61 @@
         "name": "Enchant Weapon - Berserker's Rage",
         "itemId": 243973,
         "price": {
-          "gold": 27720,
-          "silver": 0,
+          "gold": 29899,
+          "silver": 99,
           "copper": 0,
-          "total": 277200000
+          "total": 298999900
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Wild Magic",
+          "itemId": 236951,
+          "qty": 5,
+          "unitPrice": {
+            "gold": 2,
+            "silver": 42,
+            "copper": 0,
+            "total": 24200
+          },
+          "totalCost": {
+            "gold": 12,
+            "silver": 10,
+            "copper": 0,
+            "total": 121000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 4,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 14003,
+            "silver": 96,
+            "copper": 0,
+            "total": 140039600
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 14016,
+        "silver": 6,
+        "copper": 0,
+        "total": 140160600
+      },
+      "profitPerCraft": {
+        "gold": 15883,
+        "silver": 93,
+        "copper": 0,
+        "total": 158839300
+      },
+      "breakEven": null
     },
     {
       "category": "Weapon",
@@ -762,22 +2208,71 @@
         "name": "Formula: Enchant Weapon - Flames of the Sin'dorei",
         "itemId": 256759,
         "price": {
-          "gold": 18000,
+          "gold": 15555,
           "silver": 2,
           "copper": 0,
-          "total": 180000200
+          "total": 155550200
         }
       },
       "enchant": {
         "name": "Enchant Weapon - Flames of the Sin'dorei",
         "itemId": 244026,
         "price": {
-          "gold": 14800,
+          "gold": 14000,
           "silver": 0,
           "copper": 0,
-          "total": 148000000
+          "total": 140000000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Light",
+          "itemId": 236949,
+          "qty": 5,
+          "unitPrice": {
+            "gold": 4,
+            "silver": 36,
+            "copper": 0,
+            "total": 43600
+          },
+          "totalCost": {
+            "gold": 21,
+            "silver": 80,
+            "copper": 0,
+            "total": 218000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 4,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 14003,
+            "silver": 96,
+            "copper": 0,
+            "total": 140039600
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 14025,
+        "silver": 76,
+        "copper": 0,
+        "total": 140257600
+      },
+      "profitPerCraft": {
+        "gold": -26,
+        "silver": -76,
+        "copper": 0,
+        "total": -257600
+      },
+      "breakEven": null
     },
     {
       "category": "Weapon",
@@ -791,12 +2286,78 @@
         "name": "Enchant Weapon - Jan'alai's Precision",
         "itemId": 243970,
         "price": {
-          "gold": 16500,
+          "gold": 17000,
           "silver": 0,
           "copper": 0,
-          "total": 165000000
+          "total": 170000000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Wild Magic",
+          "itemId": 236951,
+          "qty": 5,
+          "unitPrice": {
+            "gold": 2,
+            "silver": 42,
+            "copper": 0,
+            "total": 24200
+          },
+          "totalCost": {
+            "gold": 12,
+            "silver": 10,
+            "copper": 0,
+            "total": 121000
+          }
+        },
+        {
+          "name": "Majestic Fin",
+          "itemId": 238530,
+          "qty": 1,
+          "unitPrice": {
+            "gold": 15896,
+            "silver": 0,
+            "copper": 0,
+            "total": 158960000
+          },
+          "totalCost": {
+            "gold": 15896,
+            "silver": 0,
+            "copper": 0,
+            "total": 158960000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 4,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 14003,
+            "silver": 96,
+            "copper": 0,
+            "total": 140039600
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 29912,
+        "silver": 6,
+        "copper": 0,
+        "total": 299120600
+      },
+      "profitPerCraft": {
+        "gold": -12913,
+        "silver": -6,
+        "copper": 0,
+        "total": -129120600
+      },
+      "breakEven": null
     },
     {
       "category": "Weapon",
@@ -815,7 +2376,73 @@
           "copper": 0,
           "total": 399980000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Wild Magic",
+          "itemId": 236951,
+          "qty": 5,
+          "unitPrice": {
+            "gold": 2,
+            "silver": 42,
+            "copper": 0,
+            "total": 24200
+          },
+          "totalCost": {
+            "gold": 12,
+            "silver": 10,
+            "copper": 0,
+            "total": 121000
+          }
+        },
+        {
+          "name": "Majestic Claw",
+          "itemId": 238528,
+          "qty": 1,
+          "unitPrice": {
+            "gold": 16520,
+            "silver": 0,
+            "copper": 0,
+            "total": 165200000
+          },
+          "totalCost": {
+            "gold": 16520,
+            "silver": 0,
+            "copper": 0,
+            "total": 165200000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 4,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 14003,
+            "silver": 96,
+            "copper": 0,
+            "total": 140039600
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 30536,
+        "silver": 6,
+        "copper": 0,
+        "total": 305360600
+      },
+      "profitPerCraft": {
+        "gold": 9461,
+        "silver": 94,
+        "copper": 0,
+        "total": 94619400
+      },
+      "breakEven": null
     },
     {
       "category": "Weapon",
@@ -829,12 +2456,61 @@
         "name": "Enchant Weapon - Worldsoul Aegis",
         "itemId": 243998,
         "price": {
-          "gold": 1750,
+          "gold": 2000,
           "silver": 0,
           "copper": 0,
-          "total": 17500000
+          "total": 20000000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Primal Energy",
+          "itemId": 236950,
+          "qty": 5,
+          "unitPrice": {
+            "gold": 3,
+            "silver": 42,
+            "copper": 0,
+            "total": 34200
+          },
+          "totalCost": {
+            "gold": 17,
+            "silver": 10,
+            "copper": 0,
+            "total": 171000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 4,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 14003,
+            "silver": 96,
+            "copper": 0,
+            "total": 140039600
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 14021,
+        "silver": 6,
+        "copper": 0,
+        "total": 140210600
+      },
+      "profitPerCraft": {
+        "gold": -12022,
+        "silver": -6,
+        "copper": 0,
+        "total": -120210600
+      },
+      "breakEven": null
     },
     {
       "category": "Weapon",
@@ -848,7 +2524,51 @@
         "name": "Enchant Weapon - Worldsoul Cradle",
         "itemId": 243996,
         "price": null
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Primal Energy",
+          "itemId": 236950,
+          "qty": 5,
+          "unitPrice": {
+            "gold": 3,
+            "silver": 42,
+            "copper": 0,
+            "total": 34200
+          },
+          "totalCost": {
+            "gold": 17,
+            "silver": 10,
+            "copper": 0,
+            "total": 171000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 4,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 14003,
+            "silver": 96,
+            "copper": 0,
+            "total": 140039600
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 14021,
+        "silver": 6,
+        "copper": 0,
+        "total": 140210600
+      },
+      "profitPerCraft": null,
+      "breakEven": null
     },
     {
       "category": "Weapon",
@@ -862,12 +2582,61 @@
         "name": "Enchant Weapon - Worldsoul Tenacity",
         "itemId": 244000,
         "price": {
-          "gold": 30000,
+          "gold": 27500,
           "silver": 0,
           "copper": 0,
-          "total": 300000000
+          "total": 275000000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Primal Energy",
+          "itemId": 236950,
+          "qty": 5,
+          "unitPrice": {
+            "gold": 3,
+            "silver": 42,
+            "copper": 0,
+            "total": 34200
+          },
+          "totalCost": {
+            "gold": 17,
+            "silver": 10,
+            "copper": 0,
+            "total": 171000
+          }
+        },
+        {
+          "name": "Petrified Root",
+          "itemId": 251285,
+          "qty": 4,
+          "unitPrice": {
+            "gold": 3500,
+            "silver": 99,
+            "copper": 0,
+            "total": 35009900
+          },
+          "totalCost": {
+            "gold": 14003,
+            "silver": 96,
+            "copper": 0,
+            "total": 140039600
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 14021,
+        "silver": 6,
+        "copper": 0,
+        "total": 140210600
+      },
+      "profitPerCraft": {
+        "gold": 13478,
+        "silver": 94,
+        "copper": 0,
+        "total": 134789400
+      },
+      "breakEven": null
     },
     {
       "category": "Tool",
@@ -881,12 +2650,44 @@
         "name": "Enchant Tool - Amani Perception",
         "itemId": 243964,
         "price": {
-          "gold": 12296,
-          "silver": 34,
+          "gold": 12271,
+          "silver": 75,
           "copper": 0,
-          "total": 122963400
+          "total": 122717500
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Wild Magic",
+          "itemId": 236951,
+          "qty": 20,
+          "unitPrice": {
+            "gold": 2,
+            "silver": 42,
+            "copper": 0,
+            "total": 24200
+          },
+          "totalCost": {
+            "gold": 48,
+            "silver": 40,
+            "copper": 0,
+            "total": 484000
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 48,
+        "silver": 40,
+        "copper": 0,
+        "total": 484000
+      },
+      "profitPerCraft": {
+        "gold": 12223,
+        "silver": 35,
+        "copper": 0,
+        "total": 122233500
+      },
+      "breakEven": null
     },
     {
       "category": "Tool",
@@ -900,12 +2701,44 @@
         "name": "Enchant Tool - Amani Resourcefulness",
         "itemId": 243967,
         "price": {
-          "gold": 17998,
-          "silver": 99,
+          "gold": 17000,
+          "silver": 97,
           "copper": 0,
-          "total": 179989900
+          "total": 170009700
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Wild Magic",
+          "itemId": 236951,
+          "qty": 20,
+          "unitPrice": {
+            "gold": 2,
+            "silver": 42,
+            "copper": 0,
+            "total": 24200
+          },
+          "totalCost": {
+            "gold": 48,
+            "silver": 40,
+            "copper": 0,
+            "total": 484000
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 48,
+        "silver": 40,
+        "copper": 0,
+        "total": 484000
+      },
+      "profitPerCraft": {
+        "gold": 16952,
+        "silver": 57,
+        "copper": 0,
+        "total": 169525700
+      },
+      "breakEven": null
     },
     {
       "category": "Tool",
@@ -919,12 +2752,44 @@
         "name": "Enchant Tool - Haranir Finesse",
         "itemId": 243993,
         "price": {
-          "gold": 16955,
+          "gold": 16800,
           "silver": 0,
           "copper": 0,
-          "total": 169550000
+          "total": 168000000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Primal Energy",
+          "itemId": 236950,
+          "qty": 20,
+          "unitPrice": {
+            "gold": 3,
+            "silver": 42,
+            "copper": 0,
+            "total": 34200
+          },
+          "totalCost": {
+            "gold": 68,
+            "silver": 40,
+            "copper": 0,
+            "total": 684000
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 68,
+        "silver": 40,
+        "copper": 0,
+        "total": 684000
+      },
+      "profitPerCraft": {
+        "gold": 16731,
+        "silver": 60,
+        "copper": 0,
+        "total": 167316000
+      },
+      "breakEven": null
     },
     {
       "category": "Tool",
@@ -943,7 +2808,39 @@
           "copper": 0,
           "total": 141010000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Primal Energy",
+          "itemId": 236950,
+          "qty": 20,
+          "unitPrice": {
+            "gold": 3,
+            "silver": 42,
+            "copper": 0,
+            "total": 34200
+          },
+          "totalCost": {
+            "gold": 68,
+            "silver": 40,
+            "copper": 0,
+            "total": 684000
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 68,
+        "silver": 40,
+        "copper": 0,
+        "total": 684000
+      },
+      "profitPerCraft": {
+        "gold": 14032,
+        "silver": 60,
+        "copper": 0,
+        "total": 140326000
+      },
+      "breakEven": null
     },
     {
       "category": "Tool",
@@ -958,11 +2855,43 @@
         "itemId": 244025,
         "price": {
           "gold": 17499,
-          "silver": 91,
+          "silver": 90,
           "copper": 0,
-          "total": 174999100
+          "total": 174999000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Pure Void",
+          "itemId": 236952,
+          "qty": 20,
+          "unitPrice": {
+            "gold": 2,
+            "silver": 45,
+            "copper": 0,
+            "total": 24500
+          },
+          "totalCost": {
+            "gold": 49,
+            "silver": 0,
+            "copper": 0,
+            "total": 490000
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 49,
+        "silver": 0,
+        "copper": 0,
+        "total": 490000
+      },
+      "profitPerCraft": {
+        "gold": 17450,
+        "silver": 90,
+        "copper": 0,
+        "total": 174509000
+      },
+      "breakEven": null
     },
     {
       "category": "Tool",
@@ -976,12 +2905,44 @@
         "name": "Enchant Tool - Sin'dorei Deftness",
         "itemId": 244023,
         "price": {
-          "gold": 18800,
-          "silver": 0,
+          "gold": 18799,
+          "silver": 90,
           "copper": 0,
-          "total": 188000000
+          "total": 187999000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Light",
+          "itemId": 236949,
+          "qty": 20,
+          "unitPrice": {
+            "gold": 4,
+            "silver": 36,
+            "copper": 0,
+            "total": 43600
+          },
+          "totalCost": {
+            "gold": 87,
+            "silver": 20,
+            "copper": 0,
+            "total": 872000
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 87,
+        "silver": 20,
+        "copper": 0,
+        "total": 872000
+      },
+      "profitPerCraft": {
+        "gold": 18712,
+        "silver": 70,
+        "copper": 0,
+        "total": 187127000
+      },
+      "breakEven": null
     },
     {
       "category": "Cosmetics",
@@ -1000,7 +2961,39 @@
           "copper": 0,
           "total": 50000
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Light",
+          "itemId": 236949,
+          "qty": 1,
+          "unitPrice": {
+            "gold": 4,
+            "silver": 36,
+            "copper": 0,
+            "total": 43600
+          },
+          "totalCost": {
+            "gold": 4,
+            "silver": 36,
+            "copper": 0,
+            "total": 43600
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 4,
+        "silver": 36,
+        "copper": 0,
+        "total": 43600
+      },
+      "profitPerCraft": {
+        "gold": 0,
+        "silver": 64,
+        "copper": 0,
+        "total": 6400
+      },
+      "breakEven": null
     },
     {
       "category": "Cosmetics",
@@ -1015,11 +3008,43 @@
         "itemId": 244036,
         "price": {
           "gold": 5,
-          "silver": 94,
+          "silver": 89,
           "copper": 0,
-          "total": 59400
+          "total": 58900
         }
-      }
+      },
+      "materials": [
+        {
+          "name": "Mote of Pure Void",
+          "itemId": 236952,
+          "qty": 1,
+          "unitPrice": {
+            "gold": 2,
+            "silver": 45,
+            "copper": 0,
+            "total": 24500
+          },
+          "totalCost": {
+            "gold": 2,
+            "silver": 45,
+            "copper": 0,
+            "total": 24500
+          }
+        }
+      ],
+      "materialCostTotal": {
+        "gold": 2,
+        "silver": 45,
+        "copper": 0,
+        "total": 24500
+      },
+      "profitPerCraft": {
+        "gold": 3,
+        "silver": 44,
+        "copper": 0,
+        "total": 34400
+      },
+      "breakEven": null
     }
   ]
 }

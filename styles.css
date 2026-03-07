@@ -6,22 +6,97 @@
   padding: 0;
 }
 
-:root {
-  --bg: #0e0e12;
-  --surface: #1a1a22;
-  --surface-alt: #14141c;
-  --border: #2e2e3e;
-  --text: #d4c8a8;
-  --text-muted: #7a7268;
-  --gold: #f8c93a;
-  --silver: #c0bfbd;
-  --copper: #c87533;
-  --positive: #4caf6e;
-  --negative: #cf4f4f;
-  --neutral: #7a7268;
-  --accent: #8b5cf6;
+/* ── Themes ────────────────────────────────────────────────────────────────── */
+/* --primary : header/category accent color (changes per theme)               */
+/* --glow    : text-shadow glow for h1                                         */
+/* Currency colors (--c-gold, --c-silver, --c-copper) never change            */
+
+:root,
+[data-theme="midnight"] {
+  --bg:            #0e0e12;
+  --surface:       #1a1a22;
+  --surface-alt:   #14141c;
+  --border:        #2e2e3e;
+  --text:          #d4c8a8;
+  --text-muted:    #7a7268;
+  --primary:       #f8c93a;
+  --glow:          rgba(248, 201, 58, 0.25);
+  --accent:        #8b5cf6;
   --header-border: #3a2f18;
+  --positive:      #4caf6e;
+  --negative:      #cf4f4f;
+  --neutral:       #7a7268;
+  /* currency — fixed across all themes */
+  --c-gold:   #f8c93a;
+  --c-silver: #c0bfbd;
+  --c-copper: #c87533;
 }
+
+[data-theme="arcane"] {
+  --bg:            #0c0a14;
+  --surface:       #16122a;
+  --surface-alt:   #100d1e;
+  --border:        #2d2050;
+  --text:          #d8cff5;
+  --text-muted:    #7a6eb0;
+  --primary:       #b57bff;
+  --glow:          rgba(181, 123, 255, 0.3);
+  --accent:        #9952e8;
+  --header-border: #3a2060;
+  --positive:      #5ac97a;
+  --negative:      #d45c5c;
+  --neutral:       #7a6eb0;
+}
+
+[data-theme="verdant"] {
+  --bg:            #0a130c;
+  --surface:       #121e14;
+  --surface-alt:   #0d170f;
+  --border:        #243828;
+  --text:          #c8d8bc;
+  --text-muted:    #6a8a68;
+  --primary:       #6dcc55;
+  --glow:          rgba(109, 204, 85, 0.25);
+  --accent:        #4aaa30;
+  --header-border: #1e4224;
+  --positive:      #5dcc5d;
+  --negative:      #d45c5c;
+  --neutral:       #6a8a68;
+}
+
+[data-theme="ember"] {
+  --bg:            #130c08;
+  --surface:       #1e130e;
+  --surface-alt:   #180f0a;
+  --border:        #3d2215;
+  --text:          #d4bcaa;
+  --text-muted:    #8a6a50;
+  --primary:       #ff7733;
+  --glow:          rgba(255, 119, 51, 0.25);
+  --accent:        #dd4f10;
+  --header-border: #5a2810;
+  --positive:      #4caf6e;
+  --negative:      #e05050;
+  --neutral:       #8a6a50;
+}
+
+[data-theme="frost"] {
+  --bg:            #090e14;
+  --surface:       #0f1820;
+  --surface-alt:   #0a121c;
+  --border:        #1e3048;
+  --text:          #bdd4e8;
+  --text-muted:    #5a7a98;
+  --primary:       #55d0ff;
+  --glow:          rgba(85, 208, 255, 0.25);
+  --accent:        #2890cc;
+  --header-border: #103050;
+  --positive:      #4ccc88;
+  --negative:      #cc5555;
+  --neutral:       #5a7a98;
+}
+
+/* ── Base ──────────────────────────────────────────────────────────────────── */
 
 body {
   background: var(--bg);
@@ -30,6 +105,7 @@ body {
   font-size: 14px;
   line-height: 1.5;
   min-height: 100vh;
+  transition: background 0.2s, color 0.2s;
 }
 
 /* ── Header ────────────────────────────────────────────────────────────────── */
@@ -50,9 +126,9 @@ header {
 h1 {
   font-size: 20px;
   font-weight: 700;
-  color: var(--gold);
+  color: var(--primary);
   letter-spacing: 0.03em;
-  text-shadow: 0 0 12px rgba(248, 201, 58, 0.25);
+  text-shadow: 0 0 12px var(--glow);
   white-space: nowrap;
 }
 
@@ -93,6 +169,52 @@ select:focus {
   margin-left: auto;
 }
 
+/* ── Theme swatches ────────────────────────────────────────────────────────── */
+
+.theme-picker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.theme-picker label {
+  color: var(--text-muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.swatches {
+  display: flex;
+  gap: 6px;
+}
+
+.swatch {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.15s, border-color 0.15s;
+  padding: 0;
+  outline: none;
+}
+
+.swatch:hover {
+  transform: scale(1.2);
+}
+
+.swatch[aria-pressed="true"] {
+  border-color: var(--text);
+  transform: scale(1.2);
+}
+
+.swatch[data-theme="midnight"] { background: #f8c93a; }
+.swatch[data-theme="arcane"]   { background: #b57bff; }
+.swatch[data-theme="verdant"]  { background: #6dcc55; }
+.swatch[data-theme="ember"]    { background: #ff7733; }
+.swatch[data-theme="frost"]    { background: #55d0ff; }
+
 /* ── Main content ──────────────────────────────────────────────────────────── */
 
 main {
@@ -117,7 +239,7 @@ h2 {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--gold);
+  color: var(--primary);
   padding-bottom: 6px;
   border-bottom: 1px solid var(--header-border);
 }
@@ -172,17 +294,81 @@ tbody tr:hover {
   font-variant-numeric: tabular-nums;
 }
 
-/* ── Currency colors ───────────────────────────────────────────────────────── */
+/* ── Currency colors (fixed — represent in-game currency) ──────────────────── */
 
-.gold   { color: var(--gold); }
-.silver { color: var(--silver); }
-.copper { color: var(--copper); }
+.gold   { color: var(--c-gold); }
+.silver { color: var(--c-silver); }
+.copper { color: var(--c-copper); }
 
-/* ── Margin ────────────────────────────────────────────────────────────────── */
+/* ── Profit / break-even ───────────────────────────────────────────────────── */
 
-.margin.positive { color: var(--positive); }
-.margin.negative { color: var(--negative); }
-.margin.neutral  { color: var(--neutral); }
+.positive { color: var(--positive); }
+.negative { color: var(--negative); }
+.neutral  { color: var(--neutral); }
+
+.mat-cost {
+  position: relative;
+  cursor: help;
+}
+
+.mat-popover {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 6px);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 10px;
+  min-width: 240px;
+  z-index: 100;
+  white-space: nowrap;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.mat-cost:hover .mat-popover {
+  display: block;
+}
+
+.mat-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 0;
+}
+
+.mat-row + .mat-row {
+  border-top: 1px solid var(--border);
+}
+
+.mat-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.mat-icon-placeholder {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.mat-name {
+  flex: 1;
+  font-size: 13px;
+  color: var(--text);
+}
+
+.mat-price {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.break-even {
+  color: var(--text-muted);
+}
 
 /* ── States ────────────────────────────────────────────────────────────────── */
 
