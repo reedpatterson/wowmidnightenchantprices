@@ -109,7 +109,7 @@
                 <td class="item-name">${item.name}</td>
                 <td class="price">${formatPrice(item.recipe.price)}</td>
                 <td class="price mat-cost">${formatPrice(item.materialCostTotal)}${materialsPopover(item.materials)}</td>
-                <td class="price">${formatPrice(item.enchant.price)}</td>
+                <td class="price">${formatPrice(item.enchant.price)}${item.enchant.priceR2 ? `<div class="price-r2">✦ ${formatPrice(item.enchant.priceR2)}</div>` : ""}</td>
                 <td class="price">${formatProfit(item.profitPerCraft)}</td>
                 <td class="price break-even">${item.breakEven !== null ? item.breakEven : '<span class="no-price">—</span>'}</td>
               </tr>

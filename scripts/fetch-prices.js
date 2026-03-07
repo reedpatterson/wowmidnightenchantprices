@@ -62,19 +62,31 @@ async function resolveItemIds(token) {
   const slugsToResolve = new Set();
   for (const item of ENCHANTING_ITEMS) {
     if (!(item.recipeSlug in cached)) slugsToResolve.add(item.recipeSlug);
-    if (!(item.enchantSlug in cached)) slugsToResolve.add(item.enchantSlug);
+    // Re-resolve enchant slugs if the R2 quality sentinel is absent
+    if (!(item.enchantSlug in cached) || !(item.enchantSlug + "|r2" in cached)) {
+      slugsToResolve.add(item.enchantSlug);
+    }
   }
 
   if (slugsToResolve.size > 0) {
     console.log(`Resolving ${slugsToResolve.size} item name(s) via Blizzard API...`);
     for (const slug of slugsToResolve) {
+      const isFormula = slug.startsWith("Formula:");
       const results = await searchItemByName(token, slug);
-      const match = results.find((r) => r.data?.name?.en_US === slug);
-      if (match) {
-        cached[slug] = match.data.id;
-        console.log(`  [OK] "${slug}" => ${match.data.id}`);
+      const matches = results
+        .filter((r) => r.data?.name?.en_US === slug)
+        .sort((a, b) => (a.data.quality?.id ?? 0) - (b.data.quality?.id ?? 0));
+
+      if (matches.length > 0) {
+        cached[slug] = matches[0].data.id;
+        console.log(`  [OK] "${slug}" => ${matches[0].data.id}`);
+        if (!isFormula) {
+          cached[slug + "|r2"] = matches[1]?.data.id ?? null;
+          if (matches[1]) console.log(`  [OK] "${slug}|r2" => ${matches[1].data.id}`);
+        }
       } else {
         cached[slug] = null;
+        if (!isFormula) cached[slug + "|r2"] = null;
         console.warn(`  [NOT FOUND] "${slug}" — set ID manually in data/item-ids.json`);
       }
     }
@@ -294,8 +306,10 @@ async function main() {
     const items = ENCHANTING_ITEMS.map((item) => {
       const recipeId = itemIds[item.recipeSlug] ?? null;
       const enchantId = itemIds[item.enchantSlug] ?? null;
+      const enchantIdR2 = itemIds[item.enchantSlug + "|r2"] ?? null;
       const recipePrice = copperToGold(getLowestPrice(auctions, recipeId));
       const enchantPrice = copperToGold(getLowestPrice(auctions, enchantId));
+      const enchantPriceR2 = copperToGold(getLowestPrice(auctions, enchantIdR2));
 
       // Materials and cost per craft
       const rawMats = enchantId ? recipeMaterials[String(enchantId)] : null;
@@ -327,7 +341,7 @@ async function main() {
         category: item.category,
         name: item.name,
         recipe: { name: item.recipeSlug, itemId: recipeId, price: recipePrice },
-        enchant: { name: item.enchantSlug, itemId: enchantId, price: enchantPrice },
+        enchant: { name: item.enchantSlug, itemId: enchantId, price: enchantPrice, itemIdR2: enchantIdR2, priceR2: enchantPriceR2 },
         materials,
         materialCostTotal,
         profitPerCraft,

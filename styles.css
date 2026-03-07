@@ -366,6 +366,12 @@ tbody tr:hover {
   font-variant-numeric: tabular-nums;
 }
 
+.price-r2 {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
 .break-even {
   color: var(--text-muted);
 }
