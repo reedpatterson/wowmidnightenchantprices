@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WoW Midnight — Enchanting Prices</title>
+    <title>WoW Midnight — Crafting Prices</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>Midnight Enchanting Prices</h1>
+      <h1>Midnight Crafting Prices</h1>
       <div class="controls">
         <label for="realm-select">Realm</label>
         <select id="realm-select"></select>
@@ -24,6 +24,7 @@
         </div>
       </div>
       <span id="last-updated"></span>
+      <nav class="profession-nav" id="profession-nav"></nav>
     </header>
 
     <main id="content">
@@ -32,6 +33,7 @@
 
     <script>
       let appConfig = { region: "us", defaultRealm: "stormrage", realms: ["stormrage"] };
+      let activeProfession = localStorage.getItem("profession") || "All";
 
       // ── Helpers ─────────────────────────────────────────────────────────────
 
@@ -71,7 +73,45 @@
         return `<div class="mat-popover">${rows}</div>`;
       }
 
+      // ── Profession tabs ──────────────────────────────────────────────────────
+
+      function applyProfession(profession) {
+        activeProfession = profession;
+        document.querySelectorAll(".profession-tab").forEach((btn) => {
+          btn.setAttribute("aria-pressed", btn.dataset.profession === profession ? "true" : "false");
+        });
+        document.querySelectorAll(".profession-section").forEach((section) => {
+          section.hidden = profession !== "All" && section.dataset.profession !== profession;
+        });
+        localStorage.setItem("profession", profession);
+      }
+
+      function renderProfessionTabs(professions) {
+        const nav = document.getElementById("profession-nav");
+        nav.innerHTML = ["All", ...professions]
+          .map((p) => `<button class="profession-tab" data-profession="${p}" aria-pressed="false">${p}</button>`)
+          .join("");
+        nav.querySelectorAll(".profession-tab").forEach((btn) => {
+          btn.addEventListener("click", () => applyProfession(btn.dataset.profession));
+        });
+      }
+
       // ── Render ───────────────────────────────────────────────────────────────
+
+      function renderItemRow(item) {
+        return `
+          <tr>
+            <td class="item-name">${item.name}</td>
+            <td class="price">${formatPrice(item.recipe.price)}${item.recipe.available ? `<span class="available"> ×${item.recipe.available}</span>` : ""}</td>
+            <td class="price mat-cost">${formatPrice(item.materialCostTotal)}${materialsPopover(item.materials)}</td>
+            <td class="price">
+              ${formatPrice(item.craft.price)}${item.craft.available ? `<span class="available"> ×${item.craft.available}</span>` : ""}
+              ${item.craft.priceR2 ? `<div class="price-r2">✦ ${formatPrice(item.craft.priceR2)}${item.craft.availableR2 ? `<span class="available"> ×${item.craft.availableR2}</span>` : ""}</div>` : ""}
+            </td>
+            <td class="price">${formatProfit(item.profitPerCraft)}</td>
+            <td class="price break-even">${item.breakEven !== null ? item.breakEven : '<span class="no-price">—</span>'}</td>
+          </tr>`;
+      }
 
       function renderPrices(data) {
         const updated = document.getElementById("last-updated");
@@ -79,47 +119,50 @@
           updated.textContent = `Updated ${new Date(data.lastUpdated).toLocaleString()}`;
         }
 
-        const byCategory = {};
+        // Group by profession, then by category within each profession
+        const byProfession = {};
         for (const item of data.items) {
-          if (!byCategory[item.category]) byCategory[item.category] = [];
-          byCategory[item.category].push(item);
+          const prof = item.profession || "Other";
+          if (!byProfession[prof]) byProfession[prof] = {};
+          if (!byProfession[prof][item.category]) byProfession[prof][item.category] = [];
+          byProfession[prof][item.category].push(item);
         }
 
+        const professions = Object.keys(byProfession);
+        renderProfessionTabs(professions);
+
+        const TABLE_HEAD = `
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th title="One-time cost to learn the recipe">Recipe Price</th>
+              <th title="AH cost of materials per craft (hover for breakdown)">Mat Cost/Craft</th>
+              <th title="Lowest AH price — ×N = listings available">Sell Price</th>
+              <th title="Sell price minus material cost">Profit/Craft</th>
+              <th title="Number of crafts to sell before the recipe pays for itself">Break-even</th>
+            </tr>
+          </thead>`;
+
         let html = "";
-        for (const [category, items] of Object.entries(byCategory)) {
-          html += `
-            <section>
-              <h2>${category}</h2>
-              <table>
-                <thead>
-                  <tr>
-                    <th>Enchant</th>
-                    <th title="One-time cost to learn the recipe">Formula Price</th>
-                    <th title="AH cost of materials per craft (hover for breakdown)">Mat Cost/Craft</th>
-                    <th>Sell Price</th>
-                    <th title="Sell price minus material cost">Profit/Craft</th>
-                    <th title="Number of enchants to sell before the formula pays for itself">Break-even</th>
-                  </tr>
-                </thead>
-                <tbody>
-          `;
-          for (const item of items) {
+        for (const [profession, byCategory] of Object.entries(byProfession)) {
+          html += `<div class="profession-section" data-profession="${profession}">`;
+          for (const [category, items] of Object.entries(byCategory)) {
             html += `
-              <tr>
-                <td class="item-name">${item.name}</td>
-                <td class="price">${formatPrice(item.recipe.price)}</td>
-                <td class="price mat-cost">${formatPrice(item.materialCostTotal)}${materialsPopover(item.materials)}</td>
-                <td class="price">${formatPrice(item.enchant.price)}${item.enchant.priceR2 ? `<div class="price-r2">✦ ${formatPrice(item.enchant.priceR2)}</div>` : ""}</td>
-                <td class="price">${formatProfit(item.profitPerCraft)}</td>
-                <td class="price break-even">${item.breakEven !== null ? item.breakEven : '<span class="no-price">—</span>'}</td>
-              </tr>
-            `;
+              <section>
+                <h2>${category}</h2>
+                <table>${TABLE_HEAD}<tbody>
+                  ${items.map(renderItemRow).join("")}
+                </tbody></table>
+              </section>`;
           }
-          html += `</tbody></table></section>`;
+          html += `</div>`;
         }
 
         document.getElementById("content").innerHTML =
           html || '<p class="no-data">No price data available for this realm yet.</p>';
+
+        // Re-apply the active profession filter after re-render
+        applyProfession(activeProfession);
       }
 
       // ── Load ─────────────────────────────────────────────────────────────────
@@ -152,7 +195,6 @@
       // ── Init ─────────────────────────────────────────────────────────────────
 
       async function init() {
-        // Apply saved theme before anything renders
         applyTheme(localStorage.getItem("theme") || "midnight");
 
         document.querySelectorAll(".swatch").forEach((btn) => {

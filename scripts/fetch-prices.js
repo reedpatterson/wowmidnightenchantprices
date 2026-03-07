@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const fs = require("fs");
 const path = require("path");
-const { ENCHANTING_ITEMS } = require("./items");
+const { PROFESSION_GROUPS } = require("./items");
 const config = require("../config.json");
 
 const REGION = config.region;
@@ -12,6 +12,7 @@ const DYNAMIC_NS = `dynamic-${REGION}`;
 const STATIC_NS = `static-${REGION}`;
 const ITEM_IDS_PATH = path.join(__dirname, "../data/item-ids.json");
 const RECIPE_MATERIALS_PATH = path.join(__dirname, "../data/recipe-materials.json");
+const RECIPE_DETAILS_PATH = path.join(__dirname, "../data/recipe-details.json");
 const ITEM_ICONS_PATH = path.join(__dirname, "../data/item-icons.json");
 const PRICES_DIR = path.join(__dirname, "../data/prices");
 
@@ -53,25 +54,26 @@ async function searchItemByName(token, name) {
   return (await res.json()).results || [];
 }
 
-async function resolveItemIds(token) {
+async function resolveItemIds(token, items) {
   let cached = {};
   if (fs.existsSync(ITEM_IDS_PATH)) {
     cached = JSON.parse(fs.readFileSync(ITEM_IDS_PATH, "utf8"));
   }
 
   const slugsToResolve = new Set();
-  for (const item of ENCHANTING_ITEMS) {
+  for (const item of items) {
     if (!(item.recipeSlug in cached)) slugsToResolve.add(item.recipeSlug);
-    // Re-resolve enchant slugs if the R2 quality sentinel is absent
-    if (!(item.enchantSlug in cached) || !(item.enchantSlug + "|r2" in cached)) {
-      slugsToResolve.add(item.enchantSlug);
+    // Re-resolve craft slugs if the R2 quality sentinel is absent
+    if (!(item.craftSlug in cached) || !(item.craftSlug + "|r2" in cached)) {
+      slugsToResolve.add(item.craftSlug);
     }
   }
 
   if (slugsToResolve.size > 0) {
     console.log(`Resolving ${slugsToResolve.size} item name(s) via Blizzard API...`);
     for (const slug of slugsToResolve) {
-      const isFormula = slug.startsWith("Formula:");
+      // Recipe items (Formula:/Recipe:/Design: etc.) are single-quality; crafted items may have R2
+      const isRecipe = /^(Formula|Recipe|Design|Technique|Schematic|Plans|Pattern):/.test(slug);
       const results = await searchItemByName(token, slug);
       const matches = results
         .filter((r) => r.data?.name?.en_US === slug)
@@ -80,13 +82,13 @@ async function resolveItemIds(token) {
       if (matches.length > 0) {
         cached[slug] = matches[0].data.id;
         console.log(`  [OK] "${slug}" => ${matches[0].data.id}`);
-        if (!isFormula) {
+        if (!isRecipe) {
           cached[slug + "|r2"] = matches[1]?.data.id ?? null;
           if (matches[1]) console.log(`  [OK] "${slug}|r2" => ${matches[1].data.id}`);
         }
       } else {
         cached[slug] = null;
-        if (!isFormula) cached[slug + "|r2"] = null;
+        if (!isRecipe) cached[slug + "|r2"] = null;
         console.warn(`  [NOT FOUND] "${slug}" — set ID manually in data/item-ids.json`);
       }
     }
@@ -99,52 +101,159 @@ async function resolveItemIds(token) {
   return cached;
 }
 
-// ── Recipe material discovery ─────────────────────────────────────────────────
-// Fetches reagent requirements for each enchanting recipe from the Blizzard
-// Professions API. Results are cached in data/recipe-materials.json.
-// Key: crafted enchant item ID (string) => array of { name, itemId, qty }
+// ── Auto-discovery ────────────────────────────────────────────────────────────
+// Fetches ALL recipes from a profession's latest skill tier via the Blizzard
+// Professions API and returns them as a structured items array. Recipe details
+// (crafted item ID + reagents) are cached in data/recipe-details.json so they
+// are only fetched once. The reagents are also written into recipe-materials.json
+// so subsequent runs skip the discoverRecipeMaterials step for these professions.
 
-async function discoverRecipeMaterials(token, items, itemIds) {
+async function buildAutoDiscoverItems(token, professionId, label, recipePrefix) {
+  let detailsCache = {};
+  if (fs.existsSync(RECIPE_DETAILS_PATH)) {
+    detailsCache = JSON.parse(fs.readFileSync(RECIPE_DETAILS_PATH, "utf8"));
+  }
+
+  console.log(`Auto-discovering ${label} recipes...`);
+
+  const profDetail = await bnetGet(
+    token,
+    `/data/wow/profession/${professionId}?namespace=${STATIC_NS}&locale=en_US`
+  );
+  const skillTiers = profDetail.skill_tiers || [];
+  if (skillTiers.length === 0) {
+    console.warn(`  No skill tiers found for ${label}. Skipping.`);
+    return [];
+  }
+  const latestTier = skillTiers[skillTiers.length - 1];
+  console.log(`  Skill tier: "${latestTier.name}" (id: ${latestTier.id})`);
+
+  // Append locale so recipe stub names come back as strings, not localized objects
+  const tierUrl = latestTier.key.href + (latestTier.key.href.includes("?") ? "&" : "?") + "locale=en_US";
+  const tierDetail = await bnetGet(token, tierUrl);
+
+  const items = [];
+  let newDetails = 0;
+
+  for (const cat of tierDetail.categories || []) {
+    // Category name may also be a localized object if locale wasn't applied at this level
+    const catName = typeof cat.name === "object" ? (cat.name.en_US ?? cat.name) : cat.name;
+
+    for (const recipeStub of cat.recipes || []) {
+      const recipeIdStr = String(recipeStub.id);
+      const stubName = typeof recipeStub.name === "object" ? (recipeStub.name.en_US ?? String(recipeStub.name)) : recipeStub.name;
+
+      if (!(recipeIdStr in detailsCache)) {
+        try {
+          const detail = await bnetGet(
+            token,
+            `/data/wow/recipe/${recipeStub.id}?namespace=${STATIC_NS}&locale=en_US`
+          );
+          const reagents = (detail.reagents || []).map((r) => ({
+            name: r.reagent.name,
+            itemId: r.reagent.id,
+            qty: r.quantity,
+          }));
+          // Filter by reagents: utility recipes (Recraft Equipment, etc.) have none
+          if (reagents.length > 0) {
+            detailsCache[recipeIdStr] = {
+              category: catName,
+              // crafted_item may be absent for enchanting scrolls; fall back to recipe stub name
+              craftedItemName: detail.crafted_item?.name ?? stubName,
+              reagents,
+            };
+          } else {
+            detailsCache[recipeIdStr] = null;
+          }
+        } catch {
+          console.warn(`  [ERROR] Could not fetch recipe ${recipeStub.id} ("${stubName}") — will retry next run`);
+          // Don't cache failures so transient errors are retried on the next run
+        }
+        newDetails++;
+      }
+
+      const entry = detailsCache[recipeIdStr];
+      if (!entry) continue;
+
+      const craftSlug = entry.craftedItemName;
+      // Carry reagents on the item so main() can populate recipeMaterials after resolveItemIds
+      items.push({
+        profession: label,
+        category: entry.category,
+        name: entry.craftedItemName,
+        recipeSlug: `${recipePrefix}: ${entry.craftedItemName}`,
+        craftSlug,
+        _reagents: entry.reagents,
+      });
+    }
+  }
+
+  if (newDetails > 0) {
+    fs.mkdirSync(path.join(__dirname, "../data"), { recursive: true });
+    fs.writeFileSync(RECIPE_DETAILS_PATH, JSON.stringify(detailsCache, null, 2));
+    console.log(`  Fetched ${newDetails} new recipe detail(s).`);
+  } else {
+    console.log(`  All recipe details already cached.`);
+  }
+
+  console.log(`  Found ${items.length} ${label} recipe(s) with reagents.`);
+  return items;
+}
+
+// ── Recipe material discovery ─────────────────────────────────────────────────
+// Fetches reagent requirements for each crafted item via the Blizzard Professions
+// API. Results are cached in data/recipe-materials.json.
+// Key: crafted item ID (string) => array of { name, itemId, qty }
+// Call once per profession group; the cache is shared across all professions.
+
+async function discoverRecipeMaterials(token, items, itemIds, professionId, label) {
   let cached = {};
   if (fs.existsSync(RECIPE_MATERIALS_PATH)) {
     cached = JSON.parse(fs.readFileSync(RECIPE_MATERIALS_PATH, "utf8"));
   }
 
-  // Re-discover any enchant whose materials are absent or empty.
+  // Re-discover any item whose materials are absent or empty.
   const itemsToDiscover = items.filter((item) => {
-    const enchantId = itemIds[item.enchantSlug] ?? null;
-    if (enchantId === null) return false;
-    const entry = cached[String(enchantId)];
+    const craftId = itemIds[item.craftSlug] ?? null;
+    if (craftId === null) return false;
+    const entry = cached[String(craftId)];
     return !Array.isArray(entry) || entry.length === 0;
   });
 
   if (itemsToDiscover.length === 0) {
-    console.log("Recipe materials already cached.");
+    console.log(`  ${label} materials already cached.`);
     return cached;
   }
 
-  // Build a lookup: recipe name => enchant item ID, for the items we need
-  const nameToEnchantId = {};
+  // Build a lookup: recipe name => craft item ID, for items we need to discover
+  const nameToCraftId = {};
   for (const item of itemsToDiscover) {
-    const enchantId = itemIds[item.enchantSlug] ?? null;
-    if (enchantId !== null) nameToEnchantId[item.name] = enchantId;
+    const craftId = itemIds[item.craftSlug] ?? null;
+    if (craftId !== null) nameToCraftId[item.name] = craftId;
   }
 
-  console.log(`Discovering materials for ${itemsToDiscover.length} enchant(s) via Professions API...`);
+  console.log(`Discovering materials for ${itemsToDiscover.length} ${label} item(s)...`);
 
-  // Enchanting profession ID = 333; Midnight Enchanting skill tier ID = 2909
-  console.log("  Fetching Midnight Enchanting skill tier (profession 333, tier 2909)...");
-  const tierDetail = await bnetGet(
+  // Dynamically find the latest skill tier for this profession
+  const profDetail = await bnetGet(
     token,
-    `/data/wow/profession/333/skill-tier/2909?namespace=${STATIC_NS}&locale=en_US`
+    `/data/wow/profession/${professionId}?namespace=${STATIC_NS}&locale=en_US`
   );
+  const skillTiers = profDetail.skill_tiers || [];
+  if (skillTiers.length === 0) throw new Error(`No skill tiers found for profession ${professionId} (${label}).`);
+  const latestTier = skillTiers[skillTiers.length - 1];
+  console.log(`  Skill tier: "${latestTier.name}" (id: ${latestTier.id})`);
 
-  // For each recipe, check if its name matches one of our enchants, then fetch reagents
+  const tierHref = latestTier.key?.href;
+  if (!tierHref) throw new Error(`No href for skill tier "${latestTier.name}"`);
+  const tierDetail = await bnetGet(token, tierHref);
+
+  // For each recipe in the tier, check if it matches one of our items, then fetch reagents
   let fetched = 0;
   for (const category of tierDetail.categories || []) {
     for (const recipeStub of category.recipes || []) {
-      const enchantId = nameToEnchantId[recipeStub.name];
-      if (enchantId === undefined) continue; // not one we care about
+      const craftId = nameToCraftId[recipeStub.name];
+      if (craftId === undefined) continue;
 
       let recipeDetail;
       try {
@@ -154,7 +263,7 @@ async function discoverRecipeMaterials(token, items, itemIds) {
         );
       } catch {
         console.warn(`  [ERROR] Could not fetch recipe ${recipeStub.id} ("${recipeStub.name}")`);
-        cached[String(enchantId)] = [];
+        cached[String(craftId)] = [];
         continue;
       }
 
@@ -164,7 +273,7 @@ async function discoverRecipeMaterials(token, items, itemIds) {
         qty: r.quantity,
       }));
 
-      cached[String(enchantId)] = reagents;
+      cached[String(craftId)] = reagents;
 
       if (reagents.length > 0) {
         console.log(`  [OK] "${recipeStub.name}": ${reagents.map((r) => `${r.qty}x ${r.name}`).join(", ")}`);
@@ -173,19 +282,19 @@ async function discoverRecipeMaterials(token, items, itemIds) {
         console.warn(`  [EMPTY] "${recipeStub.name}" has no reagents in API`);
       }
 
-      delete nameToEnchantId[recipeStub.name]; // mark as found
+      delete nameToCraftId[recipeStub.name];
     }
   }
 
-  // Anything still in nameToEnchantId wasn't matched by name in the skill tier
-  for (const [name, enchantId] of Object.entries(nameToEnchantId)) {
-    if (!Array.isArray(cached[String(enchantId)]) || cached[String(enchantId)].length === 0) {
-      cached[String(enchantId)] = [];
-      console.warn(`  [NOT FOUND] No recipe matched for "${name}" in Midnight Enchanting skill tier.`);
+  // Anything still in nameToCraftId wasn't matched in the skill tier
+  for (const [name, craftId] of Object.entries(nameToCraftId)) {
+    if (!Array.isArray(cached[String(craftId)]) || cached[String(craftId)].length === 0) {
+      cached[String(craftId)] = [];
+      console.warn(`  [NOT FOUND] No recipe matched for "${name}" in "${latestTier.name}"`);
     }
   }
 
-  console.log(`  Found materials for ${fetched}/${itemsToDiscover.length} enchants.`);
+  console.log(`  Found materials for ${fetched}/${itemsToDiscover.length} items.`);
   fs.mkdirSync(path.dirname(RECIPE_MATERIALS_PATH), { recursive: true });
   fs.writeFileSync(RECIPE_MATERIALS_PATH, JSON.stringify(cached, null, 2));
 
@@ -256,11 +365,14 @@ async function fetchAuctions(token, connectedRealmId) {
   return [...(ahData.auctions || []), ...(commData.auctions || [])];
 }
 
-function getLowestPrice(auctions, itemId) {
-  if (!itemId) return null;
+function getMarketData(auctions, itemId) {
+  if (!itemId) return { price: null, available: 0 };
   const relevant = auctions.filter((a) => a.item?.id === itemId);
   const prices = relevant.map((a) => a.buyout || a.unit_price || 0).filter((p) => p > 0);
-  return prices.length > 0 ? Math.min(...prices) : null;
+  return {
+    price: prices.length > 0 ? Math.min(...prices) : null,
+    available: relevant.reduce((sum, a) => sum + (a.quantity || 1), 0),
+  };
 }
 
 // ── Formatting ────────────────────────────────────────────────────────────────
@@ -282,11 +394,51 @@ async function main() {
   const token = await getToken();
   console.log("Token acquired.\n");
 
-  const itemIds = await resolveItemIds(token);
+  // Auto-discover items for Alchemy, Jewelcrafting, etc.
+  const discoveredItems = [];
+  for (const group of PROFESSION_GROUPS) {
+    if (!group.autoDiscover) continue;
+    const found = await buildAutoDiscoverItems(token, group.professionId, group.label, group.recipePrefix);
+    discoveredItems.push(...found);
+    console.log();
+  }
+
+  // Combine manual items (non-autoDiscover groups only, tagged with profession) + discovered items
+  // If all groups are autoDiscover, taggedManualItems is empty and allItems = discoveredItems
+  const taggedManualItems = PROFESSION_GROUPS
+    .filter((g) => !g.autoDiscover)
+    .flatMap((g) => g.items.map((item) => ({ ...item, profession: g.label })));
+  const allItems = [...taggedManualItems, ...discoveredItems];
+
+  const itemIds = await resolveItemIds(token, allItems);
   console.log();
 
-  const recipeMaterials = await discoverRecipeMaterials(token, ENCHANTING_ITEMS, itemIds);
-  console.log();
+  // Load existing materials cache, then build on top of it
+  let recipeMaterials = {};
+  if (fs.existsSync(RECIPE_MATERIALS_PATH)) {
+    recipeMaterials = JSON.parse(fs.readFileSync(RECIPE_MATERIALS_PATH, "utf8"));
+  }
+
+  // Discover materials for manual profession groups via the profession API
+  for (const { professionId, label, items, autoDiscover } of PROFESSION_GROUPS) {
+    if (autoDiscover || items.length === 0) continue;
+    Object.assign(recipeMaterials, await discoverRecipeMaterials(token, items, itemIds, professionId, label));
+    console.log();
+  }
+
+  // Populate materials for auto-discovered items using resolved item IDs
+  for (const item of discoveredItems) {
+    const craftId = itemIds[item.craftSlug] ?? null;
+    if (craftId !== null) {
+      const key = String(craftId);
+      if (!Array.isArray(recipeMaterials[key]) || recipeMaterials[key].length === 0) {
+        recipeMaterials[key] = item._reagents;
+      }
+    }
+  }
+
+  fs.mkdirSync(path.join(__dirname, "../data"), { recursive: true });
+  fs.writeFileSync(RECIPE_MATERIALS_PATH, JSON.stringify(recipeMaterials, null, 2));
 
   const materialItemIds = new Set();
   for (const mats of Object.values(recipeMaterials)) {
@@ -303,19 +455,24 @@ async function main() {
     const auctions = await fetchAuctions(token, realmId);
     console.log(`  ${auctions.length} total auctions.`);
 
-    const items = ENCHANTING_ITEMS.map((item) => {
-      const recipeId = itemIds[item.recipeSlug] ?? null;
-      const enchantId = itemIds[item.enchantSlug] ?? null;
-      const enchantIdR2 = itemIds[item.enchantSlug + "|r2"] ?? null;
-      const recipePrice = copperToGold(getLowestPrice(auctions, recipeId));
-      const enchantPrice = copperToGold(getLowestPrice(auctions, enchantId));
-      const enchantPriceR2 = copperToGold(getLowestPrice(auctions, enchantIdR2));
+    const items = allItems.map((item) => {
+      const recipeId  = itemIds[item.recipeSlug] ?? null;
+      const craftId   = itemIds[item.craftSlug] ?? null;
+      const craftIdR2 = itemIds[item.craftSlug + "|r2"] ?? null;
+
+      const recipeMarket  = getMarketData(auctions, recipeId);
+      const craftMarket   = getMarketData(auctions, craftId);
+      const craftMarketR2 = getMarketData(auctions, craftIdR2);
+
+      const recipePrice  = copperToGold(recipeMarket.price);
+      const craftPrice   = copperToGold(craftMarket.price);
+      const craftPriceR2 = copperToGold(craftMarketR2.price);
 
       // Materials and cost per craft
-      const rawMats = enchantId ? recipeMaterials[String(enchantId)] : null;
+      const rawMats = craftId ? recipeMaterials[String(craftId)] : null;
       const matList = Array.isArray(rawMats) ? rawMats : [];
       const materials = matList.map((mat) => {
-        const unitPrice = copperToGold(getLowestPrice(auctions, mat.itemId));
+        const unitPrice = copperToGold(getMarketData(auctions, mat.itemId).price);
         const totalCost = unitPrice ? copperToGold(unitPrice.total * mat.qty) : null;
         const icon = itemIcons[String(mat.itemId)] ?? null;
         return { name: mat.name, itemId: mat.itemId, qty: mat.qty, unitPrice, totalCost, icon };
@@ -325,23 +482,32 @@ async function main() {
         ? copperToGold(materials.reduce((sum, m) => sum + m.totalCost.total, 0))
         : null;
 
-      // Profit per craft = enchant sell price - material cost
+      // Profit per craft = craft sell price - material cost
       const profitPerCraft =
-        enchantPrice && materialCostTotal
-          ? copperToGold(enchantPrice.total - materialCostTotal.total)
+        craftPrice && materialCostTotal
+          ? copperToGold(craftPrice.total - materialCostTotal.total)
           : null;
 
-      // Break-even = how many crafts to recoup the formula cost
+      // Break-even = how many crafts to recoup the recipe cost
       const breakEven =
         recipePrice && profitPerCraft && profitPerCraft.total > 0
           ? Math.ceil(recipePrice.total / profitPerCraft.total)
           : null;
 
       return {
+        profession: item.profession,
         category: item.category,
         name: item.name,
-        recipe: { name: item.recipeSlug, itemId: recipeId, price: recipePrice },
-        enchant: { name: item.enchantSlug, itemId: enchantId, price: enchantPrice, itemIdR2: enchantIdR2, priceR2: enchantPriceR2 },
+        recipe: { name: item.recipeSlug, itemId: recipeId, price: recipePrice, available: recipeMarket.available },
+        craft: {
+          name: item.craftSlug,
+          itemId: craftId,
+          price: craftPrice,
+          available: craftMarket.available,
+          itemIdR2: craftIdR2,
+          priceR2: craftPriceR2,
+          availableR2: craftMarketR2.available,
+        },
         materials,
         materialCostTotal,
         profitPerCraft,
