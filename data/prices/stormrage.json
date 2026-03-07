@@ -1,7 +1,7 @@
 {
   "realm": "stormrage",
   "region": "us",
-  "lastUpdated": "2026-03-07T05:34:54.157Z",
+  "lastUpdated": "2026-03-07T06:00:46.670Z",
   "items": [
     {
       "category": "Rods",
@@ -19,7 +19,9 @@
           "silver": 0,
           "copper": 0,
           "total": 300000
-        }
+        },
+        "itemIdR2": null,
+        "priceR2": null
       },
       "materials": [],
       "materialCostTotal": {
@@ -52,7 +54,9 @@
           "silver": 51,
           "copper": 0,
           "total": 435100
-        }
+        },
+        "itemIdR2": null,
+        "priceR2": null
       },
       "materials": [
         {
@@ -104,7 +108,9 @@
           "silver": 64,
           "copper": 0,
           "total": 140006400
-        }
+        },
+        "itemIdR2": null,
+        "priceR2": null
       },
       "materials": [],
       "materialCostTotal": {
@@ -132,7 +138,9 @@
       "enchant": {
         "name": "Runed Dazzling Thorium Rod",
         "itemId": 244177,
-        "price": null
+        "price": null,
+        "itemIdR2": null,
+        "priceR2": null
       },
       "materials": [
         {
@@ -177,7 +185,9 @@
       "enchant": {
         "name": "Magister's Grand Focus",
         "itemId": 244179,
-        "price": null
+        "price": null,
+        "itemIdR2": null,
+        "priceR2": null
       },
       "materials": [
         {
@@ -242,7 +252,9 @@
           "silver": 49,
           "copper": 0,
           "total": 484900
-        }
+        },
+        "itemIdR2": null,
+        "priceR2": null
       },
       "materials": [],
       "materialCostTotal": {
@@ -275,6 +287,13 @@
           "silver": 0,
           "copper": 0,
           "total": 1840000
+        },
+        "itemIdR2": 243736,
+        "priceR2": {
+          "gold": 1949,
+          "silver": 49,
+          "copper": 0,
+          "total": 19494900
         }
       },
       "materials": [
@@ -345,6 +364,13 @@
           "silver": 99,
           "copper": 0,
           "total": 1359900
+        },
+        "itemIdR2": 243733,
+        "priceR2": {
+          "gold": 18,
+          "silver": 79,
+          "copper": 0,
+          "total": 187900
         }
       },
       "materials": [
@@ -397,6 +423,13 @@
           "silver": 9,
           "copper": 0,
           "total": 248250900
+        },
+        "itemIdR2": 244008,
+        "priceR2": {
+          "gold": 18961,
+          "silver": 52,
+          "copper": 0,
+          "total": 189615200
         }
       },
       "materials": [
@@ -485,6 +518,13 @@
           "silver": 15,
           "copper": 0,
           "total": 158001500
+        },
+        "itemIdR2": 243952,
+        "priceR2": {
+          "gold": 11675,
+          "silver": 70,
+          "copper": 0,
+          "total": 116757000
         }
       },
       "materials": [
@@ -578,6 +618,13 @@
           "silver": 62,
           "copper": 0,
           "total": 315026200
+        },
+        "itemIdR2": 243982,
+        "priceR2": {
+          "gold": 23363,
+          "silver": 35,
+          "copper": 0,
+          "total": 233633500
         }
       },
       "materials": [
@@ -653,6 +700,13 @@
           "silver": 0,
           "copper": 0,
           "total": 310000000
+        },
+        "itemIdR2": 243947,
+        "priceR2": {
+          "gold": 35000,
+          "silver": 99,
+          "copper": 0,
+          "total": 350009900
         }
       },
       "materials": [
@@ -746,6 +800,13 @@
           "silver": 0,
           "copper": 0,
           "total": 189990000
+        },
+        "itemIdR2": 244003,
+        "priceR2": {
+          "gold": 31500,
+          "silver": 34,
+          "copper": 0,
+          "total": 315003400
         }
       },
       "materials": [
@@ -816,6 +877,13 @@
           "silver": 0,
           "copper": 0,
           "total": 330000000
+        },
+        "itemIdR2": 243975,
+        "priceR2": {
+          "gold": 36000,
+          "silver": 20,
+          "copper": 0,
+          "total": 360002000
         }
       },
       "materials": [
@@ -904,6 +972,13 @@
           "silver": 99,
           "copper": 0,
           "total": 249979900
+        },
+        "itemIdR2": 243977,
+        "priceR2": {
+          "gold": 29998,
+          "silver": 95,
+          "copper": 0,
+          "total": 299989500
         }
       },
       "materials": [
@@ -992,6 +1067,13 @@
           "silver": 0,
           "copper": 0,
           "total": 4110000
+        },
+        "itemIdR2": 243978,
+        "priceR2": {
+          "gold": 5,
+          "silver": 5,
+          "copper": 0,
+          "total": 50500
         }
       },
       "materials": [],
@@ -1025,6 +1107,13 @@
           "silver": 96,
           "copper": 0,
           "total": 289999600
+        },
+        "itemIdR2": 243980,
+        "priceR2": {
+          "gold": 14000,
+          "silver": 0,
+          "copper": 0,
+          "total": 140000000
         }
       },
       "materials": [
@@ -1095,6 +1184,13 @@
           "silver": 90,
           "copper": 0,
           "total": 4509000
+        },
+        "itemIdR2": 243948,
+        "priceR2": {
+          "gold": 5,
+          "silver": 25,
+          "copper": 0,
+          "total": 52500
         }
       },
       "materials": [],
@@ -1133,6 +1229,13 @@
           "silver": 69,
           "copper": 0,
           "total": 358506900
+        },
+        "itemIdR2": 243950,
+        "priceR2": {
+          "gold": 30111,
+          "silver": 98,
+          "copper": 0,
+          "total": 301119800
         }
       },
       "materials": [
@@ -1203,6 +1306,13 @@
           "silver": 15,
           "copper": 0,
           "total": 51500
+        },
+        "itemIdR2": 244005,
+        "priceR2": {
+          "gold": 275,
+          "silver": 99,
+          "copper": 0,
+          "total": 2759900
         }
       },
       "materials": [],
@@ -1241,6 +1351,13 @@
           "silver": 0,
           "copper": 0,
           "total": 209000000
+        },
+        "itemIdR2": 244007,
+        "priceR2": {
+          "gold": 31998,
+          "silver": 0,
+          "copper": 0,
+          "total": 319980000
         }
       },
       "materials": [
@@ -1311,6 +1428,13 @@
           "silver": 63,
           "copper": 0,
           "total": 986300
+        },
+        "itemIdR2": 243954,
+        "priceR2": {
+          "gold": 5,
+          "silver": 5,
+          "copper": 0,
+          "total": 50500
         }
       },
       "materials": [],
@@ -1349,6 +1473,13 @@
           "silver": 0,
           "copper": 0,
           "total": 68990000
+        },
+        "itemIdR2": 243957,
+        "priceR2": {
+          "gold": 18000,
+          "silver": 0,
+          "copper": 0,
+          "total": 180000000
         }
       },
       "materials": [
@@ -1442,6 +1573,13 @@
           "silver": 0,
           "copper": 0,
           "total": 200000000
+        },
+        "itemIdR2": 243987,
+        "priceR2": {
+          "gold": 16555,
+          "silver": 0,
+          "copper": 0,
+          "total": 165550000
         }
       },
       "materials": [
@@ -1512,6 +1650,13 @@
           "silver": 6,
           "copper": 0,
           "total": 20600
+        },
+        "itemIdR2": 243985,
+        "priceR2": {
+          "gold": 84,
+          "silver": 95,
+          "copper": 0,
+          "total": 849500
         }
       },
       "materials": [],
@@ -1545,6 +1690,13 @@
           "silver": 40,
           "copper": 0,
           "total": 158974000
+        },
+        "itemIdR2": 244014,
+        "priceR2": {
+          "gold": 11990,
+          "silver": 90,
+          "copper": 0,
+          "total": 119909000
         }
       },
       "materials": [
@@ -1610,7 +1762,14 @@
       "enchant": {
         "name": "Enchant Ring - Silvermoon's Tenacity",
         "itemId": 244016,
-        "price": null
+        "price": null,
+        "itemIdR2": 244017,
+        "priceR2": {
+          "gold": 16830,
+          "silver": 83,
+          "copper": 0,
+          "total": 168308300
+        }
       },
       "materials": [
         {
@@ -1675,6 +1834,13 @@
           "silver": 8,
           "copper": 0,
           "total": 50800
+        },
+        "itemIdR2": 244013,
+        "priceR2": {
+          "gold": 105,
+          "silver": 0,
+          "copper": 0,
+          "total": 1050000
         }
       },
       "materials": [],
@@ -1702,8 +1868,15 @@
       },
       "enchant": {
         "name": "Enchant Ring - Zul'jin's Mastery",
-        "itemId": 243959,
+        "itemId": 243958,
         "price": {
+          "gold": 13000,
+          "silver": 0,
+          "copper": 0,
+          "total": 130000000
+        },
+        "itemIdR2": 243959,
+        "priceR2": {
           "gold": 15499,
           "silver": 0,
           "copper": 0,
@@ -1755,10 +1928,10 @@
         "total": 70382800
       },
       "profitPerCraft": {
-        "gold": 8460,
+        "gold": 5961,
         "silver": 72,
         "copper": 0,
-        "total": 84607200
+        "total": 59617200
       },
       "breakEven": null
     },
@@ -1783,6 +1956,13 @@
           "silver": 0,
           "copper": 0,
           "total": 190720000
+        },
+        "itemIdR2": 243963,
+        "priceR2": {
+          "gold": 39955,
+          "silver": 51,
+          "copper": 0,
+          "total": 399555100
         }
       },
       "materials": [
@@ -1840,6 +2020,13 @@
           "silver": 51,
           "copper": 0,
           "total": 300005100
+        },
+        "itemIdR2": 243991,
+        "priceR2": {
+          "gold": 24768,
+          "silver": 0,
+          "copper": 0,
+          "total": 247680000
         }
       },
       "materials": [
@@ -1910,6 +2097,13 @@
           "silver": 9,
           "copper": 0,
           "total": 50900
+        },
+        "itemIdR2": 243961,
+        "priceR2": {
+          "gold": 375,
+          "silver": 0,
+          "copper": 0,
+          "total": 3750000
         }
       },
       "materials": [],
@@ -1943,6 +2137,13 @@
           "silver": 6,
           "copper": 0,
           "total": 50600
+        },
+        "itemIdR2": 243989,
+        "priceR2": {
+          "gold": 319,
+          "silver": 49,
+          "copper": 0,
+          "total": 3194900
         }
       },
       "materials": [],
@@ -1976,6 +2177,13 @@
           "silver": 69,
           "copper": 0,
           "total": 8006900
+        },
+        "itemIdR2": 244021,
+        "priceR2": {
+          "gold": 9400,
+          "silver": 92,
+          "copper": 0,
+          "total": 94009200
         }
       },
       "materials": [
@@ -2028,6 +2236,13 @@
           "silver": 18,
           "copper": 0,
           "total": 3881800
+        },
+        "itemIdR2": 244018,
+        "priceR2": {
+          "gold": 5,
+          "silver": 13,
+          "copper": 0,
+          "total": 51300
         }
       },
       "materials": [],
@@ -2061,6 +2276,13 @@
           "silver": 0,
           "copper": 0,
           "total": 376000000
+        },
+        "itemIdR2": 244028,
+        "priceR2": {
+          "gold": 31999,
+          "silver": 0,
+          "copper": 0,
+          "total": 319990000
         }
       },
       "materials": [
@@ -2131,6 +2353,13 @@
           "silver": 0,
           "copper": 0,
           "total": 349870000
+        },
+        "itemIdR2": 244030,
+        "priceR2": {
+          "gold": 26000,
+          "silver": 0,
+          "copper": 0,
+          "total": 260000000
         }
       },
       "materials": [
@@ -2201,6 +2430,13 @@
           "silver": 99,
           "copper": 0,
           "total": 298999900
+        },
+        "itemIdR2": 243972,
+        "priceR2": {
+          "gold": 18945,
+          "silver": 0,
+          "copper": 0,
+          "total": 189450000
         }
       },
       "materials": [
@@ -2276,6 +2512,13 @@
           "silver": 0,
           "copper": 0,
           "total": 140000000
+        },
+        "itemIdR2": 244027,
+        "priceR2": {
+          "gold": 30000,
+          "silver": 0,
+          "copper": 0,
+          "total": 300000000
         }
       },
       "materials": [
@@ -2346,6 +2589,13 @@
           "silver": 0,
           "copper": 0,
           "total": 170000000
+        },
+        "itemIdR2": 243971,
+        "priceR2": {
+          "gold": 33900,
+          "silver": 0,
+          "copper": 0,
+          "total": 339000000
         }
       },
       "materials": [
@@ -2434,6 +2684,13 @@
           "silver": 0,
           "copper": 0,
           "total": 399980000
+        },
+        "itemIdR2": 243968,
+        "priceR2": {
+          "gold": 24000,
+          "silver": 10,
+          "copper": 0,
+          "total": 240001000
         }
       },
       "materials": [
@@ -2522,6 +2779,13 @@
           "silver": 0,
           "copper": 0,
           "total": 20000000
+        },
+        "itemIdR2": 243999,
+        "priceR2": {
+          "gold": 6800,
+          "silver": 98,
+          "copper": 0,
+          "total": 68009800
         }
       },
       "materials": [
@@ -2587,7 +2851,9 @@
       "enchant": {
         "name": "Enchant Weapon - Worldsoul Cradle",
         "itemId": 243996,
-        "price": null
+        "price": null,
+        "itemIdR2": 243997,
+        "priceR2": null
       },
       "materials": [
         {
@@ -2652,6 +2918,13 @@
           "silver": 0,
           "copper": 0,
           "total": 275000000
+        },
+        "itemIdR2": 244001,
+        "priceR2": {
+          "gold": 39999,
+          "silver": 0,
+          "copper": 0,
+          "total": 399990000
         }
       },
       "materials": [
@@ -2722,6 +2995,13 @@
           "silver": 75,
           "copper": 0,
           "total": 122717500
+        },
+        "itemIdR2": 243965,
+        "priceR2": {
+          "gold": 19500,
+          "silver": 0,
+          "copper": 0,
+          "total": 195000000
         }
       },
       "materials": [
@@ -2774,6 +3054,13 @@
           "silver": 97,
           "copper": 0,
           "total": 170009700
+        },
+        "itemIdR2": 243966,
+        "priceR2": {
+          "gold": 9970,
+          "silver": 0,
+          "copper": 0,
+          "total": 99700000
         }
       },
       "materials": [
@@ -2826,6 +3113,13 @@
           "silver": 0,
           "copper": 0,
           "total": 168000000
+        },
+        "itemIdR2": 243992,
+        "priceR2": {
+          "gold": 12999,
+          "silver": 99,
+          "copper": 0,
+          "total": 129999900
         }
       },
       "materials": [
@@ -2878,6 +3172,13 @@
           "silver": 0,
           "copper": 0,
           "total": 141010000
+        },
+        "itemIdR2": 243995,
+        "priceR2": {
+          "gold": 18999,
+          "silver": 94,
+          "copper": 0,
+          "total": 189999400
         }
       },
       "materials": [
@@ -2930,6 +3231,13 @@
           "silver": 90,
           "copper": 0,
           "total": 174999000
+        },
+        "itemIdR2": 244024,
+        "priceR2": {
+          "gold": 10000,
+          "silver": 80,
+          "copper": 0,
+          "total": 100008000
         }
       },
       "materials": [
@@ -2982,6 +3290,13 @@
           "silver": 90,
           "copper": 0,
           "total": 187999000
+        },
+        "itemIdR2": 244022,
+        "priceR2": {
+          "gold": 14250,
+          "silver": 98,
+          "copper": 0,
+          "total": 142509800
         }
       },
       "materials": [
@@ -3034,6 +3349,13 @@
           "silver": 0,
           "copper": 0,
           "total": 50000
+        },
+        "itemIdR2": 244033,
+        "priceR2": {
+          "gold": 85,
+          "silver": 60,
+          "copper": 0,
+          "total": 856000
         }
       },
       "materials": [
@@ -3086,6 +3408,13 @@
           "silver": 89,
           "copper": 0,
           "total": 58900
+        },
+        "itemIdR2": 244037,
+        "priceR2": {
+          "gold": 2499,
+          "silver": 95,
+          "copper": 0,
+          "total": 24999500
         }
       },
       "materials": [
