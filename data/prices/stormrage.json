@@ -1,7 +1,7 @@
 {
   "realm": "stormrage",
   "region": "us",
-  "lastUpdated": "2026-03-31T19:46:17.934Z",
+  "lastUpdated": "2026-03-31T20:44:06.836Z",
   "items": [
     {
       "profession": "Enchanting",
@@ -16,7 +16,7 @@
           "copper": 0,
           "total": 29000000
         },
-        "available": 26
+        "available": 28
       },
       "craft": {
         "name": "Enchant Chest - Mark of Nalorakk",
@@ -318,7 +318,7 @@
           "copper": 0,
           "total": 29950000
         },
-        "available": 41
+        "available": 42
       },
       "craft": {
         "name": "Enchant Chest - Mark of the Magister",
@@ -398,8 +398,13 @@
       "recipe": {
         "name": "Formula: Enchant Helm - Empowered Hex of Leeching",
         "itemId": 256738,
-        "price": null,
-        "available": 0
+        "price": {
+          "gold": 44998,
+          "silver": 99,
+          "copper": 0,
+          "total": 449989900
+        },
+        "available": 3
       },
       "craft": {
         "name": "Enchant Helm - Empowered Hex of Leeching",
@@ -470,7 +475,7 @@
         "copper": 75,
         "total": 135376375
       },
-      "breakEven": null
+      "breakEven": 4
     },
     {
       "profession": "Enchanting",
@@ -561,12 +566,12 @@
         "name": "Formula: Enchant Helm - Empowered Rune of Avoidance",
         "itemId": 256753,
         "price": {
-          "gold": 49000,
+          "gold": 48000,
           "silver": 0,
           "copper": 0,
-          "total": 490000000
+          "total": 480000000
         },
-        "available": 8
+        "available": 10
       },
       "craft": {
         "name": "Enchant Helm - Empowered Rune of Avoidance",
@@ -637,7 +642,7 @@
         "copper": 45,
         "total": 81495045
       },
-      "breakEven": 7
+      "breakEven": 6
     },
     {
       "profession": "Enchanting",
@@ -746,12 +751,12 @@
         "name": "Formula: Enchant Boots - Shaladrassil's Roots",
         "itemId": 256747,
         "price": {
-          "gold": 450000,
-          "silver": 0,
+          "gold": 88799,
+          "silver": 99,
           "copper": 0,
-          "total": 4500000000
+          "total": 887999900
         },
-        "available": 2
+        "available": 7
       },
       "craft": {
         "name": "Enchant Boots - Shaladrassil's Roots",
@@ -822,7 +827,7 @@
         "copper": 10,
         "total": 120149510
       },
-      "breakEven": 38
+      "breakEven": 8
     },
     {
       "profession": "Enchanting",
@@ -936,7 +941,7 @@
           "copper": 0,
           "total": 10000000
         },
-        "available": 13
+        "available": 10
       },
       "craft": {
         "name": "Enchant Ring - Eyes of the Eagle",
@@ -1116,12 +1121,12 @@
         "name": "Formula: Enchant Ring - Nature's Fury",
         "itemId": 256752,
         "price": {
-          "gold": 54999,
+          "gold": 54899,
           "silver": 99,
           "copper": 0,
-          "total": 549999900
+          "total": 548999900
         },
-        "available": 4
+        "available": 6
       },
       "craft": {
         "name": "Enchant Ring - Nature's Fury",
@@ -1364,12 +1369,12 @@
         "name": "Formula: Enchant Shoulders - Akil'zon's Swiftness",
         "itemId": 256740,
         "price": {
-          "gold": 30331,
+          "gold": 25000,
           "silver": 33,
           "copper": 0,
-          "total": 303313300
+          "total": 250003300
         },
-        "available": 5
+        "available": 6
       },
       "craft": {
         "name": "Enchant Shoulders - Akil'zon's Swiftness",
@@ -1422,7 +1427,7 @@
         "copper": 75,
         "total": 53750475
       },
-      "breakEven": 6
+      "breakEven": 5
     },
     {
       "profession": "Enchanting",
@@ -1432,12 +1437,12 @@
         "name": "Formula: Enchant Shoulders - Amirdrassil's Grace",
         "itemId": 256748,
         "price": {
-          "gold": 98999,
-          "silver": 99,
+          "gold": 90000,
+          "silver": 0,
           "copper": 0,
-          "total": 989999900
+          "total": 900000000
         },
-        "available": 7
+        "available": 11
       },
       "craft": {
         "name": "Enchant Shoulders - Amirdrassil's Grace",
@@ -1508,7 +1513,7 @@
         "copper": 5,
         "total": 53029605
       },
-      "breakEven": 19
+      "breakEven": 17
     },
     {
       "profession": "Enchanting",
@@ -2491,7 +2496,7 @@
           "copper": 0,
           "total": 40009900
         },
-        "available": 41
+        "available": 45
       },
       "craft": {
         "name": "Enchant Weapon - Flames of the Sin'dorei",
@@ -4514,7 +4519,7 @@
           "copper": 0,
           "total": 240000
         },
-        "available": 296,
+        "available": 277,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -4827,7 +4832,7 @@
           "copper": 0,
           "total": 22000000
         },
-        "available": 37
+        "available": 42
       },
       "craft": {
         "name": "Smuggler's Enchanted Edge",
@@ -4970,12 +4975,12 @@
         "name": "Animated Sin'dorei Pick",
         "itemId": 262458,
         "price": {
-          "gold": 45999,
+          "gold": 45500,
           "silver": 1,
           "copper": 0,
-          "total": 459990100
+          "total": 455000100
         },
-        "available": 2,
+        "available": 3,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -5026,12 +5031,12 @@
         "name": "Ensorcelled Broom",
         "itemId": 262450,
         "price": {
-          "gold": 19899,
-          "silver": 90,
+          "gold": 39995,
+          "silver": 1,
           "copper": 0,
-          "total": 198999000
+          "total": 399950100
         },
-        "available": 3,
+        "available": 2,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -5229,7 +5234,7 @@
           "copper": 0,
           "total": 100000000
         },
-        "available": 14
+        "available": 13
       },
       "craft": {
         "name": "Rootflame Campfire",
@@ -5240,7 +5245,7 @@
           "copper": 0,
           "total": 315000100
         },
-        "available": 3,
+        "available": 2,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -5291,12 +5296,12 @@
         "name": "Self-Pouring Thalassian Sunwine",
         "itemId": 246693,
         "price": {
-          "gold": 60000,
-          "silver": 0,
+          "gold": 59999,
+          "silver": 99,
           "copper": 0,
-          "total": 600000000
+          "total": 599999900
         },
-        "available": 16,
+        "available": 23,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -5408,7 +5413,7 @@
           "copper": 0,
           "total": 290000000
         },
-        "available": 7,
+        "available": 8,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -5556,7 +5561,7 @@
           "copper": 0,
           "total": 285000000
         },
-        "available": 4,
+        "available": 5,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -7342,7 +7347,7 @@
           "copper": 0,
           "total": 189990000
         },
-        "available": 11,
+        "available": 6,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -7398,7 +7403,7 @@
           "copper": 0,
           "total": 346500000
         },
-        "available": 21,
+        "available": 20,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -7515,7 +7520,7 @@
           "copper": 0,
           "total": 89990100
         },
-        "available": 8,
+        "available": 10,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -7571,7 +7576,7 @@
           "copper": 0,
           "total": 59999900
         },
-        "available": 9,
+        "available": 6,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -7616,12 +7621,12 @@
         "name": "Recipe: Silvermoon Spire Fountain",
         "itemId": 247423,
         "price": {
-          "gold": 23333,
-          "silver": 99,
+          "gold": 23067,
+          "silver": 0,
           "copper": 0,
-          "total": 233339900
+          "total": 230670000
         },
-        "available": 8
+        "available": 12
       },
       "craft": {
         "name": "Silvermoon Spire Fountain",
@@ -8991,12 +8996,12 @@
         "name": "Design: Powerful Eversong Diamond",
         "itemId": 256704,
         "price": {
-          "gold": 3000,
+          "gold": 5400,
           "silver": 0,
           "copper": 0,
-          "total": 30000000
+          "total": 54000000
         },
-        "available": 22
+        "available": 23
       },
       "craft": {
         "name": "Powerful Eversong Diamond",
@@ -9064,7 +9069,7 @@
           "copper": 0,
           "total": 44500000
         },
-        "available": 24
+        "available": 28
       },
       "craft": {
         "name": "Telluric Eversong Diamond",
@@ -9132,7 +9137,7 @@
           "copper": 0,
           "total": 38002300
         },
-        "available": 25
+        "available": 26
       },
       "craft": {
         "name": "Stoic Eversong Diamond",
@@ -9200,7 +9205,7 @@
           "copper": 0,
           "total": 91559900
         },
-        "available": 13
+        "available": 15
       },
       "craft": {
         "name": "Indecipherable Eversong Diamond",
@@ -9509,10 +9514,10 @@
         "name": "Design: Thalassian Phoenix Torque",
         "itemId": 256715,
         "price": {
-          "gold": 999999,
+          "gold": 599999,
           "silver": 0,
           "copper": 0,
-          "total": 9999990000
+          "total": 5999990000
         },
         "available": 2
       },
@@ -9580,12 +9585,12 @@
         "name": "Design: Voidstone Shielding Array",
         "itemId": 256721,
         "price": {
-          "gold": 4999,
+          "gold": 4900,
           "silver": 99,
           "copper": 0,
-          "total": 49999900
+          "total": 49009900
         },
-        "available": 27
+        "available": 31
       },
       "craft": {
         "name": "Voidstone Shielding Array",
@@ -9864,12 +9869,12 @@
         "name": "Design: Cognitive Heliotrope",
         "itemId": 256712,
         "price": {
-          "gold": 10500,
+          "gold": 10699,
           "silver": 99,
           "copper": 0,
-          "total": 105009900
+          "total": 106999900
         },
-        "available": 6
+        "available": 4
       },
       "craft": {
         "name": "Cognitive Heliotrope",
@@ -9932,7 +9937,7 @@
           "copper": 0,
           "total": 78009900
         },
-        "available": 7
+        "available": 8
       },
       "craft": {
         "name": "Enduring Heliotrope",
@@ -10108,12 +10113,12 @@
         "name": "Tenebrous Ren'dorei Armillary",
         "itemId": 262461,
         "price": {
-          "gold": 17498,
+          "gold": 17250,
           "silver": 0,
           "copper": 0,
-          "total": 174980000
+          "total": 172500000
         },
-        "available": 7,
+        "available": 8,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
