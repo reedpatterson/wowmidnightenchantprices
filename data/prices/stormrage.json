@@ -1,7 +1,7 @@
 {
   "realm": "stormrage",
   "region": "us",
-  "lastUpdated": "2026-04-27T16:01:25.524Z",
+  "lastUpdated": "2026-04-27T17:01:03.985Z",
   "items": [
     {
       "profession": "Enchanting",
@@ -11,12 +11,12 @@
         "name": "Formula: Enchant Chest - Mark of Nalorakk",
         "itemId": 256737,
         "price": {
-          "gold": 1600,
+          "gold": 1800,
           "silver": 0,
           "copper": 0,
-          "total": 16000000
+          "total": 18000000
         },
-        "available": 32
+        "available": 22
       },
       "craft": {
         "name": "Enchant Chest - Mark of Nalorakk",
@@ -27,15 +27,15 @@
           "copper": 0,
           "total": 29006500
         },
-        "available": 101,
+        "available": 102,
         "itemIdR2": 243947,
         "priceR2": {
           "gold": 4859,
-          "silver": 35,
+          "silver": 0,
           "copper": 0,
-          "total": 48593500
+          "total": 48590000
         },
-        "availableR2": 93
+        "availableR2": 110
       },
       "materials": [
         {
@@ -61,16 +61,16 @@
           "itemId": 238528,
           "qty": 1,
           "unitPrice": {
-            "gold": 300,
-            "silver": 44,
+            "gold": 290,
+            "silver": 76,
             "copper": 0,
-            "total": 3004400
+            "total": 2907600
           },
           "totalCost": {
-            "gold": 300,
-            "silver": 44,
+            "gold": 290,
+            "silver": 76,
             "copper": 0,
-            "total": 3004400
+            "total": 2907600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_skinning_animalparts_claws.jpg"
         },
@@ -79,31 +79,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 979,
-        "silver": 44,
+        "gold": 885,
+        "silver": 76,
         "copper": 0,
-        "total": 9794400
+        "total": 8857600
       },
       "profitPerCraft": {
-        "gold": 1776,
-        "silver": 17,
+        "gold": 1869,
+        "silver": 85,
         "copper": 75,
-        "total": 17761775
+        "total": 18698575
       },
       "breakEven": 1
     },
@@ -126,7 +126,7 @@
           "copper": 0,
           "total": 40957000
         },
-        "available": 141,
+        "available": 107,
         "itemIdR2": 243975,
         "priceR2": {
           "gold": 5488,
@@ -134,7 +134,7 @@
           "copper": 0,
           "total": 54880000
         },
-        "availableR2": 176
+        "availableR2": 159
       },
       "materials": [
         {
@@ -143,15 +143,15 @@
           "qty": 5,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 8,
-            "silver": 0,
+            "silver": 55,
             "copper": 0,
-            "total": 80000
+            "total": 85500
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -161,15 +161,15 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1142,
-            "silver": 71,
+            "silver": 70,
             "copper": 0,
-            "total": 11427100
+            "total": 11427000
           },
           "totalCost": {
             "gold": 1142,
-            "silver": 71,
+            "silver": 70,
             "copper": 0,
-            "total": 11427100
+            "total": 11427000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_icon_wing01b.jpg"
         },
@@ -178,31 +178,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 1824,
-        "silver": 71,
+        "gold": 1741,
+        "silver": 25,
         "copper": 0,
-        "total": 18247100
+        "total": 17412500
       },
       "profitPerCraft": {
-        "gold": 2066,
-        "silver": 20,
+        "gold": 2149,
+        "silver": 66,
         "copper": 50,
-        "total": 20662050
+        "total": 21496650
       },
       "breakEven": null
     },
@@ -225,15 +225,15 @@
           "copper": 0,
           "total": 96888700
         },
-        "available": 108,
+        "available": 84,
         "itemIdR2": 243977,
         "priceR2": {
-          "gold": 10555,
-          "silver": 95,
+          "gold": 10549,
+          "silver": 66,
           "copper": 0,
-          "total": 105559500
+          "total": 105496600
         },
-        "availableR2": 1481
+        "availableR2": 1508
       },
       "materials": [
         {
@@ -242,15 +242,15 @@
           "qty": 5,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 8,
-            "silver": 0,
+            "silver": 55,
             "copper": 0,
-            "total": 80000
+            "total": 85500
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -259,16 +259,16 @@
           "itemId": 238529,
           "qty": 1,
           "unitPrice": {
-            "gold": 6897,
-            "silver": 99,
+            "gold": 6943,
+            "silver": 11,
             "copper": 0,
-            "total": 68979900
+            "total": 69431100
           },
           "totalCost": {
-            "gold": 6897,
-            "silver": 99,
+            "gold": 6943,
+            "silver": 11,
             "copper": 0,
-            "total": 68979900
+            "total": 69431100
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_skinning_stormchargedleather1.jpg"
         },
@@ -277,31 +277,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 7579,
-        "silver": 99,
+        "gold": 7541,
+        "silver": 66,
         "copper": 0,
-        "total": 75799900
+        "total": 75416600
       },
       "profitPerCraft": {
-        "gold": 1624,
-        "silver": 43,
+        "gold": 1662,
+        "silver": 76,
         "copper": 65,
-        "total": 16244365
+        "total": 16627665
       },
       "breakEven": null
     },
@@ -318,7 +318,7 @@
           "copper": 0,
           "total": 17752400
         },
-        "available": 33
+        "available": 35
       },
       "craft": {
         "name": "Enchant Chest - Mark of the Magister",
@@ -329,15 +329,15 @@
           "copper": 0,
           "total": 33483000
         },
-        "available": 421,
+        "available": 407,
         "itemIdR2": 244003,
         "priceR2": {
-          "gold": 5000,
-          "silver": 98,
+          "gold": 4975,
+          "silver": 88,
           "copper": 0,
-          "total": 50009800
+          "total": 49758800
         },
-        "availableR2": 349
+        "availableR2": 356
       },
       "materials": [
         {
@@ -346,15 +346,15 @@
           "qty": 5,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
-            "gold": 9,
-            "silver": 0,
+            "gold": 8,
+            "silver": 80,
             "copper": 0,
-            "total": 90000
+            "total": 88000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         },
@@ -363,31 +363,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 683,
-        "silver": 0,
+        "gold": 598,
+        "silver": 80,
         "copper": 0,
-        "total": 6830000
+        "total": 5988000
       },
       "profitPerCraft": {
-        "gold": 2497,
-        "silver": 88,
+        "gold": 2582,
+        "silver": 8,
         "copper": 50,
-        "total": 24978850
+        "total": 25820850
       },
       "breakEven": 1
     },
@@ -410,12 +410,12 @@
         "name": "Enchant Helm - Empowered Hex of Leeching",
         "itemId": 243951,
         "price": {
-          "gold": 4809,
-          "silver": 98,
+          "gold": 4800,
+          "silver": 0,
           "copper": 0,
-          "total": 48099800
+          "total": 48000000
         },
-        "available": 410,
+        "available": 486,
         "itemIdR2": 243950,
         "priceR2": {
           "gold": 3200,
@@ -423,7 +423,7 @@
           "copper": 0,
           "total": 32000000
         },
-        "availableR2": 68
+        "availableR2": 76
       },
       "materials": [
         {
@@ -449,31 +449,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 694,
+        "gold": 610,
         "silver": 0,
         "copper": 0,
-        "total": 6940000
+        "total": 6100000
       },
       "profitPerCraft": {
-        "gold": 3875,
-        "silver": 48,
-        "copper": 10,
-        "total": 38754810
+        "gold": 3950,
+        "silver": 0,
+        "copper": 0,
+        "total": 39500000
       },
       "breakEven": 12
     },
@@ -491,20 +491,20 @@
         "name": "Enchant Helm - Empowered Blessing of Speed",
         "itemId": 243981,
         "price": {
-          "gold": 4295,
+          "gold": 4000,
           "silver": 0,
           "copper": 0,
-          "total": 42950000
+          "total": 40000000
         },
-        "available": 670,
+        "available": 420,
         "itemIdR2": 243980,
         "priceR2": {
           "gold": 2250,
-          "silver": 61,
+          "silver": 60,
           "copper": 0,
-          "total": 22506100
+          "total": 22506000
         },
-        "availableR2": 153
+        "availableR2": 161
       },
       "materials": [
         {
@@ -513,15 +513,15 @@
           "qty": 20,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 32,
-            "silver": 0,
+            "gold": 34,
+            "silver": 20,
             "copper": 0,
-            "total": 320000
+            "total": 342000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -530,31 +530,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 706,
-        "silver": 0,
+        "gold": 624,
+        "silver": 20,
         "copper": 0,
-        "total": 7060000
+        "total": 6242000
       },
       "profitPerCraft": {
-        "gold": 3374,
-        "silver": 25,
+        "gold": 3175,
+        "silver": 80,
         "copper": 0,
-        "total": 33742500
+        "total": 31758000
       },
       "breakEven": null
     },
@@ -571,18 +571,18 @@
           "copper": 0,
           "total": 499990000
         },
-        "available": 8
+        "available": 7
       },
       "craft": {
         "name": "Enchant Helm - Empowered Rune of Avoidance",
         "itemId": 244006,
         "price": {
-          "gold": 3700,
+          "gold": 3495,
           "silver": 0,
           "copper": 0,
-          "total": 37000000
+          "total": 34950000
         },
-        "available": 109,
+        "available": 121,
         "itemIdR2": 244007,
         "priceR2": {
           "gold": 4700,
@@ -590,7 +590,7 @@
           "copper": 0,
           "total": 47007100
         },
-        "availableR2": 515
+        "availableR2": 531
       },
       "materials": [
         {
@@ -599,15 +599,15 @@
           "qty": 20,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
-            "gold": 36,
-            "silver": 0,
+            "gold": 35,
+            "silver": 20,
             "copper": 0,
-            "total": 360000
+            "total": 352000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         },
@@ -616,33 +616,33 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 710,
-        "silver": 0,
+        "gold": 625,
+        "silver": 20,
         "copper": 0,
-        "total": 7100000
+        "total": 6252000
       },
       "profitPerCraft": {
-        "gold": 2805,
-        "silver": 0,
+        "gold": 2695,
+        "silver": 5,
         "copper": 0,
-        "total": 28050000
+        "total": 26950500
       },
-      "breakEven": 18
+      "breakEven": 19
     },
     {
       "profession": "Enchanting",
@@ -658,12 +658,12 @@
         "name": "Enchant Boots - Lynx's Dexterity",
         "itemId": 243953,
         "price": {
-          "gold": 2771,
-          "silver": 65,
+          "gold": 2770,
+          "silver": 99,
           "copper": 0,
-          "total": 27716500
+          "total": 27709900
         },
-        "available": 1370,
+        "available": 1487,
         "itemIdR2": 243952,
         "priceR2": {
           "gold": 1799,
@@ -698,15 +698,15 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 51,
+            "silver": 0,
             "copper": 0,
-            "total": 15100
+            "total": 10000
           },
           "totalCost": {
             "gold": 1,
-            "silver": 51,
+            "silver": 0,
             "copper": 0,
-            "total": 15100
+            "total": 10000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_skinning_animalparts_tetth.jpg"
         },
@@ -715,31 +715,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 685,
-        "silver": 51,
+        "gold": 601,
+        "silver": 0,
         "copper": 0,
-        "total": 6855100
+        "total": 6010000
       },
       "profitPerCraft": {
-        "gold": 1947,
-        "silver": 55,
-        "copper": 75,
-        "total": 19475575
+        "gold": 2031,
+        "silver": 44,
+        "copper": 5,
+        "total": 20314405
       },
       "breakEven": null
     },
@@ -762,12 +762,12 @@
         "name": "Enchant Boots - Shaladrassil's Roots",
         "itemId": 243983,
         "price": {
-          "gold": 4600,
-          "silver": 9,
+          "gold": 4599,
+          "silver": 96,
           "copper": 0,
-          "total": 46000900
+          "total": 45999600
         },
-        "available": 343,
+        "available": 403,
         "itemIdR2": 243982,
         "priceR2": {
           "gold": 3136,
@@ -775,7 +775,7 @@
           "copper": 0,
           "total": 31360000
         },
-        "availableR2": 235
+        "availableR2": 333
       },
       "materials": [
         {
@@ -784,15 +784,15 @@
           "qty": 10,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 16,
-            "silver": 0,
+            "gold": 17,
+            "silver": 10,
             "copper": 0,
-            "total": 160000
+            "total": 171000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -801,31 +801,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 690,
-        "silver": 0,
+        "gold": 607,
+        "silver": 10,
         "copper": 0,
-        "total": 6900000
+        "total": 6071000
       },
       "profitPerCraft": {
-        "gold": 3680,
-        "silver": 8,
-        "copper": 55,
-        "total": 36800855
+        "gold": 3762,
+        "silver": 86,
+        "copper": 20,
+        "total": 37628620
       },
       "breakEven": 12
     },
@@ -843,12 +843,12 @@
         "name": "Enchant Boots - Farstrider's Hunt",
         "itemId": 244009,
         "price": {
-          "gold": 3000,
+          "gold": 3150,
           "silver": 0,
           "copper": 0,
-          "total": 30000000
+          "total": 31500000
         },
-        "available": 137,
+        "available": 149,
         "itemIdR2": 244008,
         "priceR2": {
           "gold": 2100,
@@ -856,7 +856,7 @@
           "copper": 0,
           "total": 21000000
         },
-        "availableR2": 84
+        "availableR2": 35
       },
       "materials": [
         {
@@ -865,15 +865,15 @@
           "qty": 10,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
-            "gold": 18,
-            "silver": 0,
+            "gold": 17,
+            "silver": 60,
             "copper": 0,
-            "total": 180000
+            "total": 176000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         },
@@ -882,16 +882,16 @@
           "itemId": 238525,
           "qty": 1,
           "unitPrice": {
-            "gold": 341,
+            "gold": 275,
             "silver": 0,
             "copper": 0,
-            "total": 3410000
+            "total": 2750000
           },
           "totalCost": {
-            "gold": 341,
+            "gold": 275,
             "silver": 0,
             "copper": 0,
-            "total": 3410000
+            "total": 2750000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_pelt_13.jpg"
         },
@@ -900,31 +900,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 1033,
-        "silver": 0,
+        "gold": 882,
+        "silver": 60,
         "copper": 0,
-        "total": 10330000
+        "total": 8826000
       },
       "profitPerCraft": {
-        "gold": 1817,
-        "silver": 0,
+        "gold": 2109,
+        "silver": 90,
         "copper": 0,
-        "total": 18170000
+        "total": 21099000
       },
       "breakEven": null
     },
@@ -941,26 +941,26 @@
           "copper": 0,
           "total": 8990000
         },
-        "available": 35
+        "available": 31
       },
       "craft": {
         "name": "Enchant Ring - Eyes of the Eagle",
         "itemId": 243956,
         "price": {
           "gold": 2370,
-          "silver": 19,
+          "silver": 17,
           "copper": 0,
-          "total": 23701900
+          "total": 23701700
         },
-        "available": 675,
+        "available": 655,
         "itemIdR2": 243957,
         "priceR2": {
           "gold": 3200,
-          "silver": 21,
+          "silver": 18,
           "copper": 0,
-          "total": 32002100
+          "total": 32001800
         },
-        "availableR2": 797
+        "availableR2": 1159
       },
       "materials": [
         {
@@ -986,16 +986,16 @@
           "itemId": 238522,
           "qty": 2,
           "unitPrice": {
-            "gold": 58,
-            "silver": 58,
+            "gold": 54,
+            "silver": 55,
             "copper": 0,
-            "total": 585800
+            "total": 545500
           },
           "totalCost": {
-            "gold": 117,
-            "silver": 16,
+            "gold": 109,
+            "silver": 10,
             "copper": 0,
-            "total": 1171600
+            "total": 1091000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_skinning_animalparts_feathers.jpg"
         },
@@ -1004,31 +1004,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 806,
-        "silver": 16,
+        "gold": 714,
+        "silver": 10,
         "copper": 0,
-        "total": 8061600
+        "total": 7141000
       },
       "profitPerCraft": {
-        "gold": 1445,
-        "silver": 52,
-        "copper": 5,
-        "total": 14455205
+        "gold": 1537,
+        "silver": 56,
+        "copper": 15,
+        "total": 15375615
       },
       "breakEven": 1
     },
@@ -1047,19 +1047,19 @@
         "itemId": 243958,
         "price": {
           "gold": 1415,
-          "silver": 0,
+          "silver": 23,
           "copper": 0,
-          "total": 14150000
+          "total": 14152300
         },
-        "available": 312,
+        "available": 327,
         "itemIdR2": 243959,
         "priceR2": {
-          "gold": 2749,
-          "silver": 0,
+          "gold": 2748,
+          "silver": 98,
           "copper": 0,
-          "total": 27490000
+          "total": 27489800
         },
-        "availableR2": 987
+        "availableR2": 1336
       },
       "materials": [
         {
@@ -1085,31 +1085,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 689,
+        "gold": 605,
         "silver": 0,
         "copper": 0,
-        "total": 6890000
+        "total": 6050000
       },
       "profitPerCraft": {
-        "gold": 655,
-        "silver": 25,
-        "copper": 0,
-        "total": 6552500
+        "gold": 739,
+        "silver": 46,
+        "copper": 85,
+        "total": 7394685
       },
       "breakEven": null
     },
@@ -1132,7 +1132,7 @@
           "copper": 0,
           "total": 19800000
         },
-        "available": 82,
+        "available": 95,
         "itemIdR2": 243987,
         "priceR2": {
           "gold": 3300,
@@ -1140,7 +1140,7 @@
           "copper": 0,
           "total": 33006400
         },
-        "availableR2": 611
+        "availableR2": 670
       },
       "materials": [
         {
@@ -1149,15 +1149,15 @@
           "qty": 15,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 24,
-            "silver": 0,
+            "gold": 25,
+            "silver": 65,
             "copper": 0,
-            "total": 240000
+            "total": 256500
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -1166,31 +1166,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 698,
-        "silver": 0,
+        "gold": 615,
+        "silver": 65,
         "copper": 0,
-        "total": 6980000
+        "total": 6156500
       },
       "profitPerCraft": {
-        "gold": 1183,
-        "silver": 0,
+        "gold": 1265,
+        "silver": 35,
         "copper": 0,
-        "total": 11830000
+        "total": 12653500
       },
       "breakEven": null
     },
@@ -1208,12 +1208,12 @@
         "name": "Enchant Ring - Silvermoon's Alacrity",
         "itemId": 244015,
         "price": {
-          "gold": 2800,
-          "silver": 60,
+          "gold": 2799,
+          "silver": 71,
           "copper": 0,
-          "total": 28006000
+          "total": 27997100
         },
-        "available": 491,
+        "available": 663,
         "itemIdR2": 244014,
         "priceR2": {
           "gold": 1600,
@@ -1221,7 +1221,7 @@
           "copper": 0,
           "total": 16002500
         },
-        "availableR2": 419
+        "availableR2": 451
       },
       "materials": [
         {
@@ -1230,15 +1230,15 @@
           "qty": 15,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
-            "gold": 27,
-            "silver": 0,
+            "gold": 26,
+            "silver": 40,
             "copper": 0,
-            "total": 270000
+            "total": 264000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         },
@@ -1247,31 +1247,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 701,
-        "silver": 0,
+        "gold": 616,
+        "silver": 40,
         "copper": 0,
-        "total": 7010000
+        "total": 6164000
       },
       "profitPerCraft": {
-        "gold": 1959,
-        "silver": 57,
-        "copper": 0,
-        "total": 19595700
+        "gold": 2043,
+        "silver": 32,
+        "copper": 45,
+        "total": 20433245
       },
       "breakEven": null
     },
@@ -1294,7 +1294,7 @@
           "copper": 0,
           "total": 14009900
         },
-        "available": 93,
+        "available": 91,
         "itemIdR2": 244017,
         "priceR2": {
           "gold": 2797,
@@ -1302,7 +1302,7 @@
           "copper": 0,
           "total": 27971800
         },
-        "availableR2": 253
+        "availableR2": 236
       },
       "materials": [
         {
@@ -1311,15 +1311,15 @@
           "qty": 15,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
-            "gold": 27,
-            "silver": 0,
+            "gold": 26,
+            "silver": 40,
             "copper": 0,
-            "total": 270000
+            "total": 264000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         },
@@ -1328,31 +1328,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 701,
-        "silver": 0,
+        "gold": 616,
+        "silver": 40,
         "copper": 0,
-        "total": 7010000
+        "total": 6164000
       },
       "profitPerCraft": {
-        "gold": 629,
-        "silver": 94,
+        "gold": 714,
+        "silver": 54,
         "copper": 5,
-        "total": 6299405
+        "total": 7145405
       },
       "breakEven": null
     },
@@ -1380,7 +1380,7 @@
           "copper": 0,
           "total": 37820300
         },
-        "available": 29,
+        "available": 19,
         "itemIdR2": 243963,
         "priceR2": {
           "gold": 4098,
@@ -1388,7 +1388,7 @@
           "copper": 0,
           "total": 40989900
         },
-        "availableR2": 340
+        "availableR2": 401
       },
       "materials": [
         {
@@ -1437,7 +1437,7 @@
           "copper": 0,
           "total": 450009900
         },
-        "available": 9
+        "available": 8
       },
       "craft": {
         "name": "Enchant Shoulders - Amirdrassil's Grace",
@@ -1448,15 +1448,15 @@
           "copper": 0,
           "total": 31999900
         },
-        "available": 78,
+        "available": 80,
         "itemIdR2": 243991,
         "priceR2": {
           "gold": 4870,
-          "silver": 98,
+          "silver": 97,
           "copper": 0,
-          "total": 48709800
+          "total": 48709700
         },
-        "availableR2": 435
+        "availableR2": 502
       },
       "materials": [
         {
@@ -1465,15 +1465,15 @@
           "qty": 20,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 32,
-            "silver": 0,
+            "gold": 34,
+            "silver": 20,
             "copper": 0,
-            "total": 320000
+            "total": 342000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -1482,33 +1482,33 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 706,
-        "silver": 0,
+        "gold": 624,
+        "silver": 20,
         "copper": 0,
-        "total": 7060000
+        "total": 6242000
       },
       "profitPerCraft": {
-        "gold": 2333,
-        "silver": 99,
+        "gold": 2415,
+        "silver": 79,
         "copper": 5,
-        "total": 23339905
+        "total": 24157905
       },
-      "breakEven": 20
+      "breakEven": 19
     },
     {
       "profession": "Enchanting",
@@ -1529,15 +1529,15 @@
           "copper": 0,
           "total": 19949900
         },
-        "available": 103,
+        "available": 116,
         "itemIdR2": 244021,
         "priceR2": {
-          "gold": 3918,
-          "silver": 79,
+          "gold": 3916,
+          "silver": 49,
           "copper": 0,
-          "total": 39187900
+          "total": 39164900
         },
-        "availableR2": 448
+        "availableR2": 572
       },
       "materials": [
         {
@@ -1546,30 +1546,30 @@
           "qty": 20,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
-            "gold": 36,
-            "silver": 0,
+            "gold": 35,
+            "silver": 20,
             "copper": 0,
-            "total": 360000
+            "total": 352000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 36,
-        "silver": 0,
+        "gold": 35,
+        "silver": 20,
         "copper": 0,
-        "total": 360000
+        "total": 352000
       },
       "profitPerCraft": {
-        "gold": 1859,
-        "silver": 24,
+        "gold": 1860,
+        "silver": 4,
         "copper": 5,
-        "total": 18592405
+        "total": 18600405
       },
       "breakEven": null
     },
@@ -1592,15 +1592,15 @@
           "copper": 0,
           "total": 12009900
         },
-        "available": 96,
+        "available": 72,
         "itemIdR2": 243965,
         "priceR2": {
           "gold": 4516,
-          "silver": 31,
+          "silver": 30,
           "copper": 0,
-          "total": 45163100
+          "total": 45163000
         },
-        "availableR2": 206
+        "availableR2": 223
       },
       "materials": [
         {
@@ -1650,18 +1650,18 @@
         "name": "Enchant Tool - Amani Resourcefulness",
         "itemId": 243967,
         "price": {
-          "gold": 4055,
-          "silver": 0,
+          "gold": 4048,
+          "silver": 99,
           "copper": 0,
-          "total": 40550000
+          "total": 40489900
         },
-        "available": 322,
+        "available": 317,
         "itemIdR2": 243966,
         "priceR2": {
-          "gold": 500,
+          "gold": 680,
           "silver": 11,
           "copper": 0,
-          "total": 5001100
+          "total": 6801100
         },
         "availableR2": 26
       },
@@ -1692,10 +1692,10 @@
         "total": 200000
       },
       "profitPerCraft": {
-        "gold": 3832,
-        "silver": 25,
-        "copper": 0,
-        "total": 38322500
+        "gold": 3826,
+        "silver": 54,
+        "copper": 5,
+        "total": 38265405
       },
       "breakEven": null
     },
@@ -1714,19 +1714,19 @@
         "itemId": 243993,
         "price": {
           "gold": 3699,
-          "silver": 94,
+          "silver": 93,
           "copper": 0,
-          "total": 36999400
+          "total": 36999300
         },
-        "available": 398,
+        "available": 380,
         "itemIdR2": 243992,
         "priceR2": {
-          "gold": 4000,
-          "silver": 40,
+          "gold": 3989,
+          "silver": 88,
           "copper": 0,
-          "total": 40004000
+          "total": 39898800
         },
-        "availableR2": 70
+        "availableR2": 87
       },
       "materials": [
         {
@@ -1735,30 +1735,30 @@
           "qty": 20,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 32,
-            "silver": 0,
+            "gold": 34,
+            "silver": 20,
             "copper": 0,
-            "total": 320000
+            "total": 342000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 32,
-        "silver": 0,
+        "gold": 34,
+        "silver": 20,
         "copper": 0,
-        "total": 320000
+        "total": 342000
       },
       "profitPerCraft": {
-        "gold": 3482,
-        "silver": 94,
-        "copper": 30,
-        "total": 34829430
+        "gold": 3480,
+        "silver": 73,
+        "copper": 35,
+        "total": 34807335
       },
       "breakEven": null
     },
@@ -1776,12 +1776,12 @@
         "name": "Enchant Tool - Haranir Multicrafting",
         "itemId": 243994,
         "price": {
-          "gold": 2900,
-          "silver": 0,
+          "gold": 3341,
+          "silver": 49,
           "copper": 0,
-          "total": 29000000
+          "total": 33414900
         },
-        "available": 38,
+        "available": 37,
         "itemIdR2": 243995,
         "priceR2": {
           "gold": 4599,
@@ -1789,7 +1789,7 @@
           "copper": 0,
           "total": 45999500
         },
-        "availableR2": 462
+        "availableR2": 453
       },
       "materials": [
         {
@@ -1798,30 +1798,30 @@
           "qty": 20,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 32,
-            "silver": 0,
+            "gold": 34,
+            "silver": 20,
             "copper": 0,
-            "total": 320000
+            "total": 342000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 32,
-        "silver": 0,
+        "gold": 34,
+        "silver": 20,
         "copper": 0,
-        "total": 320000
+        "total": 342000
       },
       "profitPerCraft": {
-        "gold": 2723,
-        "silver": 0,
-        "copper": 0,
-        "total": 27230000
+        "gold": 3140,
+        "silver": 21,
+        "copper": 55,
+        "total": 31402155
       },
       "breakEven": null
     },
@@ -1839,20 +1839,20 @@
         "name": "Enchant Tool - Sin'dorei Deftness",
         "itemId": 244023,
         "price": {
-          "gold": 4299,
-          "silver": 84,
+          "gold": 4298,
+          "silver": 0,
           "copper": 0,
-          "total": 42998400
+          "total": 42980000
         },
-        "available": 314,
+        "available": 315,
         "itemIdR2": 244022,
         "priceR2": {
-          "gold": 715,
-          "silver": 89,
+          "gold": 714,
+          "silver": 99,
           "copper": 0,
-          "total": 7158900
+          "total": 7149900
         },
-        "availableR2": 23
+        "availableR2": 29
       },
       "materials": [
         {
@@ -1861,30 +1861,30 @@
           "qty": 20,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
-            "gold": 36,
-            "silver": 0,
+            "gold": 35,
+            "silver": 20,
             "copper": 0,
-            "total": 360000
+            "total": 352000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 36,
-        "silver": 0,
+        "gold": 35,
+        "silver": 20,
         "copper": 0,
-        "total": 360000
+        "total": 352000
       },
       "profitPerCraft": {
-        "gold": 4048,
-        "silver": 84,
-        "copper": 80,
-        "total": 40488480
+        "gold": 4047,
+        "silver": 90,
+        "copper": 0,
+        "total": 40479000
       },
       "breakEven": null
     },
@@ -1907,7 +1907,7 @@
           "copper": 0,
           "total": 43500000
         },
-        "available": 46,
+        "available": 42,
         "itemIdR2": 244024,
         "priceR2": {
           "gold": 679,
@@ -1915,7 +1915,7 @@
           "copper": 0,
           "total": 6799400
         },
-        "availableR2": 36
+        "availableR2": 46
       },
       "materials": [
         {
@@ -1924,30 +1924,30 @@
           "qty": 20,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 21,
-            "silver": 60,
+            "silver": 80,
             "copper": 0,
-            "total": 216000
+            "total": 218000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 21,
-        "silver": 60,
+        "silver": 80,
         "copper": 0,
-        "total": 216000
+        "total": 218000
       },
       "profitPerCraft": {
         "gold": 4110,
-        "silver": 90,
+        "silver": 70,
         "copper": 0,
-        "total": 41109000
+        "total": 41107000
       },
       "breakEven": null
     },
@@ -1966,11 +1966,11 @@
         "itemId": 243969,
         "price": {
           "gold": 4000,
-          "silver": 95,
+          "silver": 94,
           "copper": 0,
-          "total": 40009500
+          "total": 40009400
         },
-        "available": 50,
+        "available": 53,
         "itemIdR2": 243968,
         "priceR2": {
           "gold": 1098,
@@ -1978,7 +1978,7 @@
           "copper": 0,
           "total": 10989900
         },
-        "availableR2": 25
+        "availableR2": 20
       },
       "materials": [
         {
@@ -2004,16 +2004,16 @@
           "itemId": 238528,
           "qty": 1,
           "unitPrice": {
-            "gold": 300,
-            "silver": 44,
+            "gold": 290,
+            "silver": 76,
             "copper": 0,
-            "total": 3004400
+            "total": 2907600
           },
           "totalCost": {
-            "gold": 300,
-            "silver": 44,
+            "gold": 290,
+            "silver": 76,
             "copper": 0,
-            "total": 3004400
+            "total": 2907600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_skinning_animalparts_claws.jpg"
         },
@@ -2022,31 +2022,31 @@
           "itemId": 251285,
           "qty": 4,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 1348,
+            "gold": 1180,
             "silver": 0,
             "copper": 0,
-            "total": 13480000
+            "total": 11800000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 1653,
-        "silver": 44,
+        "gold": 1475,
+        "silver": 76,
         "copper": 0,
-        "total": 16534400
+        "total": 14757600
       },
       "profitPerCraft": {
-        "gold": 2147,
-        "silver": 46,
-        "copper": 25,
-        "total": 21474625
+        "gold": 2325,
+        "silver": 13,
+        "copper": 30,
+        "total": 23251330
       },
       "breakEven": null
     },
@@ -2069,15 +2069,15 @@
           "copper": 0,
           "total": 37908800
         },
-        "available": 74,
+        "available": 77,
         "itemIdR2": 243971,
         "priceR2": {
-          "gold": 5800,
-          "silver": 2,
+          "gold": 5799,
+          "silver": 99,
           "copper": 0,
-          "total": 58000200
+          "total": 57999900
         },
-        "availableR2": 268
+        "availableR2": 295
       },
       "materials": [
         {
@@ -2104,15 +2104,15 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1142,
-            "silver": 71,
+            "silver": 70,
             "copper": 0,
-            "total": 11427100
+            "total": 11427000
           },
           "totalCost": {
             "gold": 1142,
-            "silver": 71,
+            "silver": 70,
             "copper": 0,
-            "total": 11427100
+            "total": 11427000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_icon_wing01b.jpg"
         },
@@ -2121,31 +2121,31 @@
           "itemId": 251285,
           "qty": 4,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 1348,
+            "gold": 1180,
             "silver": 0,
             "copper": 0,
-            "total": 13480000
+            "total": 11800000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 2495,
-        "silver": 71,
+        "gold": 2327,
+        "silver": 70,
         "copper": 0,
-        "total": 24957100
+        "total": 23277000
       },
       "profitPerCraft": {
-        "gold": 1105,
-        "silver": 62,
+        "gold": 1273,
+        "silver": 63,
         "copper": 60,
-        "total": 11056260
+        "total": 12736360
       },
       "breakEven": null
     },
@@ -2163,20 +2163,20 @@
         "name": "Enchant Weapon - Berserker's Rage",
         "itemId": 243973,
         "price": {
-          "gold": 4994,
-          "silver": 97,
+          "gold": 4990,
+          "silver": 84,
           "copper": 0,
-          "total": 49949700
+          "total": 49908400
         },
-        "available": 411,
+        "available": 485,
         "itemIdR2": 243972,
         "priceR2": {
-          "gold": 3200,
+          "gold": 3235,
           "silver": 97,
           "copper": 0,
-          "total": 32009700
+          "total": 32359700
         },
-        "availableR2": 376
+        "availableR2": 371
       },
       "materials": [
         {
@@ -2202,31 +2202,31 @@
           "itemId": 251285,
           "qty": 4,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 1348,
+            "gold": 1180,
             "silver": 0,
             "copper": 0,
-            "total": 13480000
+            "total": 11800000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 1353,
+        "gold": 1185,
         "silver": 0,
         "copper": 0,
-        "total": 13530000
+        "total": 11850000
       },
       "profitPerCraft": {
-        "gold": 3392,
-        "silver": 22,
-        "copper": 15,
-        "total": 33922215
+        "gold": 3556,
+        "silver": 29,
+        "copper": 80,
+        "total": 35562980
       },
       "breakEven": null
     },
@@ -2254,7 +2254,7 @@
           "copper": 0,
           "total": 52500000
         },
-        "available": 59,
+        "available": 65,
         "itemIdR2": 243997,
         "priceR2": {
           "gold": 4897,
@@ -2262,7 +2262,7 @@
           "copper": 0,
           "total": 48970000
         },
-        "availableR2": 37
+        "availableR2": 42
       },
       "materials": [
         {
@@ -2271,15 +2271,15 @@
           "qty": 5,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 8,
-            "silver": 0,
+            "silver": 55,
             "copper": 0,
-            "total": 80000
+            "total": 85500
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -2288,33 +2288,33 @@
           "itemId": 251285,
           "qty": 4,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 1348,
+            "gold": 1180,
             "silver": 0,
             "copper": 0,
-            "total": 13480000
+            "total": 11800000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 1356,
-        "silver": 0,
+        "gold": 1188,
+        "silver": 55,
         "copper": 0,
-        "total": 13560000
+        "total": 11885500
       },
       "profitPerCraft": {
-        "gold": 3631,
-        "silver": 50,
+        "gold": 3798,
+        "silver": 95,
         "copper": 0,
-        "total": 36315000
+        "total": 37989500
       },
-      "breakEven": 7
+      "breakEven": 6
     },
     {
       "profession": "Enchanting",
@@ -2330,20 +2330,20 @@
         "name": "Enchant Weapon - Worldsoul Aegis",
         "itemId": 243998,
         "price": {
-          "gold": 45,
+          "gold": 143,
           "silver": 0,
           "copper": 0,
-          "total": 450000
+          "total": 1430000
         },
-        "available": 169,
+        "available": 253,
         "itemIdR2": 243999,
         "priceR2": {
           "gold": 1587,
-          "silver": 79,
+          "silver": 76,
           "copper": 0,
-          "total": 15877900
+          "total": 15877600
         },
-        "availableR2": 270
+        "availableR2": 242
       },
       "materials": [
         {
@@ -2352,15 +2352,15 @@
           "qty": 5,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 8,
-            "silver": 0,
+            "silver": 55,
             "copper": 0,
-            "total": 80000
+            "total": 85500
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -2369,31 +2369,31 @@
           "itemId": 251285,
           "qty": 4,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 1348,
+            "gold": 1180,
             "silver": 0,
             "copper": 0,
-            "total": 13480000
+            "total": 11800000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 1356,
-        "silver": 0,
+        "gold": 1188,
+        "silver": 55,
         "copper": 0,
-        "total": 13560000
+        "total": 11885500
       },
       "profitPerCraft": {
-        "gold": -1314,
-        "silver": -25,
+        "gold": -1053,
+        "silver": -70,
         "copper": 0,
-        "total": -13132500
+        "total": -10527000
       },
       "breakEven": null
     },
@@ -2411,12 +2411,12 @@
         "name": "Enchant Weapon - Worldsoul Tenacity",
         "itemId": 244000,
         "price": {
-          "gold": 3000,
+          "gold": 1500,
           "silver": 5,
           "copper": 0,
-          "total": 30000500
+          "total": 15000500
         },
-        "available": 62,
+        "available": 63,
         "itemIdR2": 244001,
         "priceR2": {
           "gold": 4874,
@@ -2424,7 +2424,7 @@
           "copper": 0,
           "total": 48748900
         },
-        "availableR2": 17
+        "availableR2": 21
       },
       "materials": [
         {
@@ -2433,15 +2433,15 @@
           "qty": 5,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 8,
-            "silver": 0,
+            "silver": 55,
             "copper": 0,
-            "total": 80000
+            "total": 85500
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -2450,31 +2450,31 @@
           "itemId": 251285,
           "qty": 4,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 1348,
+            "gold": 1180,
             "silver": 0,
             "copper": 0,
-            "total": 13480000
+            "total": 11800000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 1356,
-        "silver": 0,
+        "gold": 1188,
+        "silver": 55,
         "copper": 0,
-        "total": 13560000
+        "total": 11885500
       },
       "profitPerCraft": {
-        "gold": 1494,
-        "silver": 4,
+        "gold": 236,
+        "silver": 49,
         "copper": 75,
-        "total": 14940475
+        "total": 2364975
       },
       "breakEven": null
     },
@@ -2491,7 +2491,7 @@
           "copper": 0,
           "total": 9999600
         },
-        "available": 42
+        "available": 38
       },
       "craft": {
         "name": "Enchant Weapon - Flames of the Sin'dorei",
@@ -2502,15 +2502,15 @@
           "copper": 0,
           "total": 13750000
         },
-        "available": 36,
+        "available": 33,
         "itemIdR2": 244027,
         "priceR2": {
-          "gold": 3249,
-          "silver": 0,
+          "gold": 3248,
+          "silver": 99,
           "copper": 0,
-          "total": 32490000
+          "total": 32489900
         },
-        "availableR2": 103
+        "availableR2": 106
       },
       "materials": [
         {
@@ -2519,15 +2519,15 @@
           "qty": 5,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
-            "gold": 9,
-            "silver": 0,
+            "gold": 8,
+            "silver": 80,
             "copper": 0,
-            "total": 90000
+            "total": 88000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         },
@@ -2536,33 +2536,33 @@
           "itemId": 251285,
           "qty": 4,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 1348,
+            "gold": 1180,
             "silver": 0,
             "copper": 0,
-            "total": 13480000
+            "total": 11800000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 1357,
-        "silver": 0,
+        "gold": 1188,
+        "silver": 80,
         "copper": 0,
-        "total": 13570000
+        "total": 11888000
       },
       "profitPerCraft": {
-        "gold": -51,
-        "silver": -75,
+        "gold": 117,
+        "silver": 45,
         "copper": 0,
-        "total": -507500
+        "total": 1174500
       },
-      "breakEven": null
+      "breakEven": 9
     },
     {
       "profession": "Enchanting",
@@ -2578,20 +2578,20 @@
         "name": "Enchant Weapon - Acuity of the Ren'dorei",
         "itemId": 244029,
         "price": {
-          "gold": 6099,
+          "gold": 6049,
           "silver": 0,
           "copper": 0,
-          "total": 60990000
+          "total": 60490000
         },
-        "available": 886,
+        "available": 1102,
         "itemIdR2": 244028,
         "priceR2": {
           "gold": 4850,
-          "silver": 0,
+          "silver": 92,
           "copper": 0,
-          "total": 48500000
+          "total": 48509200
         },
-        "availableR2": 218
+        "availableR2": 224
       },
       "materials": [
         {
@@ -2600,15 +2600,15 @@
           "qty": 5,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 5,
-            "silver": 40,
+            "silver": 45,
             "copper": 0,
-            "total": 54000
+            "total": 54500
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         },
@@ -2617,31 +2617,31 @@
           "itemId": 251285,
           "qty": 4,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 1348,
+            "gold": 1180,
             "silver": 0,
             "copper": 0,
-            "total": 13480000
+            "total": 11800000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 1353,
-        "silver": 40,
+        "gold": 1185,
+        "silver": 45,
         "copper": 0,
-        "total": 13534000
+        "total": 11854500
       },
       "profitPerCraft": {
-        "gold": 4440,
-        "silver": 65,
+        "gold": 4561,
+        "silver": 10,
         "copper": 0,
-        "total": 44406500
+        "total": 45611000
       },
       "breakEven": null
     },
@@ -2664,7 +2664,7 @@
           "copper": 0,
           "total": 53000400
         },
-        "available": 420,
+        "available": 428,
         "itemIdR2": 244030,
         "priceR2": {
           "gold": 3369,
@@ -2672,7 +2672,7 @@
           "copper": 0,
           "total": 33690000
         },
-        "availableR2": 95
+        "availableR2": 78
       },
       "materials": [
         {
@@ -2681,15 +2681,15 @@
           "qty": 5,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
-            "gold": 9,
-            "silver": 0,
+            "gold": 8,
+            "silver": 80,
             "copper": 0,
-            "total": 90000
+            "total": 88000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         },
@@ -2698,31 +2698,31 @@
           "itemId": 251285,
           "qty": 4,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 1348,
+            "gold": 1180,
             "silver": 0,
             "copper": 0,
-            "total": 13480000
+            "total": 11800000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 1357,
-        "silver": 0,
+        "gold": 1188,
+        "silver": 80,
         "copper": 0,
-        "total": 13570000
+        "total": 11888000
       },
       "profitPerCraft": {
-        "gold": 3678,
-        "silver": 3,
+        "gold": 3846,
+        "silver": 23,
         "copper": 80,
-        "total": 36780380
+        "total": 38462380
       },
       "breakEven": null
     },
@@ -2741,11 +2741,11 @@
         "itemId": 244032,
         "price": {
           "gold": 9,
-          "silver": 50,
+          "silver": 49,
           "copper": 0,
-          "total": 95000
+          "total": 94900
         },
-        "available": 313,
+        "available": 423,
         "itemIdR2": 244033,
         "priceR2": {
           "gold": 28,
@@ -2753,7 +2753,7 @@
           "copper": 0,
           "total": 289700
         },
-        "availableR2": 533
+        "availableR2": 544
       },
       "materials": [
         {
@@ -2762,30 +2762,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 80,
+        "silver": 76,
         "copper": 0,
-        "total": 18000
+        "total": 17600
       },
       "profitPerCraft": {
         "gold": 7,
-        "silver": 22,
-        "copper": 50,
-        "total": 72250
+        "silver": 25,
+        "copper": 55,
+        "total": 72555
       },
       "breakEven": null
     },
@@ -2808,7 +2808,7 @@
           "copper": 0,
           "total": 77000
         },
-        "available": 226,
+        "available": 228,
         "itemIdR2": 244035,
         "priceR2": {
           "gold": 38,
@@ -2816,7 +2816,7 @@
           "copper": 0,
           "total": 389500
         },
-        "availableR2": 222
+        "availableR2": 231
       },
       "materials": [
         {
@@ -2871,7 +2871,7 @@
           "copper": 0,
           "total": 63700
         },
-        "available": 90,
+        "available": 79,
         "itemIdR2": 244037,
         "priceR2": {
           "gold": 98,
@@ -2879,7 +2879,7 @@
           "copper": 0,
           "total": 989900
         },
-        "availableR2": 196
+        "availableR2": 189
       },
       "materials": [
         {
@@ -2888,30 +2888,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 8,
+        "silver": 9,
         "copper": 0,
-        "total": 10800
+        "total": 10900
       },
       "profitPerCraft": {
         "gold": 4,
-        "silver": 97,
+        "silver": 96,
         "copper": 15,
-        "total": 49715
+        "total": 49615
       },
       "breakEven": null
     },
@@ -3014,30 +3014,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 60,
+        "silver": 71,
         "copper": 0,
-        "total": 16000
+        "total": 17100
       },
       "profitPerCraft": {
         "gold": 118,
-        "silver": 31,
+        "silver": 20,
         "copper": 85,
-        "total": 1183185
+        "total": 1182085
       },
       "breakEven": null
     },
@@ -3056,11 +3056,11 @@
         "itemId": 244056,
         "price": {
           "gold": 16,
-          "silver": 65,
+          "silver": 66,
           "copper": 0,
-          "total": 166500
+          "total": 166600
         },
-        "available": 145,
+        "available": 120,
         "itemIdR2": 244057,
         "priceR2": {
           "gold": 55,
@@ -3068,7 +3068,7 @@
           "copper": 0,
           "total": 557500
         },
-        "availableR2": 1563
+        "availableR2": 1603
       },
       "materials": [
         {
@@ -3077,30 +3077,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 60,
+        "silver": 71,
         "copper": 0,
-        "total": 16000
+        "total": 17100
       },
       "profitPerCraft": {
         "gold": 14,
-        "silver": 21,
-        "copper": 75,
-        "total": 142175
+        "silver": 11,
+        "copper": 70,
+        "total": 141170
       },
       "breakEven": null
     },
@@ -3131,7 +3131,7 @@
           "copper": 0,
           "total": 804000
         },
-        "availableR2": 111
+        "availableR2": 112
       },
       "materials": [
         {
@@ -3140,30 +3140,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 80,
+        "silver": 76,
         "copper": 0,
-        "total": 18000
+        "total": 17600
       },
       "profitPerCraft": {
         "gold": 2,
-        "silver": 46,
+        "silver": 50,
         "copper": 55,
-        "total": 24655
+        "total": 25055
       },
       "breakEven": null
     },
@@ -3189,12 +3189,12 @@
         "available": 16,
         "itemIdR2": 224327,
         "priceR2": {
-          "gold": 15,
+          "gold": 14,
           "silver": 0,
           "copper": 0,
-          "total": 150000
+          "total": 140000
         },
-        "availableR2": 14
+        "availableR2": 16
       },
       "materials": [
         {
@@ -3203,30 +3203,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 60,
+        "silver": 71,
         "copper": 0,
-        "total": 16000
+        "total": 17100
       },
       "profitPerCraft": {
-        "gold": 213,
-        "silver": 4,
+        "gold": 212,
+        "silver": 93,
         "copper": 30,
-        "total": 2130430
+        "total": 2129330
       },
       "breakEven": null
     },
@@ -3257,7 +3257,7 @@
           "copper": 0,
           "total": 2322400
         },
-        "availableR2": 93
+        "availableR2": 96
       },
       "materials": [
         {
@@ -3266,30 +3266,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 60,
+        "silver": 71,
         "copper": 0,
-        "total": 16000
+        "total": 17100
       },
       "profitPerCraft": {
         "gold": 119,
-        "silver": 52,
+        "silver": 41,
         "copper": 50,
-        "total": 1195250
+        "total": 1194150
       },
       "breakEven": null
     },
@@ -3312,7 +3312,7 @@
           "copper": 0,
           "total": 409000
         },
-        "available": 27,
+        "available": 29,
         "itemIdR2": 224330,
         "priceR2": {
           "gold": 100,
@@ -3320,7 +3320,7 @@
           "copper": 0,
           "total": 1002900
         },
-        "availableR2": 37
+        "availableR2": 40
       },
       "materials": [
         {
@@ -3329,30 +3329,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 60,
+        "silver": 71,
         "copper": 0,
-        "total": 16000
+        "total": 17100
       },
       "profitPerCraft": {
         "gold": 37,
-        "silver": 25,
+        "silver": 14,
         "copper": 50,
-        "total": 372550
+        "total": 371450
       },
       "breakEven": null
     },
@@ -3383,7 +3383,7 @@
           "copper": 0,
           "total": 210000
         },
-        "availableR2": 14
+        "availableR2": 13
       },
       "materials": [
         {
@@ -3438,7 +3438,7 @@
           "copper": 0,
           "total": 43900
         },
-        "available": 7,
+        "available": 6,
         "itemIdR2": 224332,
         "priceR2": {
           "gold": 120,
@@ -3455,30 +3455,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 60,
+        "silver": 71,
         "copper": 0,
-        "total": 16000
+        "total": 17100
       },
       "profitPerCraft": {
         "gold": 2,
-        "silver": 57,
+        "silver": 46,
         "copper": 5,
-        "total": 25705
+        "total": 24605
       },
       "breakEven": null
     },
@@ -3518,30 +3518,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 60,
+        "silver": 71,
         "copper": 0,
-        "total": 16000
+        "total": 17100
       },
       "profitPerCraft": {
         "gold": 92,
-        "silver": 64,
+        "silver": 53,
         "copper": 95,
-        "total": 926495
+        "total": 925395
       },
       "breakEven": null
     },
@@ -3581,30 +3581,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 80,
+        "silver": 76,
         "copper": 0,
-        "total": 18000
+        "total": 17600
       },
       "profitPerCraft": {
         "gold": 2,
-        "silver": 66,
+        "silver": 70,
         "copper": 50,
-        "total": 26650
+        "total": 27050
       },
       "breakEven": null
     },
@@ -3644,30 +3644,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 80,
+        "silver": 76,
         "copper": 0,
-        "total": 18000
+        "total": 17600
       },
       "profitPerCraft": {
         "gold": 2,
-        "silver": 92,
+        "silver": 96,
         "copper": 15,
-        "total": 29215
+        "total": 29615
       },
       "breakEven": null
     },
@@ -3686,11 +3686,11 @@
         "itemId": 224312,
         "price": {
           "gold": 4,
-          "silver": 55,
+          "silver": 54,
           "copper": 0,
-          "total": 45500
+          "total": 45400
         },
-        "available": 18,
+        "available": 19,
         "itemIdR2": 224336,
         "priceR2": {
           "gold": 21,
@@ -3707,30 +3707,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 60,
+        "silver": 71,
         "copper": 0,
-        "total": 16000
+        "total": 17100
       },
       "profitPerCraft": {
         "gold": 2,
-        "silver": 72,
-        "copper": 25,
-        "total": 27225
+        "silver": 60,
+        "copper": 30,
+        "total": 26030
       },
       "breakEven": null
     },
@@ -3753,7 +3753,7 @@
           "copper": 0,
           "total": 499969600
         },
-        "available": 5,
+        "available": 6,
         "itemIdR2": 224337,
         "priceR2": {
           "gold": 137,
@@ -3824,7 +3824,7 @@
           "copper": 0,
           "total": 219800
         },
-        "availableR2": 22
+        "availableR2": 20
       },
       "materials": [
         {
@@ -3879,7 +3879,7 @@
           "copper": 0,
           "total": 699900
         },
-        "available": 22,
+        "available": 23,
         "itemIdR2": 224315,
         "priceR2": {
           "gold": 5,
@@ -3896,30 +3896,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 80,
+        "silver": 76,
         "copper": 0,
-        "total": 18000
+        "total": 17600
       },
       "profitPerCraft": {
         "gold": 64,
-        "silver": 69,
+        "silver": 73,
         "copper": 5,
-        "total": 646905
+        "total": 647305
       },
       "breakEven": null
     },
@@ -3942,7 +3942,7 @@
           "copper": 0,
           "total": 199100
         },
-        "available": 16,
+        "available": 18,
         "itemIdR2": 224340,
         "priceR2": {
           "gold": 232,
@@ -4005,7 +4005,7 @@
           "copper": 0,
           "total": 409800
         },
-        "available": 21,
+        "available": 20,
         "itemIdR2": 224341,
         "priceR2": {
           "gold": 22,
@@ -4068,7 +4068,7 @@
           "copper": 0,
           "total": 63400
         },
-        "available": 6,
+        "available": 5,
         "itemIdR2": 224342,
         "priceR2": {
           "gold": 32,
@@ -4131,7 +4131,7 @@
           "copper": 0,
           "total": 1275000
         },
-        "available": 34,
+        "available": 33,
         "itemIdR2": 224343,
         "priceR2": {
           "gold": 106,
@@ -4139,7 +4139,7 @@
           "copper": 0,
           "total": 1067000
         },
-        "availableR2": 43
+        "availableR2": 42
       },
       "materials": [
         {
@@ -4148,30 +4148,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 8,
+        "silver": 9,
         "copper": 0,
-        "total": 10800
+        "total": 10900
       },
       "profitPerCraft": {
         "gold": 120,
-        "silver": 4,
+        "silver": 3,
         "copper": 50,
-        "total": 1200450
+        "total": 1200350
       },
       "breakEven": null
     },
@@ -4202,7 +4202,7 @@
           "copper": 0,
           "total": 2322400
         },
-        "availableR2": 54
+        "availableR2": 58
       },
       "materials": [
         {
@@ -4211,30 +4211,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 8,
+        "silver": 9,
         "copper": 0,
-        "total": 10800
+        "total": 10900
       },
       "profitPerCraft": {
         "gold": 3,
-        "silver": 65,
+        "silver": 64,
         "copper": 10,
-        "total": 36510
+        "total": 36410
       },
       "breakEven": null
     },
@@ -4320,7 +4320,7 @@
           "copper": 0,
           "total": 98000
         },
-        "available": 9,
+        "available": 8,
         "itemIdR2": 224346,
         "priceR2": {
           "gold": 48,
@@ -4383,7 +4383,7 @@
           "copper": 0,
           "total": 90000
         },
-        "available": 7,
+        "available": 8,
         "itemIdR2": 224347,
         "priceR2": {
           "gold": 90,
@@ -4463,30 +4463,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 60,
+        "silver": 71,
         "copper": 0,
-        "total": 16000
+        "total": 17100
       },
       "profitPerCraft": {
         "gold": 188,
-        "silver": 36,
+        "silver": 25,
         "copper": 20,
-        "total": 1883620
+        "total": 1882520
       },
       "breakEven": null
     },
@@ -4509,7 +4509,7 @@
           "copper": 0,
           "total": 101500
         },
-        "available": 117,
+        "available": 118,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -4581,16 +4581,16 @@
           "itemId": 237366,
           "qty": 3,
           "unitPrice": {
-            "gold": 61,
-            "silver": 20,
+            "gold": 68,
+            "silver": 14,
             "copper": 0,
-            "total": 612000
+            "total": 681400
           },
           "totalCost": {
-            "gold": 183,
-            "silver": 60,
+            "gold": 204,
+            "silver": 42,
             "copper": 0,
-            "total": 1836000
+            "total": 2044200
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_mining_dazzlingthorium.jpg"
         }
@@ -4625,15 +4625,15 @@
           "qty": 10,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
-            "gold": 18,
-            "silver": 0,
+            "gold": 17,
+            "silver": 60,
             "copper": 0,
-            "total": 180000
+            "total": 176000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         },
@@ -4642,25 +4642,25 @@
           "itemId": 251283,
           "qty": 1,
           "unitPrice": {
-            "gold": 120,
-            "silver": 31,
+            "gold": 135,
+            "silver": 0,
             "copper": 0,
-            "total": 1203100
+            "total": 1350000
           },
           "totalCost": {
-            "gold": 120,
-            "silver": 31,
+            "gold": 135,
+            "silver": 0,
             "copper": 0,
-            "total": 1203100
+            "total": 1350000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_10_blacksmithing_craftedoptional_reinforcedmetalplating_color01.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 138,
-        "silver": 31,
+        "gold": 152,
+        "silver": 60,
         "copper": 0,
-        "total": 1383100
+        "total": 1526000
       },
       "profitPerCraft": null,
       "breakEven": null
@@ -4684,7 +4684,7 @@
           "copper": 0,
           "total": 1250000
         },
-        "available": 4341,
+        "available": 8979,
         "itemIdR2": 243733,
         "priceR2": {
           "gold": 4,
@@ -4692,7 +4692,7 @@
           "copper": 0,
           "total": 43900
         },
-        "availableR2": 23859
+        "availableR2": 29854
       },
       "materials": [
         {
@@ -4701,30 +4701,30 @@
           "qty": 5,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
-            "gold": 9,
-            "silver": 0,
+            "gold": 8,
+            "silver": 80,
             "copper": 0,
-            "total": 90000
+            "total": 88000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 9,
-        "silver": 0,
+        "gold": 8,
+        "silver": 80,
         "copper": 0,
-        "total": 90000
+        "total": 88000
       },
       "profitPerCraft": {
         "gold": 109,
-        "silver": 75,
+        "silver": 95,
         "copper": 0,
-        "total": 1097500
+        "total": 1099500
       },
       "breakEven": null
     },
@@ -4747,7 +4747,7 @@
           "copper": 0,
           "total": 69900
         },
-        "available": 2164,
+        "available": 2426,
         "itemIdR2": 243736,
         "priceR2": {
           "gold": 209,
@@ -4755,7 +4755,7 @@
           "copper": 0,
           "total": 2099900
         },
-        "availableR2": 140
+        "availableR2": 170
       },
       "materials": [
         {
@@ -4764,15 +4764,15 @@
           "qty": 5,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
-            "gold": 9,
-            "silver": 0,
+            "gold": 8,
+            "silver": 80,
             "copper": 0,
-            "total": 90000
+            "total": 88000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         },
@@ -4781,31 +4781,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 683,
-        "silver": 0,
+        "gold": 598,
+        "silver": 80,
         "copper": 0,
-        "total": 6830000
+        "total": 5988000
       },
       "profitPerCraft": {
-        "gold": -677,
-        "silver": -36,
+        "gold": -593,
+        "silver": -16,
         "copper": -95,
-        "total": -6763595
+        "total": -5921595
       },
       "breakEven": null
     },
@@ -4828,12 +4828,12 @@
         "name": "Smuggler's Enchanted Edge",
         "itemId": 243738,
         "price": {
-          "gold": 322,
-          "silver": 0,
+          "gold": 321,
+          "silver": 99,
           "copper": 0,
-          "total": 3220000
+          "total": 3219900
         },
-        "available": 897,
+        "available": 1288,
         "itemIdR2": 243737,
         "priceR2": {
           "gold": 60,
@@ -4841,7 +4841,7 @@
           "copper": 0,
           "total": 600000
         },
-        "availableR2": 226
+        "availableR2": 449
       },
       "materials": [
         {
@@ -4850,15 +4850,15 @@
           "qty": 5,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 8,
-            "silver": 0,
+            "silver": 55,
             "copper": 0,
-            "total": 80000
+            "total": 85500
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -4867,31 +4867,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 682,
-        "silver": 0,
+        "gold": 598,
+        "silver": 55,
         "copper": 0,
-        "total": 6820000
+        "total": 5985500
       },
       "profitPerCraft": {
-        "gold": -377,
-        "silver": -10,
-        "copper": 0,
-        "total": -3761000
+        "gold": -293,
+        "silver": -66,
+        "copper": -95,
+        "total": -2926595
       },
       "breakEven": null
     },
@@ -4926,15 +4926,15 @@
           "qty": 10,
           "unitPrice": {
             "gold": 0,
-            "silver": 35,
+            "silver": 34,
             "copper": 0,
-            "total": 3500
+            "total": 3400
           },
           "totalCost": {
             "gold": 3,
-            "silver": 50,
+            "silver": 40,
             "copper": 0,
-            "total": 35000
+            "total": 34000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_10_blacksmithing_craftedoptional_blacksmithdye_fire.jpg"
         },
@@ -4965,12 +4965,12 @@
         "name": "Animated Sin'dorei Pick",
         "itemId": 262458,
         "price": {
-          "gold": 16498,
+          "gold": 16497,
           "silver": 1,
           "copper": 0,
-          "total": 164980100
+          "total": 164970100
         },
-        "available": 5,
+        "available": 4,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -4982,15 +4982,15 @@
           "qty": 10,
           "unitPrice": {
             "gold": 0,
-            "silver": 35,
+            "silver": 34,
             "copper": 0,
-            "total": 3500
+            "total": 3400
           },
           "totalCost": {
             "gold": 3,
-            "silver": 50,
+            "silver": 40,
             "copper": 0,
-            "total": 35000
+            "total": 34000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_10_blacksmithing_craftedoptional_blacksmithdye_fire.jpg"
         },
@@ -5038,15 +5038,15 @@
           "qty": 50,
           "unitPrice": {
             "gold": 0,
-            "silver": 9,
+            "silver": 12,
             "copper": 0,
-            "total": 900
+            "total": 1200
           },
           "totalCost": {
-            "gold": 4,
-            "silver": 50,
+            "gold": 6,
+            "silver": 0,
             "copper": 0,
-            "total": 45000
+            "total": 60000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_tailoring_tailoringspecializations_fiberarts.jpg"
         },
@@ -5156,7 +5156,7 @@
           "copper": 0,
           "total": 120000000
         },
-        "available": 13,
+        "available": 12,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -5168,15 +5168,15 @@
           "qty": 10,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 10,
-            "silver": 80,
+            "silver": 90,
             "copper": 0,
-            "total": 108000
+            "total": 109000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         },
@@ -5219,12 +5219,12 @@
         "name": "Formula: Rootflame Campfire",
         "itemId": 259370,
         "price": {
-          "gold": 18000,
+          "gold": 15000,
           "silver": 0,
           "copper": 0,
-          "total": 180000000
+          "total": 150000000
         },
-        "available": 11
+        "available": 14
       },
       "craft": {
         "name": "Rootflame Campfire",
@@ -5247,15 +5247,15 @@
           "qty": 10,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 16,
-            "silver": 0,
+            "gold": 17,
+            "silver": 10,
             "copper": 0,
-            "total": 160000
+            "total": 171000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -5329,7 +5329,7 @@
           "copper": 0,
           "total": 123750000
         },
-        "available": 14,
+        "available": 12,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -5341,15 +5341,15 @@
           "qty": 10,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
-            "gold": 18,
-            "silver": 0,
+            "gold": 17,
+            "silver": 60,
             "copper": 0,
-            "total": 180000
+            "total": 176000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         },
@@ -5423,15 +5423,15 @@
           "qty": 20,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
-            "gold": 36,
-            "silver": 0,
+            "gold": 35,
+            "silver": 20,
             "copper": 0,
-            "total": 360000
+            "total": 352000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         },
@@ -5551,7 +5551,7 @@
           "copper": 0,
           "total": 150009200
         },
-        "available": 11,
+        "available": 10,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -5571,15 +5571,15 @@
           "qty": 20,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 21,
-            "silver": 60,
+            "silver": 80,
             "copper": 0,
-            "total": 216000
+            "total": 218000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         },
@@ -5691,15 +5691,15 @@
           "copper": 0,
           "total": 344900
         },
-        "available": 28469,
+        "available": 25258,
         "itemIdR2": 241288,
         "priceR2": {
           "gold": 380,
-          "silver": 60,
+          "silver": 34,
           "copper": 0,
-          "total": 3806000
+          "total": 3803400
         },
-        "availableR2": 7659
+        "availableR2": 8969
       },
       "materials": [
         {
@@ -5708,30 +5708,30 @@
           "qty": 2,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 3,
-            "silver": 20,
+            "silver": 42,
             "copper": 0,
-            "total": 32000
+            "total": 34200
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 3,
-        "silver": 20,
+        "silver": 42,
         "copper": 0,
-        "total": 32000
+        "total": 34200
       },
       "profitPerCraft": {
         "gold": 29,
-        "silver": 56,
+        "silver": 34,
         "copper": 55,
-        "total": 295655
+        "total": 293455
       },
       "breakEven": null
     },
@@ -5749,20 +5749,20 @@
         "name": "Draught of Rampant Abandon",
         "itemId": 241293,
         "price": {
-          "gold": 11,
+          "gold": 10,
           "silver": 99,
           "copper": 0,
-          "total": 119900
+          "total": 109900
         },
-        "available": 8496,
+        "available": 15008,
         "itemIdR2": 241292,
         "priceR2": {
           "gold": 394,
-          "silver": 25,
+          "silver": 24,
           "copper": 0,
-          "total": 3942500
+          "total": 3942400
         },
-        "availableR2": 1132
+        "availableR2": 1123
       },
       "materials": [
         {
@@ -5771,30 +5771,30 @@
           "qty": 3,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 4,
-            "silver": 80,
+            "gold": 5,
+            "silver": 13,
             "copper": 0,
-            "total": 48000
+            "total": 51300
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 4,
-        "silver": 80,
+        "gold": 5,
+        "silver": 13,
         "copper": 0,
-        "total": 48000
+        "total": 51300
       },
       "profitPerCraft": {
-        "gold": 6,
-        "silver": 59,
+        "gold": 5,
+        "silver": 31,
         "copper": 5,
-        "total": 65905
+        "total": 53105
       },
       "breakEven": null
     },
@@ -5813,19 +5813,19 @@
         "itemId": 241294,
         "price": {
           "gold": 480,
-          "silver": 24,
+          "silver": 23,
           "copper": 0,
-          "total": 4802400
+          "total": 4802300
         },
-        "available": 1068,
+        "available": 1133,
         "itemIdR2": 241295,
         "priceR2": {
-          "gold": 3,
-          "silver": 99,
+          "gold": 5,
+          "silver": 7,
           "copper": 0,
-          "total": 39900
+          "total": 50700
         },
-        "availableR2": 2283
+        "availableR2": 627
       },
       "materials": [
         {
@@ -5855,9 +5855,9 @@
       },
       "profitPerCraft": {
         "gold": 454,
-        "silver": 22,
-        "copper": 80,
-        "total": 4542280
+        "silver": 21,
+        "copper": 85,
+        "total": 4542185
       },
       "breakEven": null
     },
@@ -5875,12 +5875,12 @@
         "name": "Void-Shrouded Tincture",
         "itemId": 241303,
         "price": {
-          "gold": 3,
-          "silver": 98,
+          "gold": 4,
+          "silver": 83,
           "copper": 0,
-          "total": 39800
+          "total": 48300
         },
-        "available": 887,
+        "available": 538,
         "itemIdR2": 241302,
         "priceR2": {
           "gold": 320,
@@ -5888,7 +5888,7 @@
           "copper": 0,
           "total": 3206900
         },
-        "availableR2": 103
+        "availableR2": 85
       },
       "materials": [
         {
@@ -5897,30 +5897,30 @@
           "qty": 2,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 2,
-            "silver": 16,
+            "silver": 18,
             "copper": 0,
-            "total": 21600
+            "total": 21800
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 2,
-        "silver": 16,
+        "silver": 18,
         "copper": 0,
-        "total": 21600
+        "total": 21800
       },
       "profitPerCraft": {
-        "gold": 1,
-        "silver": 62,
-        "copper": 10,
-        "total": 16210
+        "gold": 2,
+        "silver": 40,
+        "copper": 85,
+        "total": 24085
       },
       "breakEven": null
     },
@@ -5939,11 +5939,11 @@
         "itemId": 241280,
         "price": {
           "gold": 97,
-          "silver": 47,
+          "silver": 46,
           "copper": 0,
-          "total": 974700
+          "total": 974600
         },
-        "available": 778,
+        "available": 2338,
         "itemIdR2": 241281,
         "priceR2": {
           "gold": 61,
@@ -5951,7 +5951,7 @@
           "copper": 0,
           "total": 619400
         },
-        "availableR2": 3693
+        "availableR2": 3696
       },
       "materials": [
         {
@@ -5978,30 +5978,30 @@
           "qty": 4,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 6,
-            "silver": 40,
+            "silver": 84,
             "copper": 0,
-            "total": 64000
+            "total": 68400
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 10,
-        "silver": 40,
+        "silver": 84,
         "copper": 0,
-        "total": 104000
+        "total": 108400
       },
       "profitPerCraft": {
-        "gold": 82,
-        "silver": 19,
-        "copper": 65,
-        "total": 821965
+        "gold": 81,
+        "silver": 74,
+        "copper": 70,
+        "total": 817470
       },
       "breakEven": null
     },
@@ -6019,20 +6019,20 @@
         "name": "Wondrous Synergist",
         "itemId": 241283,
         "price": {
-          "gold": 407,
-          "silver": 99,
+          "gold": 408,
+          "silver": 76,
           "copper": 0,
-          "total": 4079900
+          "total": 4087600
         },
-        "available": 2350,
+        "available": 2288,
         "itemIdR2": 241282,
         "priceR2": {
           "gold": 705,
-          "silver": 87,
+          "silver": 85,
           "copper": 0,
-          "total": 7058700
+          "total": 7058500
         },
-        "availableR2": 1410
+        "availableR2": 1445
       },
       "materials": [
         {
@@ -6189,16 +6189,16 @@
           "itemId": 238525,
           "qty": 8,
           "unitPrice": {
-            "gold": 341,
+            "gold": 275,
             "silver": 0,
             "copper": 0,
-            "total": 3410000
+            "total": 2750000
           },
           "totalCost": {
-            "gold": 2728,
+            "gold": 2200,
             "silver": 0,
             "copper": 0,
-            "total": 27280000
+            "total": 22000000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_pelt_13.jpg"
         },
@@ -6273,16 +6273,16 @@
           "itemId": 238383,
           "qty": 4,
           "unitPrice": {
-            "gold": 43,
-            "silver": 25,
+            "gold": 49,
+            "silver": 85,
             "copper": 0,
-            "total": 432500
+            "total": 498500
           },
           "totalCost": {
-            "gold": 173,
-            "silver": 0,
+            "gold": 199,
+            "silver": 40,
             "copper": 0,
-            "total": 1730000
+            "total": 1994000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_fishing_lanesnapper.jpg"
         },
@@ -6291,16 +6291,16 @@
           "itemId": 238369,
           "qty": 12,
           "unitPrice": {
-            "gold": 159,
-            "silver": 0,
+            "gold": 197,
+            "silver": 59,
             "copper": 0,
-            "total": 1590000
+            "total": 1975900
           },
           "totalCost": {
-            "gold": 1908,
-            "silver": 0,
+            "gold": 2371,
+            "silver": 8,
             "copper": 0,
-            "total": 19080000
+            "total": 23710800
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_10_fishing_fishice_color4.jpg"
         },
@@ -6309,16 +6309,16 @@
           "itemId": 238365,
           "qty": 20,
           "unitPrice": {
-            "gold": 1,
-            "silver": 1,
+            "gold": 0,
+            "silver": 90,
             "copper": 0,
-            "total": 10100
+            "total": 9000
           },
           "totalCost": {
-            "gold": 20,
-            "silver": 20,
+            "gold": 18,
+            "silver": 0,
             "copper": 0,
-            "total": 202000
+            "total": 180000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_fish_41.jpg"
         },
@@ -6360,16 +6360,16 @@
           "itemId": 236780,
           "qty": 1,
           "unitPrice": {
-            "gold": 949,
-            "silver": 75,
+            "gold": 950,
+            "silver": 96,
             "copper": 0,
-            "total": 9497500
+            "total": 9509600
           },
           "totalCost": {
-            "gold": 949,
-            "silver": 75,
+            "gold": 950,
+            "silver": 96,
             "copper": 0,
-            "total": 9497500
+            "total": 9509600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_herbalism_blacklotus_void.jpg"
         },
@@ -6386,16 +6386,16 @@
           "itemId": 251285,
           "qty": 4,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 1348,
+            "gold": 1180,
             "silver": 0,
             "copper": 0,
-            "total": 13480000
+            "total": 11800000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
@@ -6429,16 +6429,16 @@
           "itemId": 236780,
           "qty": 1,
           "unitPrice": {
-            "gold": 949,
-            "silver": 75,
+            "gold": 950,
+            "silver": 96,
             "copper": 0,
-            "total": 9497500
+            "total": 9509600
           },
           "totalCost": {
-            "gold": 949,
-            "silver": 75,
+            "gold": 950,
+            "silver": 96,
             "copper": 0,
-            "total": 9497500
+            "total": 9509600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_herbalism_blacklotus_void.jpg"
         },
@@ -6455,16 +6455,16 @@
           "itemId": 251285,
           "qty": 4,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 1348,
+            "gold": 1180,
             "silver": 0,
             "copper": 0,
-            "total": 13480000
+            "total": 11800000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
@@ -6495,12 +6495,12 @@
         "available": 355,
         "itemIdR2": 241287,
         "priceR2": {
-          "gold": 4,
-          "silver": 35,
+          "gold": 5,
+          "silver": 80,
           "copper": 0,
-          "total": 43500
+          "total": 58000
         },
-        "availableR2": 844
+        "availableR2": 807
       },
       "materials": [
         {
@@ -6509,30 +6509,30 @@
           "qty": 2,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
             "gold": 3,
-            "silver": 60,
+            "silver": 52,
             "copper": 0,
-            "total": 36000
+            "total": 35200
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 3,
-        "silver": 60,
+        "silver": 52,
         "copper": 0,
-        "total": 36000
+        "total": 35200
       },
       "profitPerCraft": {
         "gold": 375,
-        "silver": 45,
+        "silver": 53,
         "copper": 0,
-        "total": 3754500
+        "total": 3755300
       },
       "breakEven": null
     },
@@ -6550,20 +6550,20 @@
         "name": "Potion of Zealotry",
         "itemId": 241296,
         "price": {
-          "gold": 107,
+          "gold": 101,
           "silver": 81,
           "copper": 0,
-          "total": 1078100
+          "total": 1018100
         },
-        "available": 662,
+        "available": 702,
         "itemIdR2": 241297,
         "priceR2": {
           "gold": 4,
-          "silver": 0,
+          "silver": 42,
           "copper": 0,
-          "total": 40000
+          "total": 44200
         },
-        "availableR2": 1218
+        "availableR2": 864
       },
       "materials": [
         {
@@ -6572,30 +6572,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 80,
+        "silver": 76,
         "copper": 0,
-        "total": 18000
+        "total": 17600
       },
       "profitPerCraft": {
-        "gold": 100,
-        "silver": 61,
+        "gold": 94,
+        "silver": 95,
         "copper": 95,
-        "total": 1006195
+        "total": 949595
       },
       "breakEven": null
     },
@@ -6613,20 +6613,20 @@
         "name": "Light's Potential",
         "itemId": 241308,
         "price": {
-          "gold": 458,
-          "silver": 50,
+          "gold": 481,
+          "silver": 0,
           "copper": 0,
-          "total": 4585000
+          "total": 4810000
         },
-        "available": 17393,
+        "available": 9965,
         "itemIdR2": 241309,
         "priceR2": {
           "gold": 36,
-          "silver": 96,
+          "silver": 97,
           "copper": 0,
-          "total": 369600
+          "total": 369700
         },
-        "availableR2": 122470
+        "availableR2": 138221
       },
       "materials": [
         {
@@ -6635,30 +6635,30 @@
           "qty": 1,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 1,
-        "silver": 80,
+        "silver": 76,
         "copper": 0,
-        "total": 18000
+        "total": 17600
       },
       "profitPerCraft": {
-        "gold": 433,
-        "silver": 77,
-        "copper": 50,
-        "total": 4337750
+        "gold": 455,
+        "silver": 19,
+        "copper": 0,
+        "total": 4551900
       },
       "breakEven": null
     },
@@ -6696,15 +6696,15 @@
           "qty": 2,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
             "gold": 3,
-            "silver": 60,
+            "silver": 52,
             "copper": 0,
-            "total": 36000
+            "total": 35200
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         }
@@ -6747,15 +6747,15 @@
           "qty": 8,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 12,
-            "silver": 80,
+            "gold": 13,
+            "silver": 68,
             "copper": 0,
-            "total": 128000
+            "total": 136800
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -6782,16 +6782,16 @@
           "itemId": 251283,
           "qty": 1,
           "unitPrice": {
-            "gold": 120,
-            "silver": 31,
+            "gold": 135,
+            "silver": 0,
             "copper": 0,
-            "total": 1203100
+            "total": 1350000
           },
           "totalCost": {
-            "gold": 120,
-            "silver": 31,
+            "gold": 135,
+            "silver": 0,
             "copper": 0,
-            "total": 1203100
+            "total": 1350000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_10_blacksmithing_craftedoptional_reinforcedmetalplating_color01.jpg"
         }
@@ -6815,19 +6815,19 @@
         "itemId": 241310,
         "price": {
           "gold": 884,
-          "silver": 99,
+          "silver": 90,
           "copper": 0,
-          "total": 8849900
+          "total": 8849000
         },
-        "available": 833,
+        "available": 1353,
         "itemIdR2": 241311,
         "priceR2": {
-          "gold": 69,
-          "silver": 79,
+          "gold": 63,
+          "silver": 69,
           "copper": 0,
-          "total": 697900
+          "total": 636900
         },
-        "availableR2": 2539
+        "availableR2": 3483
       },
       "materials": [
         {
@@ -6836,30 +6836,30 @@
           "qty": 2,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 3,
-            "silver": 20,
+            "silver": 42,
             "copper": 0,
-            "total": 32000
+            "total": 34200
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 3,
-        "silver": 20,
+        "silver": 42,
         "copper": 0,
-        "total": 32000
+        "total": 34200
       },
       "profitPerCraft": {
         "gold": 837,
-        "silver": 54,
-        "copper": 5,
-        "total": 8375405
+        "silver": 23,
+        "copper": 50,
+        "total": 8372350
       },
       "breakEven": null
     },
@@ -6877,12 +6877,12 @@
         "name": "Haranir Phial of Ingenuity",
         "itemId": 241313,
         "price": {
-          "gold": 13,
+          "gold": 11,
           "silver": 21,
           "copper": 0,
-          "total": 132100
+          "total": 112100
         },
-        "available": 2035,
+        "available": 2267,
         "itemIdR2": 241312,
         "priceR2": {
           "gold": 383,
@@ -6890,7 +6890,7 @@
           "copper": 0,
           "total": 3830000
         },
-        "availableR2": 474
+        "availableR2": 578
       },
       "materials": [
         {
@@ -6899,30 +6899,30 @@
           "qty": 2,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 2,
-            "silver": 16,
+            "silver": 18,
             "copper": 0,
-            "total": 21600
+            "total": 21800
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         }
       ],
       "materialCostTotal": {
         "gold": 2,
-        "silver": 16,
+        "silver": 18,
         "copper": 0,
-        "total": 21600
+        "total": 21800
       },
       "profitPerCraft": {
-        "gold": 10,
-        "silver": 38,
+        "gold": 8,
+        "silver": 46,
         "copper": 95,
-        "total": 103895
+        "total": 84695
       },
       "breakEven": null
     },
@@ -6940,12 +6940,12 @@
         "name": "Haranir Phial of Perception",
         "itemId": 241317,
         "price": {
-          "gold": 137,
-          "silver": 0,
+          "gold": 80,
+          "silver": 99,
           "copper": 0,
-          "total": 1370000
+          "total": 809900
         },
-        "available": 2775,
+        "available": 10434,
         "itemIdR2": 241316,
         "priceR2": {
           "gold": 788,
@@ -6953,7 +6953,7 @@
           "copper": 0,
           "total": 7880000
         },
-        "availableR2": 877
+        "availableR2": 1279
       },
       "materials": [
         {
@@ -6982,10 +6982,10 @@
         "total": 20000
       },
       "profitPerCraft": {
-        "gold": 128,
-        "silver": 15,
-        "copper": 0,
-        "total": 1281500
+        "gold": 74,
+        "silver": 94,
+        "copper": 5,
+        "total": 749405
       },
       "breakEven": null
     },
@@ -7003,20 +7003,20 @@
         "name": "Flask of Thalassian Resistance",
         "itemId": 241320,
         "price": {
-          "gold": 1399,
-          "silver": 99,
+          "gold": 1410,
+          "silver": 85,
           "copper": 0,
-          "total": 13999900
+          "total": 14108500
         },
-        "available": 505,
+        "available": 484,
         "itemIdR2": 241321,
         "priceR2": {
-          "gold": 459,
+          "gold": 458,
           "silver": 0,
           "copper": 0,
-          "total": 4590000
+          "total": 4580000
         },
-        "availableR2": 1327
+        "availableR2": 1660
       },
       "materials": [
         {
@@ -7024,16 +7024,16 @@
           "itemId": 236780,
           "qty": 1,
           "unitPrice": {
-            "gold": 949,
-            "silver": 75,
+            "gold": 950,
+            "silver": 96,
             "copper": 0,
-            "total": 9497500
+            "total": 9509600
           },
           "totalCost": {
-            "gold": 949,
-            "silver": 75,
+            "gold": 950,
+            "silver": 96,
             "copper": 0,
-            "total": 9497500
+            "total": 9509600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_herbalism_blacklotus_void.jpg"
         },
@@ -7043,30 +7043,30 @@
           "qty": 2,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
             "gold": 3,
-            "silver": 60,
+            "silver": 52,
             "copper": 0,
-            "total": 36000
+            "total": 35200
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 953,
-        "silver": 35,
+        "gold": 954,
+        "silver": 48,
         "copper": 0,
-        "total": 9533500
+        "total": 9544800
       },
       "profitPerCraft": {
-        "gold": 376,
-        "silver": 64,
-        "copper": 5,
-        "total": 3766405
+        "gold": 385,
+        "silver": 82,
+        "copper": 75,
+        "total": 3858275
       },
       "breakEven": null
     },
@@ -7085,19 +7085,19 @@
         "itemId": 241322,
         "price": {
           "gold": 1260,
-          "silver": 0,
+          "silver": 96,
           "copper": 0,
-          "total": 12600000
+          "total": 12609600
         },
-        "available": 5857,
+        "available": 6799,
         "itemIdR2": 241323,
         "priceR2": {
-          "gold": 375,
-          "silver": 98,
+          "gold": 350,
+          "silver": 99,
           "copper": 0,
-          "total": 3759800
+          "total": 3509900
         },
-        "availableR2": 3570
+        "availableR2": 6143
       },
       "materials": [
         {
@@ -7105,16 +7105,16 @@
           "itemId": 236780,
           "qty": 1,
           "unitPrice": {
-            "gold": 949,
-            "silver": 75,
+            "gold": 950,
+            "silver": 96,
             "copper": 0,
-            "total": 9497500
+            "total": 9509600
           },
           "totalCost": {
-            "gold": 949,
-            "silver": 75,
+            "gold": 950,
+            "silver": 96,
             "copper": 0,
-            "total": 9497500
+            "total": 9509600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_herbalism_blacklotus_void.jpg"
         },
@@ -7124,30 +7124,30 @@
           "qty": 2,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 2,
-            "silver": 16,
+            "silver": 18,
             "copper": 0,
-            "total": 21600
+            "total": 21800
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 951,
-        "silver": 91,
+        "gold": 953,
+        "silver": 14,
         "copper": 0,
-        "total": 9519100
+        "total": 9531400
       },
       "profitPerCraft": {
-        "gold": 245,
-        "silver": 9,
-        "copper": 0,
-        "total": 2450900
+        "gold": 244,
+        "silver": 77,
+        "copper": 20,
+        "total": 2447720
       },
       "breakEven": null
     },
@@ -7170,15 +7170,15 @@
           "copper": 0,
           "total": 4070000
         },
-        "available": 714,
+        "available": 2051,
         "itemIdR2": 241324,
         "priceR2": {
           "gold": 1300,
-          "silver": 72,
+          "silver": 20,
           "copper": 0,
-          "total": 13007200
+          "total": 13002000
         },
-        "availableR2": 3906
+        "availableR2": 2531
       },
       "materials": [
         {
@@ -7186,16 +7186,16 @@
           "itemId": 236780,
           "qty": 1,
           "unitPrice": {
-            "gold": 949,
-            "silver": 75,
+            "gold": 950,
+            "silver": 96,
             "copper": 0,
-            "total": 9497500
+            "total": 9509600
           },
           "totalCost": {
-            "gold": 949,
-            "silver": 75,
+            "gold": 950,
+            "silver": 96,
             "copper": 0,
-            "total": 9497500
+            "total": 9509600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_herbalism_blacklotus_void.jpg"
         },
@@ -7219,16 +7219,16 @@
         }
       ],
       "materialCostTotal": {
-        "gold": 951,
-        "silver": 75,
+        "gold": 952,
+        "silver": 96,
         "copper": 0,
-        "total": 9517500
+        "total": 9529600
       },
       "profitPerCraft": {
-        "gold": -566,
-        "silver": -10,
+        "gold": -567,
+        "silver": -31,
         "copper": 0,
-        "total": -5651000
+        "total": -5663100
       },
       "breakEven": null
     },
@@ -7246,20 +7246,20 @@
         "name": "Flask of the Shattered Sun",
         "itemId": 241327,
         "price": {
-          "gold": 529,
+          "gold": 510,
           "silver": 67,
           "copper": 0,
-          "total": 5296700
+          "total": 5106700
         },
-        "available": 3423,
+        "available": 3097,
         "itemIdR2": 241326,
         "priceR2": {
-          "gold": 1454,
-          "silver": 23,
+          "gold": 1453,
+          "silver": 99,
           "copper": 0,
-          "total": 14542300
+          "total": 14539900
         },
-        "availableR2": 1932
+        "availableR2": 2218
       },
       "materials": [
         {
@@ -7267,16 +7267,16 @@
           "itemId": 236780,
           "qty": 1,
           "unitPrice": {
-            "gold": 949,
-            "silver": 75,
+            "gold": 950,
+            "silver": 96,
             "copper": 0,
-            "total": 9497500
+            "total": 9509600
           },
           "totalCost": {
-            "gold": 949,
-            "silver": 75,
+            "gold": 950,
+            "silver": 96,
             "copper": 0,
-            "total": 9497500
+            "total": 9509600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_herbalism_blacklotus_void.jpg"
         },
@@ -7286,30 +7286,30 @@
           "qty": 2,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
             "gold": 3,
-            "silver": 20,
+            "silver": 42,
             "copper": 0,
-            "total": 32000
+            "total": 34200
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 952,
-        "silver": 95,
+        "gold": 954,
+        "silver": 38,
         "copper": 0,
-        "total": 9529500
+        "total": 9543800
       },
       "profitPerCraft": {
-        "gold": -450,
-        "silver": -77,
+        "gold": -470,
+        "silver": -25,
         "copper": -35,
-        "total": -4497635
+        "total": -4692435
       },
       "breakEven": null
     },
@@ -7326,7 +7326,7 @@
           "copper": 0,
           "total": 249000000
         },
-        "available": 11
+        "available": 10
       },
       "craft": {
         "name": "Entropic Illuminant",
@@ -7349,15 +7349,15 @@
           "qty": 6,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 6,
-            "silver": 48,
+            "silver": 54,
             "copper": 0,
-            "total": 64800
+            "total": 65400
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         },
@@ -7405,15 +7405,15 @@
           "qty": 6,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 9,
-            "silver": 60,
+            "gold": 10,
+            "silver": 26,
             "copper": 0,
-            "total": 96000
+            "total": 102600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -7449,7 +7449,7 @@
           "copper": 0,
           "total": 60000000
         },
-        "available": 10,
+        "available": 9,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -7461,15 +7461,15 @@
           "qty": 6,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
             "gold": 10,
-            "silver": 80,
+            "silver": 56,
             "copper": 0,
-            "total": 108000
+            "total": 105600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         },
@@ -7499,7 +7499,7 @@
           "copper": 0,
           "total": 396000000
         },
-        "available": 12
+        "available": 13
       },
       "craft": {
         "name": "Riftstone",
@@ -7510,7 +7510,7 @@
           "copper": 0,
           "total": 199910100
         },
-        "available": 6,
+        "available": 5,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -7522,15 +7522,15 @@
           "qty": 8,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 8,
-            "silver": 64,
+            "silver": 72,
             "copper": 0,
-            "total": 86400
+            "total": 87200
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         },
@@ -7578,15 +7578,15 @@
           "qty": 6,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 9,
-            "silver": 60,
+            "gold": 10,
+            "silver": 26,
             "copper": 0,
-            "total": 96000
+            "total": 102600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -7616,18 +7616,18 @@
           "copper": 0,
           "total": 300000000
         },
-        "available": 7
+        "available": 6
       },
       "craft": {
         "name": "Silvermoon Spire Fountain",
         "itemId": 257420,
         "price": {
-          "gold": 16900,
+          "gold": 16899,
           "silver": 0,
           "copper": 0,
-          "total": 169000000
+          "total": 168990000
         },
-        "available": 17,
+        "available": 18,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -7657,15 +7657,15 @@
           "qty": 6,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 9,
-            "silver": 60,
+            "gold": 10,
+            "silver": 26,
             "copper": 0,
-            "total": 96000
+            "total": 102600
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -7701,15 +7701,15 @@
           "copper": 0,
           "total": 21590900
         },
-        "available": 355,
+        "available": 288,
         "itemIdR2": 240887,
         "priceR2": {
-          "gold": 821,
-          "silver": 0,
+          "gold": 812,
+          "silver": 79,
           "copper": 0,
-          "total": 8210000
+          "total": 8127900
         },
-        "availableR2": 263
+        "availableR2": 271
       },
       "materials": [
         {
@@ -7718,15 +7718,15 @@
           "qty": 3,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 4,
-            "silver": 80,
+            "gold": 5,
+            "silver": 13,
             "copper": 0,
-            "total": 48000
+            "total": 51300
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -7735,31 +7735,31 @@
           "itemId": 251285,
           "qty": 1,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 341,
-        "silver": 80,
+        "gold": 300,
+        "silver": 13,
         "copper": 0,
-        "total": 3418000
+        "total": 3001300
       },
       "profitPerCraft": {
-        "gold": 1709,
-        "silver": 33,
+        "gold": 1751,
+        "silver": 0,
         "copper": 55,
-        "total": 17093355
+        "total": 17510055
       },
       "breakEven": null
     },
@@ -7782,7 +7782,7 @@
           "copper": 0,
           "total": 11350200
         },
-        "available": 414,
+        "available": 380,
         "itemIdR2": 240890,
         "priceR2": {
           "gold": 2158,
@@ -7790,7 +7790,7 @@
           "copper": 0,
           "total": 21589700
         },
-        "availableR2": 1301
+        "availableR2": 1240
       },
       "materials": [
         {
@@ -7799,15 +7799,15 @@
           "qty": 3,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 4,
-            "silver": 80,
+            "gold": 5,
+            "silver": 13,
             "copper": 0,
-            "total": 48000
+            "total": 51300
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -7816,31 +7816,31 @@
           "itemId": 251285,
           "qty": 1,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 341,
-        "silver": 80,
+        "gold": 300,
+        "silver": 13,
         "copper": 0,
-        "total": 3418000
+        "total": 3001300
       },
       "profitPerCraft": {
-        "gold": 736,
-        "silver": 46,
+        "gold": 778,
+        "silver": 13,
         "copper": 90,
-        "total": 7364690
+        "total": 7781390
       },
       "breakEven": null
     },
@@ -7863,15 +7863,15 @@
           "copper": 0,
           "total": 21590300
         },
-        "available": 869,
+        "available": 835,
         "itemIdR2": 240891,
         "priceR2": {
-          "gold": 1090,
+          "gold": 1050,
           "silver": 0,
           "copper": 0,
-          "total": 10900000
+          "total": 10500000
         },
-        "availableR2": 266
+        "availableR2": 249
       },
       "materials": [
         {
@@ -7880,15 +7880,15 @@
           "qty": 3,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 4,
-            "silver": 80,
+            "gold": 5,
+            "silver": 13,
             "copper": 0,
-            "total": 48000
+            "total": 51300
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -7897,31 +7897,31 @@
           "itemId": 251285,
           "qty": 1,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 341,
-        "silver": 80,
+        "gold": 300,
+        "silver": 13,
         "copper": 0,
-        "total": 3418000
+        "total": 3001300
       },
       "profitPerCraft": {
-        "gold": 1709,
-        "silver": 27,
+        "gold": 1750,
+        "silver": 94,
         "copper": 85,
-        "total": 17092785
+        "total": 17509485
       },
       "breakEven": null
     },
@@ -7944,7 +7944,7 @@
           "copper": 0,
           "total": 21590800
         },
-        "available": 867,
+        "available": 769,
         "itemIdR2": 240893,
         "priceR2": {
           "gold": 930,
@@ -7952,7 +7952,7 @@
           "copper": 0,
           "total": 9300000
         },
-        "availableR2": 178
+        "availableR2": 131
       },
       "materials": [
         {
@@ -7961,15 +7961,15 @@
           "qty": 3,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 4,
-            "silver": 80,
+            "gold": 5,
+            "silver": 13,
             "copper": 0,
-            "total": 48000
+            "total": 51300
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         },
@@ -7978,31 +7978,31 @@
           "itemId": 251285,
           "qty": 1,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 341,
-        "silver": 80,
+        "gold": 300,
+        "silver": 13,
         "copper": 0,
-        "total": 3418000
+        "total": 3001300
       },
       "profitPerCraft": {
-        "gold": 1709,
-        "silver": 32,
+        "gold": 1750,
+        "silver": 99,
         "copper": 60,
-        "total": 17093260
+        "total": 17509960
       },
       "breakEven": null
     },
@@ -8020,12 +8020,12 @@
         "name": "Flawless Quick Lapis",
         "itemId": 240916,
         "price": {
-          "gold": 2250,
+          "gold": 2275,
           "silver": 73,
           "copper": 0,
-          "total": 22507300
+          "total": 22757300
         },
-        "available": 431,
+        "available": 406,
         "itemIdR2": 240915,
         "priceR2": {
           "gold": 851,
@@ -8033,7 +8033,7 @@
           "copper": 0,
           "total": 8515600
         },
-        "availableR2": 174
+        "availableR2": 119
       },
       "materials": [
         {
@@ -8059,31 +8059,31 @@
           "itemId": 251285,
           "qty": 1,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 340,
+        "gold": 298,
         "silver": 0,
         "copper": 0,
-        "total": 3400000
+        "total": 2980000
       },
       "profitPerCraft": {
-        "gold": 1798,
-        "silver": 19,
+        "gold": 1863,
+        "silver": 94,
         "copper": 35,
-        "total": 17981935
+        "total": 18639435
       },
       "breakEven": null
     },
@@ -8106,15 +8106,15 @@
           "copper": 0,
           "total": 6515600
         },
-        "available": 81,
+        "available": 70,
         "itemIdR2": 240914,
         "priceR2": {
-          "gold": 2225,
+          "gold": 2100,
           "silver": 39,
           "copper": 0,
-          "total": 22253900
+          "total": 21003900
         },
-        "availableR2": 319
+        "availableR2": 322
       },
       "materials": [
         {
@@ -8140,31 +8140,31 @@
           "itemId": 251285,
           "qty": 1,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 340,
+        "gold": 298,
         "silver": 0,
         "copper": 0,
-        "total": 3400000
+        "total": 2980000
       },
       "profitPerCraft": {
-        "gold": 278,
+        "gold": 320,
         "silver": 98,
         "copper": 20,
-        "total": 2789820
+        "total": 3209820
       },
       "breakEven": null
     },
@@ -8195,7 +8195,7 @@
           "copper": 0,
           "total": 8000000
         },
-        "availableR2": 124
+        "availableR2": 91
       },
       "materials": [
         {
@@ -8221,31 +8221,31 @@
           "itemId": 251285,
           "qty": 1,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 340,
+        "gold": 298,
         "silver": 0,
         "copper": 0,
-        "total": 3400000
+        "total": 2980000
       },
       "profitPerCraft": {
-        "gold": 1710,
+        "gold": 1752,
         "silver": 18,
         "copper": 55,
-        "total": 17101855
+        "total": 17521855
       },
       "breakEven": null
     },
@@ -8268,7 +8268,7 @@
           "copper": 0,
           "total": 20504500
         },
-        "available": 407,
+        "available": 403,
         "itemIdR2": 240911,
         "priceR2": {
           "gold": 200,
@@ -8302,31 +8302,31 @@
           "itemId": 251285,
           "qty": 1,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 340,
+        "gold": 298,
         "silver": 0,
         "copper": 0,
-        "total": 3400000
+        "total": 2980000
       },
       "profitPerCraft": {
-        "gold": 1607,
+        "gold": 1649,
         "silver": 92,
         "copper": 75,
-        "total": 16079275
+        "total": 16499275
       },
       "breakEven": null
     },
@@ -8345,11 +8345,11 @@
         "itemId": 240900,
         "price": {
           "gold": 2150,
-          "silver": 75,
+          "silver": 77,
           "copper": 0,
-          "total": 21507500
+          "total": 21507700
         },
-        "available": 1053,
+        "available": 1023,
         "itemIdR2": 240899,
         "priceR2": {
           "gold": 994,
@@ -8357,7 +8357,7 @@
           "copper": 0,
           "total": 9948900
         },
-        "availableR2": 468
+        "availableR2": 403
       },
       "materials": [
         {
@@ -8366,15 +8366,15 @@
           "qty": 3,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 3,
-            "silver": 24,
+            "silver": 27,
             "copper": 0,
-            "total": 32400
+            "total": 32700
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         },
@@ -8383,31 +8383,31 @@
           "itemId": 251285,
           "qty": 1,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 340,
-        "silver": 24,
+        "gold": 298,
+        "silver": 27,
         "copper": 0,
-        "total": 3402400
+        "total": 2982700
       },
       "profitPerCraft": {
-        "gold": 1702,
-        "silver": 97,
-        "copper": 25,
-        "total": 17029725
+        "gold": 1744,
+        "silver": 96,
+        "copper": 15,
+        "total": 17449615
       },
       "breakEven": null
     },
@@ -8425,12 +8425,12 @@
         "name": "Flawless Deadly Amethyst",
         "itemId": 240897,
         "price": {
-          "gold": 1001,
+          "gold": 950,
           "silver": 0,
           "copper": 0,
-          "total": 10010000
+          "total": 9500000
         },
-        "available": 222,
+        "available": 206,
         "itemIdR2": 240898,
         "priceR2": {
           "gold": 2165,
@@ -8438,7 +8438,7 @@
           "copper": 0,
           "total": 21657200
         },
-        "availableR2": 1024
+        "availableR2": 972
       },
       "materials": [
         {
@@ -8447,15 +8447,15 @@
           "qty": 3,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 3,
-            "silver": 24,
+            "silver": 27,
             "copper": 0,
-            "total": 32400
+            "total": 32700
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         },
@@ -8464,31 +8464,31 @@
           "itemId": 251285,
           "qty": 1,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 340,
-        "silver": 24,
+        "gold": 298,
+        "silver": 27,
         "copper": 0,
-        "total": 3402400
+        "total": 2982700
       },
       "profitPerCraft": {
-        "gold": 610,
-        "silver": 71,
+        "gold": 604,
+        "silver": 23,
         "copper": 0,
-        "total": 6107100
+        "total": 6042300
       },
       "breakEven": null
     },
@@ -8506,12 +8506,12 @@
         "name": "Flawless Masterful Amethyst",
         "itemId": 240895,
         "price": {
-          "gold": 999,
-          "silver": 56,
+          "gold": 989,
+          "silver": 0,
           "copper": 0,
-          "total": 9995600
+          "total": 9890000
         },
-        "available": 525,
+        "available": 388,
         "itemIdR2": 240896,
         "priceR2": {
           "gold": 2157,
@@ -8528,15 +8528,15 @@
           "qty": 3,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 3,
-            "silver": 24,
+            "silver": 27,
             "copper": 0,
-            "total": 32400
+            "total": 32700
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         },
@@ -8545,31 +8545,31 @@
           "itemId": 251285,
           "qty": 1,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 340,
-        "silver": 24,
+        "gold": 298,
+        "silver": 27,
         "copper": 0,
-        "total": 3402400
+        "total": 2982700
       },
       "profitPerCraft": {
-        "gold": 609,
-        "silver": 34,
-        "copper": 20,
-        "total": 6093420
+        "gold": 641,
+        "silver": 28,
+        "copper": 0,
+        "total": 6412800
       },
       "breakEven": null
     },
@@ -8592,15 +8592,15 @@
           "copper": 0,
           "total": 9006900
         },
-        "available": 291,
+        "available": 236,
         "itemIdR2": 240902,
         "priceR2": {
-          "gold": 2163,
-          "silver": 98,
+          "gold": 2164,
+          "silver": 0,
           "copper": 0,
-          "total": 21639800
+          "total": 21640000
         },
-        "availableR2": 681
+        "availableR2": 665
       },
       "materials": [
         {
@@ -8609,15 +8609,15 @@
           "qty": 3,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 3,
-            "silver": 24,
+            "silver": 27,
             "copper": 0,
-            "total": 32400
+            "total": 32700
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         },
@@ -8626,31 +8626,31 @@
           "itemId": 251285,
           "qty": 1,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 340,
-        "silver": 24,
+        "gold": 298,
+        "silver": 27,
         "copper": 0,
-        "total": 3402400
+        "total": 2982700
       },
       "profitPerCraft": {
-        "gold": 515,
-        "silver": 41,
+        "gold": 557,
+        "silver": 38,
         "copper": 55,
-        "total": 5154155
+        "total": 5573855
       },
       "breakEven": null
     },
@@ -8673,15 +8673,15 @@
           "copper": 0,
           "total": 21589300
         },
-        "available": 1061,
+        "available": 1038,
         "itemIdR2": 240905,
         "priceR2": {
-          "gold": 1287,
-          "silver": 12,
+          "gold": 1267,
+          "silver": 32,
           "copper": 0,
-          "total": 12871200
+          "total": 12673200
         },
-        "availableR2": 367
+        "availableR2": 324
       },
       "materials": [
         {
@@ -8690,15 +8690,15 @@
           "qty": 3,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
             "gold": 5,
-            "silver": 40,
+            "silver": 28,
             "copper": 0,
-            "total": 54000
+            "total": 52800
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         },
@@ -8707,31 +8707,31 @@
           "itemId": 251285,
           "qty": 1,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 342,
-        "silver": 40,
+        "gold": 300,
+        "silver": 28,
         "copper": 0,
-        "total": 3424000
+        "total": 3002800
       },
       "profitPerCraft": {
-        "gold": 1708,
-        "silver": 58,
+        "gold": 1750,
+        "silver": 70,
         "copper": 35,
-        "total": 17085835
+        "total": 17507035
       },
       "breakEven": null
     },
@@ -8749,20 +8749,20 @@
         "name": "Flawless Deadly Garnet",
         "itemId": 240903,
         "price": {
-          "gold": 900,
+          "gold": 891,
           "silver": 0,
           "copper": 0,
-          "total": 9000000
+          "total": 8910000
         },
-        "available": 389,
+        "available": 356,
         "itemIdR2": 240904,
         "priceR2": {
-          "gold": 2155,
-          "silver": 0,
+          "gold": 2173,
+          "silver": 5,
           "copper": 0,
-          "total": 21550000
+          "total": 21730500
         },
-        "availableR2": 445
+        "availableR2": 416
       },
       "materials": [
         {
@@ -8771,15 +8771,15 @@
           "qty": 3,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
             "gold": 5,
-            "silver": 40,
+            "silver": 28,
             "copper": 0,
-            "total": 54000
+            "total": 52800
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         },
@@ -8788,31 +8788,31 @@
           "itemId": 251285,
           "qty": 1,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 342,
-        "silver": 40,
+        "gold": 300,
+        "silver": 28,
         "copper": 0,
-        "total": 3424000
+        "total": 3002800
       },
       "profitPerCraft": {
-        "gold": 512,
-        "silver": 60,
+        "gold": 546,
+        "silver": 17,
         "copper": 0,
-        "total": 5126000
+        "total": 5461700
       },
       "breakEven": null
     },
@@ -8835,7 +8835,7 @@
           "copper": 0,
           "total": 21590500
         },
-        "available": 1001,
+        "available": 904,
         "itemIdR2": 240907,
         "priceR2": {
           "gold": 998,
@@ -8843,7 +8843,7 @@
           "copper": 0,
           "total": 9989500
         },
-        "availableR2": 211
+        "availableR2": 198
       },
       "materials": [
         {
@@ -8852,15 +8852,15 @@
           "qty": 3,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
             "gold": 5,
-            "silver": 40,
+            "silver": 28,
             "copper": 0,
-            "total": 54000
+            "total": 52800
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         },
@@ -8869,31 +8869,31 @@
           "itemId": 251285,
           "qty": 1,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 342,
-        "silver": 40,
+        "gold": 300,
+        "silver": 28,
         "copper": 0,
-        "total": 3424000
+        "total": 3002800
       },
       "profitPerCraft": {
-        "gold": 1708,
-        "silver": 69,
+        "gold": 1750,
+        "silver": 81,
         "copper": 75,
-        "total": 17086975
+        "total": 17508175
       },
       "breakEven": null
     },
@@ -8911,12 +8911,12 @@
         "name": "Flawless Versatile Garnet",
         "itemId": 240910,
         "price": {
-          "gold": 2158,
-          "silver": 99,
+          "gold": 2159,
+          "silver": 9,
           "copper": 0,
-          "total": 21589900
+          "total": 21590900
         },
-        "available": 507,
+        "available": 502,
         "itemIdR2": 240909,
         "priceR2": {
           "gold": 1200,
@@ -8924,7 +8924,7 @@
           "copper": 0,
           "total": 12000000
         },
-        "availableR2": 265
+        "availableR2": 260
       },
       "materials": [
         {
@@ -8933,15 +8933,15 @@
           "qty": 3,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
             "gold": 5,
-            "silver": 40,
+            "silver": 28,
             "copper": 0,
-            "total": 54000
+            "total": 52800
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         },
@@ -8950,31 +8950,31 @@
           "itemId": 251285,
           "qty": 1,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 342,
-        "silver": 40,
+        "gold": 300,
+        "silver": 28,
         "copper": 0,
-        "total": 3424000
+        "total": 3002800
       },
       "profitPerCraft": {
-        "gold": 1708,
-        "silver": 64,
-        "copper": 5,
-        "total": 17086405
+        "gold": 1750,
+        "silver": 85,
+        "copper": 55,
+        "total": 17508555
       },
       "breakEven": null
     },
@@ -8991,26 +8991,26 @@
           "copper": 0,
           "total": 195000000
         },
-        "available": 5
+        "available": 6
       },
       "craft": {
         "name": "Powerful Eversong Diamond",
         "itemId": 240967,
         "price": {
           "gold": 3199,
-          "silver": 64,
+          "silver": 60,
           "copper": 0,
-          "total": 31996400
+          "total": 31996000
         },
-        "available": 290,
+        "available": 311,
         "itemIdR2": 240966,
         "priceR2": {
-          "gold": 1222,
+          "gold": 1399,
           "silver": 0,
           "copper": 0,
-          "total": 12220000
+          "total": 13990000
         },
-        "availableR2": 285
+        "availableR2": 293
       },
       "materials": [
         {
@@ -9018,33 +9018,33 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 674,
+        "gold": 590,
         "silver": 0,
         "copper": 0,
-        "total": 6740000
+        "total": 5900000
       },
       "profitPerCraft": {
-        "gold": 2365,
-        "silver": 65,
-        "copper": 80,
-        "total": 23656580
+        "gold": 2449,
+        "silver": 62,
+        "copper": 0,
+        "total": 24496200
       },
-      "breakEven": 9
+      "breakEven": 8
     },
     {
       "profession": "Jewelcrafting",
@@ -9059,7 +9059,7 @@
           "copper": 0,
           "total": 20009900
         },
-        "available": 23
+        "available": 22
       },
       "craft": {
         "name": "Telluric Eversong Diamond",
@@ -9070,15 +9070,15 @@
           "copper": 0,
           "total": 34004700
         },
-        "available": 204,
+        "available": 242,
         "itemIdR2": 240968,
         "priceR2": {
-          "gold": 795,
+          "gold": 794,
           "silver": 0,
           "copper": 0,
-          "total": 7950000
+          "total": 7940000
         },
-        "availableR2": 22
+        "availableR2": 25
       },
       "materials": [
         {
@@ -9086,31 +9086,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 674,
+        "gold": 590,
         "silver": 0,
         "copper": 0,
-        "total": 6740000
+        "total": 5900000
       },
       "profitPerCraft": {
-        "gold": 2556,
+        "gold": 2640,
         "silver": 44,
         "copper": 65,
-        "total": 25564465
+        "total": 26404465
       },
       "breakEven": 1
     },
@@ -9138,7 +9138,7 @@
           "copper": 0,
           "total": 3000000
         },
-        "available": 115,
+        "available": 112,
         "itemIdR2": 240971,
         "priceR2": {
           "gold": 3299,
@@ -9146,7 +9146,7 @@
           "copper": 0,
           "total": 32999900
         },
-        "availableR2": 160
+        "availableR2": 89
       },
       "materials": [
         {
@@ -9154,31 +9154,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 674,
+        "gold": 590,
         "silver": 0,
         "copper": 0,
-        "total": 6740000
+        "total": 5900000
       },
       "profitPerCraft": {
-        "gold": -389,
+        "gold": -305,
         "silver": 0,
         "copper": 0,
-        "total": -3890000
+        "total": -3050000
       },
       "breakEven": null
     },
@@ -9190,31 +9190,31 @@
         "name": "Design: Indecipherable Eversong Diamond",
         "itemId": 256714,
         "price": {
-          "gold": 7000,
-          "silver": 97,
+          "gold": 7235,
+          "silver": 98,
           "copper": 0,
-          "total": 70009700
+          "total": 72359800
         },
-        "available": 9
+        "available": 2
       },
       "craft": {
         "name": "Indecipherable Eversong Diamond",
         "itemId": 240983,
         "price": {
-          "gold": 2880,
+          "gold": 3098,
           "silver": 90,
           "copper": 0,
-          "total": 28809000
+          "total": 30989000
         },
-        "available": 2160,
+        "available": 2099,
         "itemIdR2": 240982,
         "priceR2": {
           "gold": 1534,
-          "silver": 50,
+          "silver": 47,
           "copper": 0,
-          "total": 15345000
+          "total": 15344700
         },
-        "availableR2": 225
+        "availableR2": 95
       },
       "materials": [
         {
@@ -9222,31 +9222,31 @@
           "itemId": 251285,
           "qty": 2,
           "unitPrice": {
-            "gold": 337,
+            "gold": 295,
             "silver": 0,
             "copper": 0,
-            "total": 3370000
+            "total": 2950000
           },
           "totalCost": {
-            "gold": 674,
+            "gold": 590,
             "silver": 0,
             "copper": 0,
-            "total": 6740000
+            "total": 5900000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_herb_liferoot_stem.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 674,
+        "gold": 590,
         "silver": 0,
         "copper": 0,
-        "total": 6740000
+        "total": 5900000
       },
       "profitPerCraft": {
-        "gold": 2062,
-        "silver": 85,
+        "gold": 2353,
+        "silver": 95,
         "copper": 50,
-        "total": 20628550
+        "total": 23539550
       },
       "breakEven": 4
     },
@@ -9275,16 +9275,16 @@
           "itemId": 251283,
           "qty": 1,
           "unitPrice": {
-            "gold": 120,
-            "silver": 31,
+            "gold": 135,
+            "silver": 0,
             "copper": 0,
-            "total": 1203100
+            "total": 1350000
           },
           "totalCost": {
-            "gold": 120,
-            "silver": 31,
+            "gold": 135,
+            "silver": 0,
             "copper": 0,
-            "total": 1203100
+            "total": 1350000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_10_blacksmithing_craftedoptional_reinforcedmetalplating_color01.jpg"
         },
@@ -9308,10 +9308,10 @@
         }
       ],
       "materialCostTotal": {
-        "gold": 140,
-        "silver": 31,
+        "gold": 155,
+        "silver": 0,
         "copper": 0,
-        "total": 1403100
+        "total": 1550000
       },
       "profitPerCraft": null,
       "breakEven": null
@@ -9341,25 +9341,25 @@
           "itemId": 251283,
           "qty": 1,
           "unitPrice": {
-            "gold": 120,
-            "silver": 31,
+            "gold": 135,
+            "silver": 0,
             "copper": 0,
-            "total": 1203100
+            "total": 1350000
           },
           "totalCost": {
-            "gold": 120,
-            "silver": 31,
+            "gold": 135,
+            "silver": 0,
             "copper": 0,
-            "total": 1203100
+            "total": 1350000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_10_blacksmithing_craftedoptional_reinforcedmetalplating_color01.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 120,
-        "silver": 31,
+        "gold": 135,
+        "silver": 0,
         "copper": 0,
-        "total": 1203100
+        "total": 1350000
       },
       "profitPerCraft": null,
       "breakEven": null
@@ -9389,16 +9389,16 @@
           "itemId": 251283,
           "qty": 1,
           "unitPrice": {
-            "gold": 120,
-            "silver": 31,
+            "gold": 135,
+            "silver": 0,
             "copper": 0,
-            "total": 1203100
+            "total": 1350000
           },
           "totalCost": {
-            "gold": 120,
-            "silver": 31,
+            "gold": 135,
+            "silver": 0,
             "copper": 0,
-            "total": 1203100
+            "total": 1350000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_10_blacksmithing_craftedoptional_reinforcedmetalplating_color01.jpg"
         },
@@ -9408,24 +9408,24 @@
           "qty": 20,
           "unitPrice": {
             "gold": 1,
-            "silver": 60,
+            "silver": 71,
             "copper": 0,
-            "total": 16000
+            "total": 17100
           },
           "totalCost": {
-            "gold": 32,
-            "silver": 0,
+            "gold": 34,
+            "silver": 20,
             "copper": 0,
-            "total": 320000
+            "total": 342000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofprimalenergy_darkorange.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 152,
-        "silver": 31,
+        "gold": 169,
+        "silver": 20,
         "copper": 0,
-        "total": 1523100
+        "total": 1692000
       },
       "profitPerCraft": null,
       "breakEven": null
@@ -9455,16 +9455,16 @@
           "itemId": 251283,
           "qty": 1,
           "unitPrice": {
-            "gold": 120,
-            "silver": 31,
+            "gold": 135,
+            "silver": 0,
             "copper": 0,
-            "total": 1203100
+            "total": 1350000
           },
           "totalCost": {
-            "gold": 120,
-            "silver": 31,
+            "gold": 135,
+            "silver": 0,
             "copper": 0,
-            "total": 1203100
+            "total": 1350000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_10_blacksmithing_craftedoptional_reinforcedmetalplating_color01.jpg"
         },
@@ -9474,24 +9474,24 @@
           "qty": 10,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
-            "gold": 18,
-            "silver": 0,
+            "gold": 17,
+            "silver": 60,
             "copper": 0,
-            "total": 180000
+            "total": 176000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 138,
-        "silver": 31,
+        "gold": 152,
+        "silver": 60,
         "copper": 0,
-        "total": 1383100
+        "total": 1526000
       },
       "profitPerCraft": null,
       "breakEven": null
@@ -9509,7 +9509,7 @@
           "copper": 0,
           "total": 835000000
         },
-        "available": 6
+        "available": 7
       },
       "craft": {
         "name": "Thalassian Phoenix Torque",
@@ -9526,16 +9526,16 @@
           "itemId": 251283,
           "qty": 1,
           "unitPrice": {
-            "gold": 120,
-            "silver": 31,
+            "gold": 135,
+            "silver": 0,
             "copper": 0,
-            "total": 1203100
+            "total": 1350000
           },
           "totalCost": {
-            "gold": 120,
-            "silver": 31,
+            "gold": 135,
+            "silver": 0,
             "copper": 0,
-            "total": 1203100
+            "total": 1350000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_10_blacksmithing_craftedoptional_reinforcedmetalplating_color01.jpg"
         },
@@ -9545,24 +9545,24 @@
           "qty": 20,
           "unitPrice": {
             "gold": 1,
-            "silver": 80,
+            "silver": 76,
             "copper": 0,
-            "total": 18000
+            "total": 17600
           },
           "totalCost": {
-            "gold": 36,
-            "silver": 0,
+            "gold": 35,
+            "silver": 20,
             "copper": 0,
-            "total": 360000
+            "total": 352000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurelight_gold.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 156,
-        "silver": 31,
+        "gold": 170,
+        "silver": 20,
         "copper": 0,
-        "total": 1563100
+        "total": 1702000
       },
       "profitPerCraft": null,
       "breakEven": null
@@ -9580,7 +9580,7 @@
           "copper": 0,
           "total": 4499900
         },
-        "available": 13
+        "available": 9
       },
       "craft": {
         "name": "Voidstone Shielding Array",
@@ -9597,16 +9597,16 @@
           "itemId": 251283,
           "qty": 1,
           "unitPrice": {
-            "gold": 120,
-            "silver": 31,
+            "gold": 135,
+            "silver": 0,
             "copper": 0,
-            "total": 1203100
+            "total": 1350000
           },
           "totalCost": {
-            "gold": 120,
-            "silver": 31,
+            "gold": 135,
+            "silver": 0,
             "copper": 0,
-            "total": 1203100
+            "total": 1350000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_10_blacksmithing_craftedoptional_reinforcedmetalplating_color01.jpg"
         },
@@ -9616,24 +9616,24 @@
           "qty": 20,
           "unitPrice": {
             "gold": 1,
-            "silver": 8,
+            "silver": 9,
             "copper": 0,
-            "total": 10800
+            "total": 10900
           },
           "totalCost": {
             "gold": 21,
-            "silver": 60,
+            "silver": 80,
             "copper": 0,
-            "total": 216000
+            "total": 218000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_thematicfoozles_moteofpurevoid_blue.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 141,
-        "silver": 91,
+        "gold": 156,
+        "silver": 80,
         "copper": 0,
-        "total": 1419100
+        "total": 1568000
       },
       "profitPerCraft": null,
       "breakEven": null
@@ -9770,16 +9770,16 @@
           "itemId": 238529,
           "qty": 1,
           "unitPrice": {
-            "gold": 6897,
-            "silver": 99,
+            "gold": 6943,
+            "silver": 11,
             "copper": 0,
-            "total": 68979900
+            "total": 69431100
           },
           "totalCost": {
-            "gold": 6897,
-            "silver": 99,
+            "gold": 6943,
+            "silver": 11,
             "copper": 0,
-            "total": 68979900
+            "total": 69431100
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_skinning_stormchargedleather1.jpg"
         }
@@ -9795,13 +9795,8 @@
       "recipe": {
         "name": "Design: Determined Heliotrope",
         "itemId": 256706,
-        "price": {
-          "gold": 4700,
-          "silver": 0,
-          "copper": 0,
-          "total": 47000000
-        },
-        "available": 8
+        "price": null,
+        "available": 0
       },
       "craft": {
         "name": "Determined Heliotrope",
@@ -9812,7 +9807,7 @@
           "copper": 0,
           "total": 6009700
         },
-        "available": 32,
+        "available": 36,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -9823,31 +9818,31 @@
           "itemId": 253307,
           "qty": 1,
           "unitPrice": {
-            "gold": 1200,
-            "silver": 20,
+            "gold": 1150,
+            "silver": 84,
             "copper": 0,
-            "total": 12002000
+            "total": 11508400
           },
           "totalCost": {
-            "gold": 1200,
-            "silver": 20,
+            "gold": 1150,
+            "silver": 84,
             "copper": 0,
-            "total": 12002000
+            "total": 11508400
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_gem_ruby_01.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 1200,
-        "silver": 20,
+        "gold": 1150,
+        "silver": 84,
         "copper": 0,
-        "total": 12002000
+        "total": 11508400
       },
       "profitPerCraft": {
-        "gold": -630,
-        "silver": -28,
+        "gold": -580,
+        "silver": -92,
         "copper": -85,
-        "total": -6292785
+        "total": -5799185
       },
       "breakEven": null
     },
@@ -9875,7 +9870,7 @@
           "copper": 0,
           "total": 23006500
         },
-        "available": 245,
+        "available": 262,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -9886,31 +9881,31 @@
           "itemId": 253307,
           "qty": 1,
           "unitPrice": {
-            "gold": 1200,
-            "silver": 20,
+            "gold": 1150,
+            "silver": 84,
             "copper": 0,
-            "total": 12002000
+            "total": 11508400
           },
           "totalCost": {
-            "gold": 1200,
-            "silver": 20,
+            "gold": 1150,
+            "silver": 84,
             "copper": 0,
-            "total": 12002000
+            "total": 11508400
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_gem_ruby_01.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 1200,
-        "silver": 20,
+        "gold": 1150,
+        "silver": 84,
         "copper": 0,
-        "total": 12002000
+        "total": 11508400
       },
       "profitPerCraft": {
-        "gold": 985,
-        "silver": 41,
+        "gold": 1034,
+        "silver": 77,
         "copper": 75,
-        "total": 9854175
+        "total": 10347775
       },
       "breakEven": 6
     },
@@ -9922,23 +9917,23 @@
         "name": "Design: Enduring Heliotrope",
         "itemId": 256710,
         "price": {
-          "gold": 5000,
-          "silver": 1,
+          "gold": 6969,
+          "silver": 69,
           "copper": 0,
-          "total": 50000100
+          "total": 69696900
         },
-        "available": 12
+        "available": 6
       },
       "craft": {
         "name": "Enduring Heliotrope",
         "itemId": 241144,
         "price": {
-          "gold": 2299,
+          "gold": 2295,
           "silver": 71,
           "copper": 0,
-          "total": 22997100
+          "total": 22957100
         },
-        "available": 293,
+        "available": 243,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -9949,33 +9944,33 @@
           "itemId": 253307,
           "qty": 1,
           "unitPrice": {
-            "gold": 1200,
-            "silver": 20,
+            "gold": 1150,
+            "silver": 84,
             "copper": 0,
-            "total": 12002000
+            "total": 11508400
           },
           "totalCost": {
-            "gold": 1200,
-            "silver": 20,
+            "gold": 1150,
+            "silver": 84,
             "copper": 0,
-            "total": 12002000
+            "total": 11508400
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_misc_gem_ruby_01.jpg"
         }
       ],
       "materialCostTotal": {
-        "gold": 1200,
-        "silver": 20,
+        "gold": 1150,
+        "silver": 84,
         "copper": 0,
-        "total": 12002000
+        "total": 11508400
       },
       "profitPerCraft": {
-        "gold": 984,
-        "silver": 52,
+        "gold": 1030,
+        "silver": 8,
         "copper": 45,
-        "total": 9845245
+        "total": 10300845
       },
-      "breakEven": 6
+      "breakEven": 7
     },
     {
       "profession": "Jewelcrafting",
@@ -9996,7 +9991,7 @@
           "copper": 0,
           "total": 100006000
         },
-        "available": 10,
+        "available": 6,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -10008,15 +10003,15 @@
           "qty": 25,
           "unitPrice": {
             "gold": 0,
-            "silver": 9,
+            "silver": 12,
             "copper": 0,
-            "total": 900
+            "total": 1200
           },
           "totalCost": {
-            "gold": 2,
-            "silver": 25,
+            "gold": 3,
+            "silver": 0,
             "copper": 0,
-            "total": 22500
+            "total": 30000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_tailoring_tailoringspecializations_fiberarts.jpg"
         },
@@ -10047,12 +10042,12 @@
         "name": "Brilliant Phoenix Harp",
         "itemId": 262469,
         "price": {
-          "gold": 14399,
+          "gold": 14398,
           "silver": 96,
           "copper": 0,
-          "total": 143999600
+          "total": 143989600
         },
-        "available": 13,
+        "available": 12,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
@@ -10064,15 +10059,15 @@
           "qty": 25,
           "unitPrice": {
             "gold": 0,
-            "silver": 9,
+            "silver": 12,
             "copper": 0,
-            "total": 900
+            "total": 1200
           },
           "totalCost": {
-            "gold": 2,
-            "silver": 25,
+            "gold": 3,
+            "silver": 0,
             "copper": 0,
-            "total": 22500
+            "total": 30000
           },
           "icon": "https://render.worldofwarcraft.com/us/icons/56/inv_12_profession_tailoring_tailoringspecializations_fiberarts.jpg"
         },
@@ -10140,16 +10135,16 @@
           "copper": 0,
           "total": 197990100
         },
-        "available": 12
+        "available": 10
       },
       "craft": {
         "name": "Replica Haranir Mural",
         "itemId": 262613,
         "price": {
-          "gold": 29995,
+          "gold": 29990,
           "silver": 0,
           "copper": 0,
-          "total": 299950000
+          "total": 299900000
         },
         "available": 8,
         "itemIdR2": null,
@@ -10183,7 +10178,7 @@
           "copper": 0,
           "total": 5750000000
         },
-        "available": 5
+        "available": 4
       },
       "craft": {
         "name": "Resplendent Highborne Statue",
@@ -10221,10 +10216,10 @@
         "name": "Design: Shining Sin'dorei Hourglass",
         "itemId": 259372,
         "price": {
-          "gold": 87000,
+          "gold": 85000,
           "silver": 1,
           "copper": 0,
-          "total": 870000100
+          "total": 850000100
         },
         "available": 6
       },
@@ -10237,7 +10232,7 @@
           "copper": 0,
           "total": 269990000
         },
-        "available": 6,
+        "available": 5,
         "itemIdR2": null,
         "priceR2": null,
         "availableR2": 0
